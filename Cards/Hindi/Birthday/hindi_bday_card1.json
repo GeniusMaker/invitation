@@ -13,34 +13,34 @@
   "textFields": [
     {
       "id": "child_name",
-      "label": "Name (ਨਾਮ)",
-      "defaultText": "ਗੁਰਨੂਰ ਸਿੰਘ",
+      "label": "नाम (Name)",
+      "defaultText": "आरव शर्मा",
       "x": 540,
       "y": 1020,
       "fontSize": 64,
-      "fontFamily": "Mukta Mahee, sans-serif",
+      "fontFamily": "Rozha One, Tiro Devanagari Hindi, serif",
       "color": "#D4AF37",
       "align": "center"
     },
     {
       "id": "event_date",
-      "label": "Date & Time (ਤਾਰੀਖ)",
-      "defaultText": "ਐਤਵਾਰ, 15 ਅਗਸਤ 2026",
+      "label": "दिनांक एवं समय (Date & Time)",
+      "defaultText": "रविवार, 15 अगस्त 2026",
       "x": 540,
       "y": 1180,
       "fontSize": 42,
-      "fontFamily": "Mukta Mahee, sans-serif",
+      "fontFamily": "Tiro Devanagari Hindi, sans-serif",
       "color": "#333333",
       "align": "center"
     },
     {
       "id": "venue",
-      "label": "Venue / Address (ਪਤਾ)",
-      "defaultText": "ਗੁਰਦੁਆਰਾ ਸਾਹਿਬ, ਲੁਧਿਆਣਾ",
+      "label": "स्थान / पता (Venue)",
+      "defaultText": "होटल ग्रैंड, नई दिल्ली",
       "x": 540,
       "y": 1300,
       "fontSize": 38,
-      "fontFamily": "Mukta Mahee, sans-serif",
+      "fontFamily": "Tiro Devanagari Hindi, sans-serif",
       "color": "#555555",
       "align": "center"
     }
