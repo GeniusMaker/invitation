@@ -1,1 +1,48 @@
-
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "imageAsset": "https://raw.githubusercontent.com/GeniusMaker/invit/refs/heads/main/card2.png",
+  "photoBox": {
+    "x": 140,
+    "y": 320,
+    "width": 800,
+    "height": 600
+  },
+  "textFields": [
+    {
+      "id": "child_name",
+      "label": "Name (ਨਾਮ)",
+      "defaultText": "ਗੁਰਨੂਰ ਸਿੰਘ",
+      "x": 540,
+      "y": 1020,
+      "fontSize": 64,
+      "fontFamily": "Mukta Mahee, sans-serif",
+      "color": "#D4AF37",
+      "align": "center"
+    },
+    {
+      "id": "event_date",
+      "label": "Date & Time (ਤਾਰੀਖ)",
+      "defaultText": "ਐਤਵਾਰ, 15 ਅਗਸਤ 2026",
+      "x": 540,
+      "y": 1180,
+      "fontSize": 42,
+      "fontFamily": "Mukta Mahee, sans-serif",
+      "color": "#333333",
+      "align": "center"
+    },
+    {
+      "id": "venue",
+      "label": "Venue / Address (ਪਤਾ)",
+      "defaultText": "ਗੁਰਦੁਆਰਾ ਸਾਹਿਬ, ਲੁਧਿਆਣਾ",
+      "x": 540,
+      "y": 1300,
+      "fontSize": 38,
+      "fontFamily": "Mukta Mahee, sans-serif",
+      "color": "#555555",
+      "align": "center"
+    }
+  ]
+}
