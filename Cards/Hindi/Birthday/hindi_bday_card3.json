@@ -37,6 +37,7 @@
       "id": "event_day",
       "label": "दिन एवं तिथि (Day & Date)",
       "type": "text",
+      "group": "event_date_group",
       "defaultText": "रविवार, 15",
       "x": 380,
       "y": 1339,
@@ -49,6 +50,7 @@
       "id": "event_month_hi",
       "label": "महीना (Month)",
       "type": "select",
+      "group": "event_date_group",
       "defaultText": "अगस्त",
       "options": [
         "जनवरी",
@@ -75,6 +77,7 @@
       "id": "event_year",
       "label": "वर्ष (Year)",
       "type": "text",
+      "group": "event_date_group",
       "defaultText": "2026",
       "x": 680,
       "y": 1339,
