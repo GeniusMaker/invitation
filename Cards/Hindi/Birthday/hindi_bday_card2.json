@@ -1,0 +1,48 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "imageAsset": "https://raw.githubusercontent.com/GeniusMaker/invitation/refs/heads/main/Cards/Hindi/Birthday/hindi_bday_card2.png",
+  "photoBox": {
+    "x": 130,
+    "y": 148,
+    "width": 800,
+    "height": 600
+  },
+  "textFields": [
+    {
+      "id": "child_name",
+      "label": "नाम (Name)",
+      "defaultText": "आरव शर्मा",
+      "x": 533,
+      "y": 1002,
+      "fontSize": 64,
+      "fontFamily": "Rozha One, Tiro Devanagari Hindi, serif",
+      "color": "#D4AF37",
+      "align": "center"
+    },
+    {
+      "id": "event_date",
+      "label": "दिनांक एवं समय (Date & Time)",
+      "defaultText": "रविवार, 15 अगस्त 2026",
+      "x": 514,
+      "y": 1339,
+      "fontSize": 42,
+      "fontFamily": "Tiro Devanagari Hindi, sans-serif",
+      "color": "#333333",
+      "align": "center"
+    },
+    {
+      "id": "venue",
+      "label": "स्थान / पता (Venue)",
+      "defaultText": "होटल ग्रैंड, नई दिल्ली",
+      "x": 538,
+      "y": 1712,
+      "fontSize": 38,
+      "fontFamily": "Tiro Devanagari Hindi, sans-serif",
+      "color": "#555555",
+      "align": "center"
+    }
+  ]
+}
