@@ -5,19 +5,19 @@
   },
   "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Birthday/en_bday_card2.webp",
   "photoBox": {
-    "x": 130,
-    "y": 148,
-    "width": 800,
-    "height": 600
+    "x": 116,
+    "y": 252,
+    "width": 869,
+    "height": 712
   },
   "textFields": [
     {
       "id": "child_name",
       "label": "नाम (Name)",
       "defaultText": "आरव शर्मा",
-      "x": 533,
-      "y": 1002,
-      "fontSize": 64,
+      "x": 523,
+      "y": 1234,
+      "fontSize": 99,
       "fontFamily": "Rozha One, Tiro Devanagari Hindi, serif",
       "color": "#D4AF37",
       "align": "center"
@@ -26,9 +26,9 @@
       "id": "event_date",
       "label": "दिनांक एवं समय (Date & Time)",
       "defaultText": "रविवार, 15 अगस्त 2026",
-      "x": 514,
-      "y": 1339,
-      "fontSize": 42,
+      "x": 512,
+      "y": 1427,
+      "fontSize": 58,
       "fontFamily": "Tiro Devanagari Hindi, sans-serif",
       "color": "#333333",
       "align": "center"
@@ -38,8 +38,8 @@
       "label": "स्थान / पता (Venue)",
       "defaultText": "होटल ग्रैंड, नई दिल्ली",
       "x": 538,
-      "y": 1712,
-      "fontSize": 38,
+      "y": 1619,
+      "fontSize": 60,
       "fontFamily": "Tiro Devanagari Hindi, sans-serif",
       "color": "#555555",
       "align": "center"
