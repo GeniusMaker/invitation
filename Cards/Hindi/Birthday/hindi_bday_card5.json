@@ -1,0 +1,101 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "imageAsset": "https://raw.githubusercontent.com/GeniusMaker/invitation/refs/heads/main/Cards/Hindi/Birthday/hindi_bday_card_05.webp",
+  "photoBox": {
+    "x": 209,
+    "y": 510,
+    "width": 420,
+    "height": 500
+  },
+  "textFields": [
+    {
+      "id": "child_name",
+      "label": "नाम (Name 1)",
+      "defaultText": "आरव शर्मा",
+      "x": 520,
+      "y": 1226,
+      "fontSize": 84,
+      "fontFamily": "Rozha One, Tiro Devanagari Hindi, serif",
+      "color": "#0c0063",
+      "align": "center"
+    },
+    {
+      "id": "name2",
+      "label": "दूसरा नाम (Name 2)",
+      "defaultText": "रिया शर्मा",
+      "x": 523,
+      "y": 1361,
+      "fontSize": 54,
+      "fontFamily": "Rozha One, Tiro Devanagari Hindi, serif",
+      "color": "#D4AF37",
+      "align": "center"
+    },
+    {
+      "id": "event_day",
+      "label": "दिन एवं तिथि (Day & Date)",
+      "type": "text",
+      "group": "event_date_group",
+      "defaultText": "रविवार, 15",
+      "x": 346,
+      "y": 1495,
+      "fontSize": 42,
+      "fontFamily": "Tiro Devanagari Hindi, sans-serif",
+      "color": "#333333",
+      "align": "center"
+    },
+    {
+      "id": "event_month_hi",
+      "label": "महीना (Month)",
+      "type": "select",
+      "group": "event_date_group",
+      "defaultText": "अगस्त",
+      "options": [
+        "जनवरी",
+        "फ़रवरी",
+        "मार्च",
+        "अप्रैल",
+        "मई",
+        "जून",
+        "जुलाई",
+        "अगस्त",
+        "सितंबर",
+        "अक्टूबर",
+        "नवंबर",
+        "दिसंबर"
+      ],
+      "x": 498,
+      "y": 1499,
+      "fontSize": 42,
+      "fontFamily": "Tiro Devanagari Hindi, sans-serif",
+      "color": "#333333",
+      "align": "center"
+    },
+    {
+      "id": "event_year",
+      "label": "वर्ष (Year)",
+      "type": "text",
+      "group": "event_date_group",
+      "defaultText": "2026",
+      "x": 655,
+      "y": 1502,
+      "fontSize": 42,
+      "fontFamily": "Tiro Devanagari Hindi, sans-serif",
+      "color": "#333333",
+      "align": "center"
+    },
+    {
+      "id": "venue",
+      "label": "स्थान / पता (Venue)",
+      "defaultText": "होटल ग्रैंड, नई दिल्ली",
+      "x": 538,
+      "y": 1712,
+      "fontSize": 38,
+      "fontFamily": "Tiro Devanagari Hindi, sans-serif",
+      "color": "#555555",
+      "align": "center"
+    }
+  ]
+}
