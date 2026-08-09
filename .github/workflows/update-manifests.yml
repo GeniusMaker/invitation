@@ -1,0 +1,59 @@
+name: Auto Generate Card Manifests
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Cards/**'
+  workflow_dispatch:
+
+jobs:
+  generate-manifests:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate manifest.json files
+        run: |
+          python -c '
+          import os
+          import json
+          import re
+
+          def natural_sort_key(s):
+              return [int(text) if text.isdigit() else text.lower() for text in re.split(r"(\d+)", s)]
+
+          cards_dir = "Cards"
+          if os.path.exists(cards_dir):
+              for root, dirs, files in os.walk(cards_dir):
+                  json_files = [f for f in files if f.endswith(".json") and f != "manifest.json"]
+                  if json_files:
+                      json_files.sort(key=natural_sort_key)
+                      manifest_path = os.path.join(root, "manifest.json")
+                      with open(manifest_path, "w", encoding="utf-8") as mf:
+                          json.dump(json_files, mf, indent=2, ensure_ascii=False)
+                          mf.write("\n")
+                      print(f"Updated {manifest_path} ({len(json_files)} cards)")
+          '
+
+      - name: Commit and push updated manifests
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Cards/**/manifest.json
+          if ! git diff --staged --quiet; then
+            git commit -m "auto: update card manifest.json files [skip ci]"
+            git push
+          else
+            echo "No manifest changes detected."
+          fi
