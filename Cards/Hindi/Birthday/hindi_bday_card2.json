@@ -18,7 +18,7 @@
       "label": "नाम (Name)",
       "defaultText": "आरव शर्मा",
       "x": 546,
-      "y": 875,
+      "y": 828,
       "fontSize": 81,
       "fontFamily": "Rozha One, Tiro Devanagari Hindi, serif",
       "color": "#0c0063",
@@ -97,8 +97,8 @@
       "fontSize": 47,
       "color": "#0c0c0e",
       "align": "center",
-      "x": 548,
-      "y": 773,
+      "x": 545,
+      "y": 740,
       "hidden": true
     },
     {
@@ -232,19 +232,6 @@
       "y": 1792
     },
     {
-      "id": "स्थान के लिए स्कैन करें",
-      "label": "स्थान के लिए स्कैन करें",
-      "type": "textarea",
-      "defaultText": "स्थान के लिए \\nस्कैन करें",
-      "fontFamily": "Yatra One",
-      "fontSize": 27,
-      "color": "#0f172a",
-      "align": "center",
-      "x": 947,
-      "y": 1686,
-      "hidden": true
-    },
-    {
       "id": "संपर्क",
       "label": "संपर्क",
       "type": "text",
@@ -318,7 +305,7 @@
       "x": 239,
       "y": 169,
       "width": 645,
-      "height": 548,
+      "height": 497,
       "id": "main_photo",
       "label": "Main Photo"
     }
@@ -328,7 +315,8 @@
     "id": "venue_map_qr",
     "label": "📍 Google Maps Location / Link",
     "x": 863,
-    "y": 1722,
+    "y": 1721,
     "size": 164
-  }
+  },
+  "shapes": []
 }
