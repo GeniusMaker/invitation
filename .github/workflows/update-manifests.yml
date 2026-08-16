@@ -28,14 +28,18 @@
                           try:
                               with open(file_path, "r", encoding="utf-8") as f:
                                   data = json.load(f)
-                                  if isinstance(data, dict) and "tags" in data:
-                                      tags = data["tags"]
-                          except Exception:
-                              pass
+                                  if isinstance(data, dict):
+                                      # Checks for "tags" or "Tag" keys case-insensitively
+                                      for k, v in data.items():
+                                          if k.lower() == "tags" and isinstance(v, list):
+                                              tags = v
+                                              break
+                          except Exception as e:
+                              print(f"Error reading {jf}: {e}")
                           
-                          # Include tags if present, otherwise fallback to plain filename string
                           if tags:
                               manifest_data.append({"file": jf, "tags": tags})
+                              print(f"Found tags for {jf}: {tags}")
                           else:
                               manifest_data.append(jf)
 
@@ -44,8 +48,8 @@
                           json.dump(manifest_data, mf, indent=2, ensure_ascii=False)
                           mf.write("\n")
                       count += 1
-                      print(f"Updated {manifest_path} ({len(json_files)} cards)")
-              print(f"Total manifest files created/updated: {count}")
+                      print(f"Successfully updated {manifest_path} with {len(json_files)} cards.")
+              print(f"Total manifest files processed: {count}")
           else:
               print("No Cards folder found!")
           '
