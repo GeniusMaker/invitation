@@ -1,53 +1,82 @@
-- name: Update Manifests
-      shell: python
-      run: |
-        import os
-        import json
-        import re
+name: Update Card Manifests
 
-        def natural_sort_key(s):
-            return [int(text) if text.isdigit() else text.lower() for text in re.split(r"(\d+)", s)]
+on:
+  push:
+    branches:
+      - main
 
-        target_dir = None
-        for item in os.listdir("."):
-            if item.lower() == "cards" and os.path.isdir(item):
-                target_dir = item
-                break
+jobs:
+  update-manifest:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
 
-        if target_dir:
-            count = 0
-            for root, dirs, files in os.walk(target_dir):
-                json_files = [f for f in files if f.endswith(".json") and f.lower() != "manifest.json"]
-                if json_files:
-                    json_files.sort(key=natural_sort_key)
-                    
-                    manifest_data = []
-                    for jf in json_files:
-                        file_path = os.path.join(root, jf)
-                        tags = []
-                        try:
-                            with open(file_path, "r", encoding="utf-8") as f:
-                                data = json.load(f)
-                                if isinstance(data, dict):
-                                    for k, v in data.items():
-                                        if k.lower() == "tags" and isinstance(v, list):
-                                            tags = v
-                                            break
-                        except Exception as e:
-                            print(f"Error reading {jf}: {e}")
-                        
-                        if tags:
-                            manifest_data.append({"file": jf, "tags": tags})
-                            print(f"Found tags for {jf}: {tags}")
-                        else:
-                            manifest_data.append(jf)
-                            
-                    manifest_path = os.path.join(root, "manifest.json")
-                    with open(manifest_path, "w", encoding="utf-8") as mf:
-                        json.dump(manifest_data, mf, indent=2, ensure_ascii=False)
-                        mf.write("\n")
-                    count += 1
-                    print(f"Successfully updated {manifest_path} with {len(json_files)} cards.")
-            print(f"Total manifest files processed: {count}")
-        else:
-            print("No Cards folder found!")
+    steps:
+      - name: Checkout Repository Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Update Manifests
+        shell: python
+        run: |
+          import os
+          import json
+          import re
+
+          def natural_sort_key(s):
+              return [int(text) if text.isdigit() else text.lower() for text in re.split(r"(\d+)", s)]
+
+          target_dir = None
+          for item in os.listdir("."):
+              if item.lower() == "cards" and os.path.isdir(item):
+                  target_dir = item
+                  break
+
+          if target_dir:
+              count = 0
+              for root, dirs, files in os.walk(target_dir):
+                  json_files = [f for f in files if f.endswith(".json") and f.lower() != "manifest.json"]
+                  if json_files:
+                      json_files.sort(key=natural_sort_key)
+                      
+                      manifest_data = []
+                      for jf in json_files:
+                          file_path = os.path.join(root, jf)
+                          tags = []
+                          try:
+                              with open(file_path, "r", encoding="utf-8") as f:
+                                  data = json.load(f)
+                                  if isinstance(data, dict):
+                                      for k, v in data.items():
+                                          if k.lower() == "tags" and isinstance(v, list):
+                                              tags = v
+                                              break
+                          except Exception as e:
+                              print(f"Error reading {jf}: {e}")
+                          
+                          if tags:
+                              manifest_data.append({"file": jf, "tags": tags})
+                              print(f"Found tags for {jf}: {tags}")
+                          else:
+                              manifest_data.append(jf)
+                              
+                      manifest_path = os.path.join(root, "manifest.json")
+                      with open(manifest_path, "w", encoding="utf-8") as mf:
+                          json.dump(manifest_data, mf, indent=2, ensure_ascii=False)
+                          mf.write("\n")
+                      count += 1
+                      print(f"Successfully updated {manifest_path} with {len(json_files)} cards.")
+              print(f"Total manifest files processed: {count}")
+          else:
+              print("No Cards folder found!")
+
+      - name: Commit and Push Manifest Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update card manifest files with latest tags"
+          branch: main
