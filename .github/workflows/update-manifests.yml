@@ -1,30 +1,4 @@
-name: Auto Generate Card Manifests
-
-on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'Cards/**'
-      - 'cards/**'
-  workflow_dispatch:
-
-jobs:
-  generate-manifests:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
-      - name: Generate manifest.json files
+- name: Generate manifest.json files
         run: |
           python -c '
           import os
@@ -46,9 +20,28 @@ jobs:
                   json_files = [f for f in files if f.endswith(".json") and f.lower() != "manifest.json"]
                   if json_files:
                       json_files.sort(key=natural_sort_key)
+                      
+                      manifest_data = []
+                      for jf in json_files:
+                          file_path = os.path.join(root, jf)
+                          tags = []
+                          try:
+                              with open(file_path, "r", encoding="utf-8") as f:
+                                  data = json.load(f)
+                                  if isinstance(data, dict) and "tags" in data:
+                                      tags = data["tags"]
+                          except Exception:
+                              pass
+                          
+                          # Include tags if present, otherwise fallback to plain filename string
+                          if tags:
+                              manifest_data.append({"file": jf, "tags": tags})
+                          else:
+                              manifest_data.append(jf)
+
                       manifest_path = os.path.join(root, "manifest.json")
                       with open(manifest_path, "w", encoding="utf-8") as mf:
-                          json.dump(json_files, mf, indent=2, ensure_ascii=False)
+                          json.dump(manifest_data, mf, indent=2, ensure_ascii=False)
                           mf.write("\n")
                       count += 1
                       print(f"Updated {manifest_path} ({len(json_files)} cards)")
@@ -56,15 +49,3 @@ jobs:
           else:
               print("No Cards folder found!")
           '
-
-      - name: Commit and push updated manifests
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          if ! git diff --staged --quiet; then
-            git commit -m "auto: update card manifest.json files [skip ci]"
-            git push
-          else
-            echo "No manifest changes detected."
-          fi
