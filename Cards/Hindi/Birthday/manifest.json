@@ -1,9 +1,30 @@
 [
-  "hindi_bday_card1.json",
-  "hindi_bday_card2.json",
-  "hindi_bday_card3.json",
-  "hindi_bday_card4.json",
-  "hindi_bday_card5.json",
-  "hindi_bday_card6.json",
-  "hindi_bday_card7.json"
+  {
+    "file": "hindi_bday_card1.json",
+    "tags": ["For Kids", "Balloons"]
+  },
+  {
+    "file": "hindi_bday_card2.json",
+    "tags": ["For Adult", "Love"]
+  },
+  {
+    "file": "hindi_bday_card3.json",
+    "tags": ["Balloons", "For Kids"]
+  },
+  {
+    "file": "hindi_bday_card4.json",
+    "tags": ["For Adult", "Love"]
+  },
+  {
+    "file": "hindi_bday_card5.json",
+    "tags": ["For Kids", "Love"]
+  },
+  {
+    "file": "hindi_bday_card6.json",
+    "tags": ["Balloons", "For Adult"]
+  },
+  {
+    "file": "hindi_bday_card7.json",
+    "tags": ["For Kids", "Balloons", "Love"]
+  }
 ]
