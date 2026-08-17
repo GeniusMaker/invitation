@@ -1,3 +1,26 @@
+name: Update Card Manifests
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-manifest:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
       - name: Update Manifests
         shell: python
         run: |
@@ -17,14 +40,11 @@
 
               if isinstance(obj, dict):
                   for key, value in obj.items():
-
-                      # Found a tags field
                       if key.lower() == "tags" and isinstance(value, list):
                           for tag in value:
                               if isinstance(tag, str):
                                   found_tags.append(tag)
 
-                      # Continue searching nested data
                       found_tags.extend(find_tags(value))
 
               elif isinstance(obj, list):
@@ -33,7 +53,6 @@
 
               return found_tags
 
-          # Find Cards folder
           target_dir = None
 
           for item in os.listdir("."):
@@ -45,8 +64,6 @@
               count = 0
 
               for root, dirs, files in os.walk(target_dir):
-
-                  # Find JSON card files, excluding manifest.json
                   json_files = [
                       f for f in files
                       if f.lower().endswith(".json")
@@ -64,14 +81,9 @@
                       file_path = os.path.join(root, jf)
 
                       try:
-                          with open(
-                              file_path,
-                              "r",
-                              encoding="utf-8"
-                          ) as f:
+                          with open(file_path, "r", encoding="utf-8") as f:
                               data = json.load(f)
 
-                          # Find tags anywhere in the JSON
                           tags = find_tags(data)
 
                           # Remove duplicate tags while preserving order
@@ -82,36 +94,18 @@
                                   "file": jf,
                                   "tags": tags
                               })
-
-                              print(
-                                  f"Found tags for {jf}: {tags}"
-                              )
+                              print(f"Found tags for {jf}: {tags}")
                           else:
                               manifest_data.append(jf)
-
-                              print(
-                                  f"No tags found for {jf}"
-                              )
+                              print(f"No tags found for {jf}")
 
                       except Exception as e:
-                          print(
-                              f"Error reading {jf}: {e}"
-                          )
-
-                          # Keep the filename in manifest
+                          print(f"Error reading {jf}: {e}")
                           manifest_data.append(jf)
 
-                  # Write manifest.json
-                  manifest_path = os.path.join(
-                      root,
-                      "manifest.json"
-                  )
+                  manifest_path = os.path.join(root, "manifest.json")
 
-                  with open(
-                      manifest_path,
-                      "w",
-                      encoding="utf-8"
-                  ) as mf:
+                  with open(manifest_path, "w", encoding="utf-8") as mf:
                       json.dump(
                           manifest_data,
                           mf,
@@ -123,14 +117,17 @@
                   count += 1
 
                   print(
-                      f"Successfully updated "
-                      f"{manifest_path} with "
-                      f"{len(json_files)} cards."
+                      f"Successfully updated {manifest_path} "
+                      f"with {len(json_files)} cards."
                   )
 
-              print(
-                  f"Total manifest files processed: {count}"
-              )
+              print(f"Total manifest files processed: {count}")
 
           else:
               print("No Cards folder found!")
+
+      - name: Commit and Push Manifest Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update card manifest files with latest tags"
+          branch: main
