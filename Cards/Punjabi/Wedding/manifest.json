@@ -8,5 +8,11 @@
   },
   "pb_wedding_card2.json",
   "pb_wedding_card3.json",
-  "pb_wedding_card4.json"
+  {
+    "file": "pb_wedding_card4.json",
+    "tags": [
+      "Multipage",
+      "Long"
+    ]
+  }
 ]
