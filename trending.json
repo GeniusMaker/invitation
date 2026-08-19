@@ -7,12 +7,12 @@
         "tags": ["Hindi", "Birthday", "Trending"]
       },
       {
-        "id": "wedding_card1",
+        "id": "hindi_bday_card1",
         "name": "Elegant Wedding",
         "tags": ["English", "Wedding", "Trending"]
       },
       {
-        "id": "punjabi_wedding1",
+        "id": "pb_wedding_card1",
         "name": "Punjabi Wedding",
         "tags": ["Punjabi", "Wedding"]
       }
@@ -26,14 +26,14 @@
     ],
     "Punjabi": [
       {
-        "id": "punjabi_wedding1",
+        "id": "pb_wedding_card3",
         "name": "Punjabi Wedding",
-        "tags": ["Punjabi", "Wedding"]
+        "tags": ["Punjabi", "Diwali"]
       }
     ],
     "English": [
       {
-        "id": "wedding_card1",
+        "id": "pb_wedding_card2",
         "name": "Elegant Wedding",
         "tags": ["English", "Wedding", "Trending"]
       }
