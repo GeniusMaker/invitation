@@ -1,34 +1,23 @@
 {
-  "designs": [
+  "trending": [
     {
       "id": "hindi_bday_card7",
-      "name": "Beautiful Birthday",
-      "path": "Cards/Hindi/Birthday/hindi_bday_card7.json",
+      "tags": ["Hindi", "Birthday", "Trending"]
+    },
+    {
+      "id": "hindi_bday_card8",
       "tags": ["Hindi", "Birthday"]
     },
     {
-      "id": "hindi_wedding_card1",
-      "name": "Royal Wedding",
-      "path": "Cards/Hindi/Wedding/hindi_wedding_card1.json",
-      "tags": ["Hindi", "Wedding"]
+      "id": "english_wedding_card1",
+      "tags": ["English", "Wedding", "Trending"]
     },
     {
-      "id": "english_birthday_card1",
-      "name": "Birthday Celebration",
-      "path": "Cards/English/Birthday/english_birthday_card1.json",
-      "tags": ["English", "Birthday"]
-    },
-    {
-      "id": "punjabi_wedding_card1",
-      "name": "Punjabi Wedding",
-      "path": "Cards/Punjabi/Wedding/punjabi_wedding_card1.json",
+      "id": "punjabi_wedding_card2",
       "tags": ["Punjabi", "Wedding"]
     },
-
     {
-      "id": "future_card",
-      "name": "Coming Soon Design",
-      "path": "Cards/Hindi/Birthday/future_card.json",
+      "id": "future_card_123",
       "tags": ["Hindi", "Birthday"]
     }
   ]
