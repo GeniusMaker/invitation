@@ -1,20 +1,42 @@
 {
-  "designs": [
-    {
-      "card": "hindi_bday_card7",
-      "tags": ["Hindi", "Birthday", "Trending"]
-    },
-    {
-      "card": "hindi_wedding_card1",
-      "tags": ["Hindi", "Wedding", "Trending"]
-    },
-    {
-      "card": "english_bday_card2",
-      "tags": ["English", "Birthday"]
-    },
-    {
-      "card": "punjabi_wedding_card1",
-      "tags": ["Punjabi", "Wedding"]
-    }
-  ]
+  "trending": {
+    "All": [
+      {
+        "id": "hindi_bday_card7",
+        "name": "Beautiful Birthday",
+        "tags": ["Hindi", "Birthday", "Trending"]
+      },
+      {
+        "id": "wedding_card1",
+        "name": "Elegant Wedding",
+        "tags": ["English", "Wedding", "Trending"]
+      },
+      {
+        "id": "punjabi_wedding1",
+        "name": "Punjabi Wedding",
+        "tags": ["Punjabi", "Wedding"]
+      }
+    ],
+    "Hindi": [
+      {
+        "id": "hindi_bday_card7",
+        "name": "Beautiful Birthday",
+        "tags": ["Hindi", "Birthday", "Trending"]
+      }
+    ],
+    "Punjabi": [
+      {
+        "id": "punjabi_wedding1",
+        "name": "Punjabi Wedding",
+        "tags": ["Punjabi", "Wedding"]
+      }
+    ],
+    "English": [
+      {
+        "id": "wedding_card1",
+        "name": "Elegant Wedding",
+        "tags": ["English", "Wedding", "Trending"]
+      }
+    ]
+  }
 }
