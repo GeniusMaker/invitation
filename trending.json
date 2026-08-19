@@ -18,7 +18,13 @@
         "name": "Punjabi Wedding",
         "language": "Punjabi",
         "tags": ["Wedding"]
-      }
+      },
+       {
+        "id": "hindi_bday_card1",
+        "name": "Elegant Wedding",
+        "language": "English",
+        "tags": ["Rakhi", "Trending"]
+      },
     ]
   }
 }
