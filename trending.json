@@ -1,29 +1,20 @@
 {
-  "version": 2,
-
-  "trending": [
+  "designs": [
     {
-      "id": "hindi_bday_card7",
-      "path": "Cards/Hindi/Birthday/hindi_bday_card7.json",
+      "card": "hindi_bday_card7",
       "tags": ["Hindi", "Birthday", "Trending"]
     },
-
     {
-      "id": "pb_wedding_card1",
-      "path": "Cards/Punjabi/Wedding/pb_wedding_card1.json",
-      "tags": ["Punjabi", "Wedding", "Trending"]
+      "card": "hindi_wedding_card1",
+      "tags": ["Hindi", "Wedding", "Trending"]
     },
-
     {
-      "id": "english_wedding_card1",
-      "path": "Cards/English/Wedding/english_wedding_card1.json",
-      "tags": ["English", "Wedding", "Trending"]
+      "card": "english_bday_card2",
+      "tags": ["English", "Birthday"]
     },
-
     {
-      "id": "future_card",
-      "path": "Cards/Hindi/Wedding/future_card.json",
-      "tags": ["Hindi", "Wedding"]
+      "card": "punjabi_wedding_card1",
+      "tags": ["Punjabi", "Wedding"]
     }
   ]
 }
