@@ -8,7 +8,7 @@
         "tags": ["Birthday", "Trending"]
       },
       {
-        "id": "hindi_bday_card1",
+        "id": "hindi_wedding_card1",
         "name": "Elegant Wedding",
         "language": "English",
         "tags": ["Wedding", "Trending"]
@@ -19,12 +19,12 @@
         "language": "Punjabi",
         "tags": ["Wedding"]
       },
-       {
-        "id": "hindi_bday_card1",
-        "name": "Elegant Wedding",
+      {
+        "id": "english_rakhi_card1",
+        "name": "Elegant Rakhi",
         "language": "English",
         "tags": ["Rakhi", "Trending"]
-      },
+      }
     ]
   }
 }
