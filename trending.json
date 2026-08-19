@@ -1,24 +1,35 @@
 {
-  "version": 1,
-  "updated": "2026-08-18",
-  "trending": {
-    "All": [
-      "hindi_wedding_card1",
-      "pb_wedding_card1",
-      "english_wedding_card1"
-    ],
-    "Hindi": [
-      "hindi_bday_card7",
-      "hindi_dueshra_card1",
-      "hindi_bday_card1"
-    ],
-    "English": [
-      "english_wedding_card1",
-      "english_birthday_card1"
-    ],
-    "Punjabi": [
-      "pb_wedding_card1",
-      "pb_birthday_card1"
-    ]
-  }
+  "designs": [
+    {
+      "id": "hindi_bday_card7",
+      "name": "Beautiful Birthday",
+      "path": "Cards/Hindi/Birthday/hindi_bday_card7.json",
+      "tags": ["Hindi", "Birthday"]
+    },
+    {
+      "id": "hindi_wedding_card1",
+      "name": "Royal Wedding",
+      "path": "Cards/Hindi/Wedding/hindi_wedding_card1.json",
+      "tags": ["Hindi", "Wedding"]
+    },
+    {
+      "id": "english_birthday_card1",
+      "name": "Birthday Celebration",
+      "path": "Cards/English/Birthday/english_birthday_card1.json",
+      "tags": ["English", "Birthday"]
+    },
+    {
+      "id": "punjabi_wedding_card1",
+      "name": "Punjabi Wedding",
+      "path": "Cards/Punjabi/Wedding/punjabi_wedding_card1.json",
+      "tags": ["Punjabi", "Wedding"]
+    },
+
+    {
+      "id": "future_card",
+      "name": "Coming Soon Design",
+      "path": "Cards/Hindi/Birthday/future_card.json",
+      "tags": ["Hindi", "Birthday"]
+    }
+  ]
 }
