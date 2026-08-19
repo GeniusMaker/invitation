@@ -4,38 +4,20 @@
       {
         "id": "hindi_bday_card7",
         "name": "Beautiful Birthday",
-        "tags": ["Hindi", "Birthday", "Trending"]
+        "language": "Hindi",
+        "tags": ["Birthday", "Trending"]
       },
       {
         "id": "hindi_bday_card1",
         "name": "Elegant Wedding",
-        "tags": ["English", "Wedding", "Trending"]
+        "language": "English",
+        "tags": ["Wedding", "Trending"]
       },
       {
         "id": "pb_wedding_card1",
         "name": "Punjabi Wedding",
-        "tags": ["Punjabi", "Wedding"]
-      }
-    ],
-    "Hindi": [
-      {
-        "id": "hindi_bday_card7",
-        "name": "Beautiful Birthday",
-        "tags": ["Hindi", "Birthday", "Trending"]
-      }
-    ],
-    "Punjabi": [
-      {
-        "id": "pb_wedding_card3",
-        "name": "Punjabi Wedding",
-        "tags": ["Punjabi", "Diwali"]
-      }
-    ],
-    "English": [
-      {
-        "id": "pb_wedding_card2",
-        "name": "Elegant Wedding",
-        "tags": ["English", "Wedding", "Trending"]
+        "language": "Punjabi",
+        "tags": ["Wedding"]
       }
     ]
   }
