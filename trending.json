@@ -7,6 +7,7 @@
         "language": "Hindi",
         "tags": ["Birthday", "Trending"],
         "jsonUrl": "hindi_bday_card7.json"
+        "imageAsset": "Cards/Hindi/Birthday/hindi_bday_card7.webp"
       },
       {
         "id": "hindi_wedding_card1",
@@ -14,7 +15,7 @@
         "language": "English",
         "tags": ["Wedding", "Trending"],
         "jsonUrl": "hindi_wedding_card1.json",
-        "imageAsset": "hindi_wedding_card1.webp"
+        "imageAsset": "Cards/Hindi/Wedding/hindi_wedding_card1.webp"
       },
       {
         "id": "hindi_rakhi_card1",
@@ -22,7 +23,7 @@
         "language": "Hindi",
         "tags": ["Rakhi"],
         "jsonUrl": "hindi_rakhi_card1.json",
-        "imageAsset": "hindi_rakhi_card1.webp"
+        "imageAsset": "Cards/Hindi/Rakhi/hindi_rakhi_card1.webp"
       },
       {
         "id": "english_rakhi_card1",
