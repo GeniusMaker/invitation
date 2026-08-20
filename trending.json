@@ -6,7 +6,7 @@
         "name": "Beautiful Birthday",
         "language": "Hindi",
         "tags": ["Birthday", "Trending"],
-        "jsonUrl": "hindi_bday_card7.json"
+        "jsonUrl": "hindi_bday_card7.json",
         "imageAsset": "Cards/Hindi/Birthday/hindi_bday_card7.webp"
       },
       {
@@ -23,7 +23,7 @@
         "language": "Hindi",
         "tags": ["Rakhi"],
         "jsonUrl": "hindi_rakhi_card1.json",
-        "imageAsset": "Cards/Hindi/Rakhi/hindi_rakhi_card1.webp"
+        "imageAsset": "Cards/Hindi/Festivals/hindi_rakhi_card1.webp"
       },
       {
         "id": "english_rakhi_card1",
