@@ -6,24 +6,21 @@
         "name": "Beautiful Birthday",
         "language": "Hindi",
         "tags": ["Birthday", "Trending"],
-        "jsonUrl": "hindi_bday_card7.json",
-        "imageAsset": "Cards/Hindi/Birthday/hindi_bday_card7.webp"
+        "jsonUrl": "hindi_bday_card7.json"
       },
       {
         "id": "hindi_wedding_card1",
         "name": "Elegant Wedding",
         "language": "English",
         "tags": ["Wedding", "Trending"],
-        "jsonUrl": "hindi_wedding_card1.json",
-        "imageAsset": "Cards/Hindi/Wedding/hindi_wedding_card1.webp"
+        "jsonUrl": "hindi_wedding_card1.json"
       },
       {
         "id": "hindi_rakhi_card1",
         "name": "Raksha Bandhan",
         "language": "Hindi",
         "tags": ["Rakhi"],
-        "jsonUrl": "hindi_rakhi_card1.json",
-        "imageAsset": "Cards/Hindi/Festivals/hindi_rakhi_card1.webp"
+        "jsonUrl": "hindi_rakhi_card1.json"
       },
       {
         "id": "english_rakhi_card1",
