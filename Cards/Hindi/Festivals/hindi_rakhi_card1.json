@@ -1,0 +1,34 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "tags": ["Rakhi Card", "short"],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Hindi/Festivals/hindi_rakhi_card1.webp",
+  "photoBoxes": [],
+  "textFields": [
+    {
+      "id": "name",
+      "label": "Brother's Name ()",
+      "type": "text",
+      "defaultText": "अक्षय कुमार",
+      "x": 540,
+      "y": 964,
+      "fontSize": 62,
+      "color": "#ab1030",
+      "fontFamily": "Rozha One"
+    },
+    {
+      "id": "date",
+      "label": "Your Name ",
+      "type": "text",
+      "defaultText": "प्रियंका चोपड़ा",
+      "x": 543,
+      "y": 1559,
+      "fontSize": 50,
+      "color": "#0f0f0f",
+      "fontFamily": "Rozha One"
+    }
+  ],
+  "shapes": []
+}
