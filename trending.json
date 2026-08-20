@@ -14,10 +14,10 @@
         "tags": ["Wedding", "Trending"]
       },
       {
-        "id": "pb_wedding_card1",
+        "id": "hindi_rakhi_card1",
         "name": "Punjabi Wedding",
-        "language": "Punjabi",
-        "tags": ["Wedding"]
+        "language": "Hindi",
+        "tags": ["Rakhi"]
       },
       {
         "id": "english_rakhi_card1",
