@@ -5,13 +5,16 @@
         "id": "hindi_bday_card7",
         "name": "Beautiful Birthday",
         "language": "Hindi",
-        "tags": ["Birthday", "Trending"]
+        "tags": ["Birthday", "Trending"],
+        "jsonUrl": "hindi_bday_card7.json"
       },
       {
         "id": "hindi_wedding_card1",
         "name": "Elegant Wedding",
         "language": "English",
-        "tags": ["Wedding", "Trending"]
+        "tags": ["Wedding", "Trending"],
+        "jsonUrl": "hindi_wedding_card1.json",
+        "imageAsset": "hindi_wedding_card1.webp"
       },
       {
         "id": "hindi_rakhi_card1",
