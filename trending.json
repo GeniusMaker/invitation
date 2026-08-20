@@ -20,7 +20,7 @@
         "id": "hindi_rakhi_card1",
         "name": "Raksha Bandhan",
         "language": "Hindi",
-        "tags": ["Rakhi"]
+        "tags": ["Rakhi"],
         "jsonUrl": "hindi_rakhi_card1.json",
         "imageAsset": "hindi_rakhi_card1.webp"
       },
