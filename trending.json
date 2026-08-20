@@ -21,6 +21,8 @@
         "name": "Raksha Bandhan",
         "language": "Hindi",
         "tags": ["Rakhi"]
+        "jsonUrl": "hindi_rakhi_card1.json",
+        "imageAsset": "hindi_rakhi_card1.webp"
       },
       {
         "id": "english_rakhi_card1",
