@@ -9,6 +9,13 @@
         "jsonUrl": "hindi_bday_card7.json"
       },
       {
+        "id": "hindi_janmashtami_card1",
+        "name": "Janm Ashtami",
+        "language": "Hindi",
+        "tags": ["Janm Ashtami", "Trending"],
+        "jsonUrl": "hindi_janmashtami_card1.json"
+      },
+      {
         "id": "hindi_wedding_card1",
         "name": "Elegant Wedding",
         "language": "English",
