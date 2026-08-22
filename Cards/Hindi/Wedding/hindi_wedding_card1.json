@@ -169,7 +169,7 @@
       "id": "You All Are Invited",
       "label": "You All Are Invited",
       "type": "textarea",
-      "defaultText": "हर्ष एवं उल्लास के साथ आपको सादर आमंत्रित करते हैं",
+      "defaultText": "हर्ष एवं उल्लास के साथ आपको \nसादर आमंत्रित करते हैं",
       "fontFamily": "Yatra One",
       "fontSize": 29,
       "color": "#fafafa",
