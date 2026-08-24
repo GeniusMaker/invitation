@@ -6,7 +6,15 @@
       "Full Detail"
     ]
   },
-  "pb_wedding_card2.json",
+  {
+    "file": "pb_wedding_card2.json",
+    "tags": [
+      "Wedding",
+      "Marriage",
+      "Traditional",
+      "Short"
+    ]
+  },
   "pb_wedding_card3.json",
   {
     "file": "pb_wedding_card4.json",
