@@ -3,46 +3,115 @@
     "width": 1080,
     "height": 1920
   },
-  "imageAsset": "https://raw.githubusercontent.com/GeniusMaker/invitation/refs/heads/main/Cards/Punjabi/Wedding/pb_wedding_card2.webp",
+  "tags": ["Wedding", "Marriage", "Traditional", "Short"],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Punjabi/Wedding/pb_wedding_card2.webp",
+
   "photoBox": {
-    "x": 130,
-    "y": 148,
-    "width": 800,
-    "height": 600
+    "x": 239,
+    "y": 169,
+    "width": 660,
+    "height": 546,
+    "id": "couple_photo",
+    "label": "Couple Photo"
   },
+
   "textFields": [
     {
-      "id": "child_name",
-      "label": "नाम (Name)",
-      "defaultText": "आरव शर्मा",
-      "x": 533,
-      "y": 1002,
-      "fontSize": 64,
+      "id": "bride_name",
+      "label": "Bride's Name",
+      "type": "text",
+      "defaultText": "Priya Sharma",
+      "x": 535,
+      "y": 900,
+      "fontSize": 70,
       "fontFamily": "Rozha One, Tiro Devanagari Hindi, serif",
-      "color": "#D4AF37",
+      "color": "#8B1E3F",
       "align": "center"
     },
     {
-      "id": "event_date",
-      "label": "दिनांक एवं समय (Date & Time)",
-      "defaultText": "रविवार, 15 अगस्त 2026",
-      "x": 514,
-      "y": 1339,
-      "fontSize": 42,
-      "fontFamily": "Tiro Devanagari Hindi, sans-serif",
-      "color": "#333333",
+      "id": "groom_name",
+      "label": "Groom's Name",
+      "type": "text",
+      "defaultText": "Rahul Verma",
+      "x": 535,
+      "y": 1000,
+      "fontSize": 70,
+      "fontFamily": "Rozha One, Tiro Devanagari Hindi, serif",
+      "color": "#8B1E3F",
+      "align": "center"
+    },
+    {
+      "id": "wedding_date",
+      "label": "Wedding Date",
+      "type": "date",
+      "group": "wedding_date_group",
+      "defaultText": "2026-11-25",
+      "x": 535,
+      "y": 1190,
+      "fontSize": 55,
+      "fontFamily": "Yatra One",
+      "color": "#5C1A1B",
+      "align": "center"
+    },
+    {
+      "id": "wedding_time",
+      "label": "Wedding Time",
+      "type": "time",
+      "defaultText": "07:00 PM",
+      "x": 535,
+      "y": 1300,
+      "fontSize": 45,
+      "fontFamily": "Yatra One",
+      "color": "#5C1A1B",
       "align": "center"
     },
     {
       "id": "venue",
-      "label": "स्थान / पता (Venue)",
-      "defaultText": "होटल ग्रैंड, नई दिल्ली",
-      "x": 538,
-      "y": 1712,
-      "fontSize": 38,
-      "fontFamily": "Tiro Devanagari Hindi, sans-serif",
-      "color": "#555555",
+      "label": "Wedding Venue",
+      "type": "textarea",
+      "defaultText": "The Grand Palace, New Delhi",
+      "x": 535,
+      "y": 1480,
+      "fontSize": 50,
+      "fontFamily": "Yatra One",
+      "color": "#5C1A1B",
+      "align": "center"
+    },
+    {
+      "id": "host_names",
+      "label": "Hosted By / Family Names",
+      "type": "textarea",
+      "defaultText": "With the blessings of our families",
+      "x": 535,
+      "y": 1600,
+      "fontSize": 40,
+      "fontFamily": "Yatra One",
+      "color": "#5C1A1B",
+      "align": "center"
+    },
+    {
+      "id": "contact",
+      "label": "Contact Number",
+      "type": "tel",
+      "defaultText": "9000000000",
+      "x": 535,
+      "y": 1780,
+      "fontSize": 45,
+      "fontFamily": "Yatra One",
+      "color": "#5C1A1B",
       "align": "center"
     }
-  ]
+  ],
+
+  "qrBox": {
+    "enabled": true,
+    "id": "venue_map_qr",
+    "label": "Google Maps Location / Link",
+    "x": 871,
+    "y": 1728,
+    "size": 164
+  },
+
+  "shapes": []
 }
+```
