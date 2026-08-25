@@ -1,3 +1,10 @@
 [
-  "hindi_name_ceremony_card1.json"
+  {
+    "file": "hindi_name_ceremony_card1.json",
+    "tags": [
+      "Naamkaran Ceremony",
+      "Hindi",
+      "short"
+    ]
+  }
 ]
