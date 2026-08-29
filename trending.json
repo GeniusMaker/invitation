@@ -8,6 +8,15 @@
         "tags": ["Birthday", "Trending"],
         "jsonUrl": "hindi_bday_card7.json"
       },
+
+  {
+        "id": "hindi_bday_card6",
+        "name": "Beautiful Birthday",
+        "language": "Hindi",
+        "tags": ["Birthday", "Short"],
+        "jsonUrl": "hindi_bday_card6.json"
+      },
+      
       {
         "id": "hindi_janmashtami_card1",
         "name": "Janm Ashtami",
@@ -33,8 +42,8 @@
         "id": "english_rakhi_card1",
         "name": "Elegant Rakhi",
         "language": "English",
-        "tags": ["Rakhi", "Trending"]
-      }
+        "tags": ["Rakhi", "Trending"],
+"jsonUrl": "hindi_rakhi_card1.json"      }
     ]
   }
 }
