@@ -308,10 +308,15 @@
       "locked": false
     }
   ],
-  "qrBox": {
+ "qrBox": {
     "enabled": true,
-    "disabledCompletely": false,
-    "qrLabelText": "Scan for\nLocation",
-    "qrLabelBgColor": "#ff1a1a"
+    "id": "venue_map_qr",
+    "label": "📍 Google Maps Location / Link",
+    "x": 871,
+    "y": 1728,
+    "size": 164,
+    "qrLabelText": "Scan for\nLocation"
   }
 }
+
+  
