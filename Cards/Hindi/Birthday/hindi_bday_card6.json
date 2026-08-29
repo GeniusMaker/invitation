@@ -38,7 +38,7 @@
       "fontSize": 94,
       "color": "#0f172a",
       "align": "center",
-      "x": 234,
+      "x": 227,
       "y": 1280,
       "options": [
         "01",
@@ -106,7 +106,7 @@
         "दिसंबर",
         "December"
       ],
-      "x": 235,
+      "x": 223,
       "y": 1343,
       "fontSize": 42,
       "fontFamily": "Tiro Devanagari Hindi, sans-serif",
@@ -165,7 +165,7 @@
       "fontSize": 99,
       "color": "#0f172a",
       "align": "center",
-      "x": 801,
+      "x": 802,
       "y": 1280,
       "locked": false
     },
@@ -191,7 +191,7 @@
         "शनिवार",
         "Saturday"
       ],
-      "x": 800,
+      "x": 801,
       "y": 1343,
       "fontSize": 42,
       "fontFamily": "Tiro Devanagari Hindi, sans-serif",
@@ -208,8 +208,9 @@
       "fontSize": 59,
       "color": "#0f172a",
       "align": "center",
-      "x": 530,
-      "y": 1538
+      "x": 516,
+      "y": 1509,
+      "lineHeight": 1
     },
     {
       "id": "on_label",
@@ -289,8 +290,8 @@
       "rotation": 0,
       "width": 138,
       "height": 218,
-      "x": 338,
-      "y": 1281,
+      "x": 332,
+      "y": 1278,
       "flipX": false,
       "flipY": false,
       "locked": false
