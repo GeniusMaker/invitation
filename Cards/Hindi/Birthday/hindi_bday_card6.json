@@ -3,10 +3,14 @@
     "width": 1080,
     "height": 1920
   },
+  "tags": [
+    "For Kids",
+    "short"
+  ],
   "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Hindi/Birthday/hindi_bday_card6.webp",
   "photoBox": {
-    "x": 216,
-    "y": 222,
+    "x": 220,
+    "y": 223,
     "width": 660,
     "height": 546,
     "id": "main_photo",
@@ -25,9 +29,10 @@
       "align": "center"
     },
     {
-      "id": "Date",
+      "id": "event_date",
       "label": "Date",
       "type": "select",
+      "group": "event_date_group",
       "defaultText": "01",
       "fontFamily": "Braah One",
       "fontSize": 94,
@@ -70,7 +75,7 @@
       ]
     },
     {
-      "id": "event_month_hi",
+      "id": "event_month",
       "label": "महीना (Month)",
       "type": "select",
       "group": "event_date_group",
@@ -109,10 +114,10 @@
       "align": "center"
     },
     {
-      "id": "Join us as we celebrate n\\ the special day of",
-      "label": "Join us as we celebrate n\\ the special day of",
+      "id": "birthday_intro",
+      "label": "Join us as we celebrate the special day of",
       "type": "textarea",
-      "defaultText": "Join us as we celebrate \\n the Birthday of",
+      "defaultText": "Join us as we celebrate \nthe Birthday of",
       "fontFamily": "Rozha One",
       "fontSize": 50,
       "color": "#60242b",
@@ -124,9 +129,8 @@
       "locked": true
     },
     {
-      "id": "Time",
+      "id": "event_time",
       "label": "Time",
-      "type": "text",
       "defaultText": "07:00",
       "fontFamily": "Braah One",
       "fontSize": 99,
@@ -136,7 +140,7 @@
       "y": 1280
     },
     {
-      "id": "event_month_hi_copy_1788013486379",
+      "id": "event_ampm",
       "label": "AM/PM",
       "type": "select",
       "group": "event_date_group",
@@ -154,9 +158,8 @@
       "locked": false
     },
     {
-      "id": "Time_copy_1788013527507",
-      "label": "Time",
-      "type": "text",
+      "id": "event_year",
+      "label": "Year",
       "defaultText": "2026",
       "fontFamily": "Braah One",
       "fontSize": 99,
@@ -167,7 +170,7 @@
       "locked": false
     },
     {
-      "id": "event_month_hi_copy_1788013486379_copy_1788013574699",
+      "id": "event_day",
       "label": "Day Name",
       "type": "select",
       "group": "event_date_group",
@@ -197,11 +200,10 @@
       "locked": false
     },
     {
-      "id": "Venue",
+      "id": "venue",
       "label": "Venue",
       "type": "textarea",
-      "defaultText": "Hotel Lotus, Kabir Nagar,
-New Delhi",
+      "defaultText": "Hotel Lotus, Kabir Nagar,\nNew Delhi",
       "fontFamily": "Braah One",
       "fontSize": 59,
       "color": "#0f172a",
@@ -210,7 +212,7 @@ New Delhi",
       "y": 1538
     },
     {
-      "id": "Join us as we celebrate n\\ the special day of_copy_1788013918051",
+      "id": "on_label",
       "label": "On",
       "type": "textarea",
       "defaultText": "On",
@@ -225,7 +227,7 @@ New Delhi",
       "locked": false
     },
     {
-      "id": "Join us as we celebrate n\\ the special day of_copy_1788013918051_copy_1788014004483",
+      "id": "venue_label",
       "label": "Venue",
       "type": "textarea",
       "defaultText": "Venue",
@@ -240,7 +242,7 @@ New Delhi",
       "locked": false
     },
     {
-      "id": "child_name_copy_1788014038547",
+      "id": "contact_number",
       "label": "Contact",
       "defaultText": "90000000",
       "x": 519,
@@ -252,7 +254,7 @@ New Delhi",
       "locked": false
     },
     {
-      "id": "Join us as we celebrate n\\ the special day of_copy_1788013918051_copy_1788014076618",
+      "id": "contact_label",
       "label": "Contact",
       "type": "textarea",
       "defaultText": "Contact",
@@ -279,7 +281,7 @@ New Delhi",
   ],
   "shapes": [
     {
-      "id": "shape_1788013717084",
+      "id": "shape_date_left",
       "symbol": "|",
       "fontFamily": "Noto Color Emoji",
       "color": "#ef4444",
@@ -294,7 +296,7 @@ New Delhi",
       "locked": false
     },
     {
-      "id": "shape_1788013750667",
+      "id": "shape_date_right",
       "symbol": "|",
       "fontFamily": "Noto Color Emoji",
       "color": "#ef4444",
