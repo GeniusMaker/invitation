@@ -200,13 +200,14 @@
       "id": "Venue",
       "label": "Venue",
       "type": "textarea",
-      "defaultText": "Hotel Lotus, New Dlehi",
+      "defaultText": "Hotel Lotus, Kabir Nagar,
+New Delhi",
       "fontFamily": "Braah One",
       "fontSize": 59,
       "color": "#0f172a",
       "align": "center",
-      "x": 551,
-      "y": 1611
+      "x": 530,
+      "y": 1538
     },
     {
       "id": "Join us as we celebrate n\\ the special day of_copy_1788013918051",
@@ -232,8 +233,8 @@
       "fontSize": 50,
       "color": "#60242b",
       "align": "center",
-      "x": 532,
-      "y": 1439,
+      "x": 521,
+      "y": 1446,
       "hidden": true,
       "lineHeight": 1.1,
       "locked": false
@@ -308,7 +309,7 @@
       "locked": false
     }
   ],
- "qrBox": {
+  "qrBox": {
     "enabled": true,
     "id": "venue_map_qr",
     "label": "📍 Google Maps Location / Link",
@@ -318,5 +319,3 @@
     "qrLabelText": "Scan for\nLocation"
   }
 }
-
-  
