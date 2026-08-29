@@ -38,6 +38,12 @@
       "Heart"
     ]
   },
-  "hindi_bday_card6.json",
+  {
+    "file": "hindi_bday_card6.json",
+    "tags": [
+      "For Kids",
+      "short"
+    ]
+  },
   "hindi_bday_card7.json"
 ]
