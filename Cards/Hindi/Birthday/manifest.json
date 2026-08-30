@@ -47,5 +47,14 @@
       "short"
     ]
   },
-  "hindi_bday_card7.json"
+  "hindi_bday_card7.json",
+  {
+    "file": "hindi_bday_card8.json",
+    "tags": [
+      "For Kids",
+      "For Adults",
+      "short",
+      "Balloons"
+    ]
+  }
 ]
