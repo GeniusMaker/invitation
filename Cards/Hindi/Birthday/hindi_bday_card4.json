@@ -23,11 +23,11 @@
       "id": "child_name",
       "label": "नाम (Name)",
       "defaultText": "आरव शर्मा",
-      "x": 526,
-      "y": 1068,
-      "fontSize": 81,
+      "x": 540,
+      "y": 1058,
+      "fontSize": 65,
       "fontFamily": "Rozha One, Tiro Devanagari Hindi, serif",
-      "color": "#0c0063",
+      "color": "#8f003e",
       "align": "center"
     },
     {
@@ -40,7 +40,7 @@
       "color": "#0c0063",
       "align": "right",
       "x": 316,
-      "y": 1363,
+      "y": 1356,
       "options": [
         "01",
         "02",
@@ -96,7 +96,7 @@
         "दिसंबर"
       ],
       "x": 410,
-      "y": 1364,
+      "y": 1357,
       "fontSize": 55,
       "fontFamily": "Yatra One",
       "color": "#0c0063",
@@ -109,7 +109,7 @@
       "group": "event_date_group",
       "defaultText": "2026",
       "x": 571,
-      "y": 1363,
+      "y": 1356,
       "fontSize": 55,
       "fontFamily": "Yatra One",
       "color": "#0c0063",
@@ -125,7 +125,7 @@
       "color": "#0c0063",
       "align": "left",
       "x": 640,
-      "y": 1367,
+      "y": 1360,
       "options": [
         "(रविवार)",
         "(सोमवार)",
@@ -173,7 +173,7 @@
       "color": "#0f172a",
       "align": "center",
       "x": 526,
-      "y": 1304,
+      "y": 1297,
       "hidden": true
     },
     {
@@ -186,7 +186,7 @@
       "color": "#0f172a",
       "align": "center",
       "x": 385,
-      "y": 1439,
+      "y": 1432,
       "hidden": true
     },
     {
@@ -199,7 +199,7 @@
       "color": "#0f172a",
       "align": "center",
       "x": 526,
-      "y": 1439
+      "y": 1432
     },
     {
       "id": "AM-PM",
@@ -211,7 +211,7 @@
       "color": "#0f172a",
       "align": "right",
       "x": 735,
-      "y": 1439,
+      "y": 1428,
       "options": [
         "(AM)",
         "(PM)",
@@ -229,20 +229,21 @@
       "color": "#0f172a",
       "align": "center",
       "x": 526,
-      "y": 1532,
+      "y": 1512,
       "hidden": true
     },
     {
       "id": "venue",
       "label": "स्थान / पता (Venue)",
       "defaultText": "होटल ग्रैंड, नई दिल्ली",
-      "x": 526,
-      "y": 1596,
+      "x": 523,
+      "y": 1584,
       "fontSize": 55,
       "fontFamily": "Yatra One",
       "color": "#0c0063",
       "align": "center",
-      "type": "textarea"
+      "type": "textarea",
+      "lineHeight": 1
     },
     {
       "id": "Wingding",
