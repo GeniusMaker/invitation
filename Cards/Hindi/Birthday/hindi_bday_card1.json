@@ -3,7 +3,11 @@
     "width": 1080,
     "height": 1920
   },
-  "tags": ["For Kids", "short"],
+  "tags": [
+    "For Adult",
+    "short",
+    "Balloons"
+  ],
   "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Hindi/Birthday/hindi_bday_card1.webp",
   "photoBox": {
     "x": 239,
@@ -19,7 +23,7 @@
       "label": "नाम (Name)",
       "defaultText": "आरव शर्मा",
       "x": 535,
-      "y": 937,
+      "y": 923,
       "fontSize": 81,
       "fontFamily": "Rozha One, Tiro Devanagari Hindi, serif",
       "color": "#0c0063",
@@ -46,7 +50,7 @@
         "दिसंबर"
       ],
       "x": 470,
-      "y": 1207,
+      "y": 1209,
       "fontSize": 55,
       "fontFamily": "Yatra One",
       "color": "#0c0063",
@@ -59,7 +63,7 @@
       "group": "event_date_group",
       "defaultText": "2026",
       "x": 639,
-      "y": 1211,
+      "y": 1209,
       "fontSize": 55,
       "fontFamily": "Yatra One",
       "color": "#0c0063",
@@ -69,12 +73,13 @@
       "id": "venue",
       "label": "स्थान / पता (Venue)",
       "defaultText": "होटल ग्रैंड, नई दिल्ली",
-      "x": 541,
-      "y": 1484,
+      "x": 527,
+      "y": 1460,
       "fontSize": 55,
       "fontFamily": "Yatra One",
       "color": "#0c0063",
-      "align": "center"
+      "align": "center",
+      "type": "textarea"
     },
     {
       "id": "Verse",
@@ -82,11 +87,11 @@
       "type": "text",
       "defaultText": "॥ श्री गणेशाय नमः ॥",
       "fontFamily": "Rozha One",
-      "fontSize": 48,
+      "fontSize": 51,
       "color": "#19191a",
       "align": "center",
-      "x": 559,
-      "y": 120,
+      "x": 549,
+      "y": 123,
       "hidden": true
     },
     {
@@ -111,8 +116,8 @@
       "fontSize": 43,
       "color": "#0c0c0e",
       "align": "center",
-      "x": 546,
-      "y": 1058,
+      "x": 539,
+      "y": 1014,
       "hidden": true
     },
     {
@@ -124,8 +129,8 @@
       "fontSize": 40,
       "color": "#0c0c0e",
       "align": "center",
-      "x": 551,
-      "y": 1568,
+      "x": 541,
+      "y": 1648,
       "hidden": true
     },
     {
@@ -138,7 +143,7 @@
       "color": "#0f172a",
       "align": "center",
       "x": 206,
-      "y": 1210,
+      "y": 1209,
       "hidden": true
     },
     {
@@ -151,7 +156,7 @@
       "color": "#0c0063",
       "align": "center",
       "x": 336,
-      "y": 1206,
+      "y": 1209,
       "options": [
         "01",
         "02",
@@ -195,8 +200,8 @@
       "fontSize": 55,
       "color": "#0c0063",
       "align": "center",
-      "x": 828,
-      "y": 1207,
+      "x": 817,
+      "y": 1209,
       "options": [
         "(रविवार)",
         "(सोमवार)",
@@ -217,7 +222,7 @@
       "color": "#0f172a",
       "align": "center",
       "x": 530,
-      "y": 1413,
+      "y": 1393,
       "hidden": true
     },
     {
@@ -255,7 +260,7 @@
       "color": "#0f172a",
       "align": "center",
       "x": 378,
-      "y": 1318
+      "y": 1305
     },
     {
       "id": "Time",
@@ -266,8 +271,8 @@
       "fontSize": 45,
       "color": "#0f172a",
       "align": "center",
-      "x": 516,
-      "y": 1314
+      "x": 512,
+      "y": 1305
     },
     {
       "id": "AM-PM",
@@ -279,7 +284,7 @@
       "color": "#0f172a",
       "align": "right",
       "x": 725,
-      "y": 1313,
+      "y": 1305,
       "options": [
         "(AM)",
         "(PM)",
@@ -303,7 +308,7 @@
   ],
   "photoBoxes": [
     {
-      "x": 237,
+      "x": 209,
       "y": 200,
       "width": 645,
       "height": 548,
@@ -315,9 +320,14 @@
     "enabled": true,
     "id": "venue_map_qr",
     "label": "📍 Google Maps Location / Link",
-    "x": 871,
-    "y": 1728,
-    "size": 164
+    "x": 906,
+    "y": 1739,
+    "size": 156,
+    "qrLabelFontSize": 25,
+    "qrLineHeight": 0.7,
+    "qrLabelBgColor": "#7e4bb5",
+    "qrLabelColor": "#ffffff",
+    "qrLabelText": "Scan for\nLocation"
   },
   "shapes": []
 }
