@@ -3,6 +3,11 @@
     "width": 1080,
     "height": 1920
   },
+  "tags": [
+    "Short",
+    "Traditional",
+    "Punjabi Wedding"
+  ],
   "imageAsset": "https://raw.githubusercontent.com/GeniusMaker/invitation/refs/heads/main/Cards/Punjabi/Wedding/pb_wedding_card3.webp",
   "photoBox": {
     "x": 130,
@@ -12,37 +17,149 @@
   },
   "textFields": [
     {
-      "id": "child_name",
-      "label": "नाम (Name)",
-      "defaultText": "आरव शर्मा",
-      "x": 533,
-      "y": 1002,
-      "fontSize": 64,
-      "fontFamily": "Rozha One, Tiro Devanagari Hindi, serif",
-      "color": "#D4AF37",
-      "align": "center"
+      "id": "greeting",
+      "label": "ਸਤਿਕਾਰ / Greeting",
+      "type": "text",
+      "defaultText": "ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ੴ",
+      "fontFamily": "Noto Sans Gurmukhi, serif",
+      "fontSize": 38,
+      "color": "#19191a",
+      "align": "center",
+      "x": 540,
+      "y": 300
+    },
+    {
+      "id": "wedding_title",
+      "label": "ਵਿਆਹ ਦਾ ਸੱਦਾ",
+      "type": "text",
+      "defaultText": "ਵਿਆਹ ਦਾ ਸੱਦਾ",
+      "fontFamily": "Noto Sans Gurmukhi, serif",
+      "fontSize": 55,
+      "color": "#8f003e",
+      "align": "center",
+      "x": 540,
+      "y": 850
+    },
+    {
+      "id": "groom_name",
+      "label": "ਲਾੜੇ ਦਾ ਨਾਮ",
+      "type": "text",
+      "defaultText": "ਅਮਨ",
+      "fontFamily": "Noto Sans Gurmukhi, serif",
+      "fontSize": 60,
+      "color": "#8f003e",
+      "align": "center",
+      "x": 540,
+      "y": 960
+    },
+    {
+      "id": "bride_name",
+      "label": "ਲਾੜੀ ਦਾ ਨਾਮ",
+      "type": "text",
+      "defaultText": "ਸਿਮਰਨ",
+      "fontFamily": "Noto Sans Gurmukhi, serif",
+      "fontSize": 60,
+      "color": "#8f003e",
+      "align": "center",
+      "x": 540,
+      "y": 1040
+    },
+    {
+      "id": "invitation_text",
+      "label": "ਸੱਦਾ ਸੰਦੇਸ਼",
+      "type": "textarea",
+      "defaultText": "ਵਾਹਿਗੁਰੂ ਜੀ ਦੀ ਕਿਰਪਾ ਅਤੇ ਪਰਿਵਾਰ ਦੇ ਆਸ਼ੀਰਵਾਦ ਨਾਲ,\nਸਾਨੂੰ ਆਪਣੇ ਵਿਆਹ ਦੀ ਖੁਸ਼ੀ ਵਿੱਚ ਤੁਹਾਨੂੰ ਸੱਦਾ ਦਿੰਦਿਆਂ ਬੇਹੱਦ ਖੁਸ਼ੀ ਹੋ ਰਹੀ ਹੈ।",
+      "fontFamily": "Noto Sans Gurmukhi, serif",
+      "fontSize": 34,
+      "color": "#0f172a",
+      "align": "center",
+      "x": 540,
+      "y": 1140,
+      "lineHeight": 1.3
     },
     {
       "id": "event_date",
-      "label": "दिनांक एवं समय (Date & Time)",
-      "defaultText": "रविवार, 15 अगस्त 2026",
-      "x": 514,
-      "y": 1339,
-      "fontSize": 42,
-      "fontFamily": "Tiro Devanagari Hindi, sans-serif",
-      "color": "#333333",
-      "align": "center"
+      "label": "ਵਿਆਹ ਦੀ ਮਿਤੀ",
+      "type": "text",
+      "defaultText": "15 ਅਕਤੂਬਰ 2026",
+      "fontFamily": "Noto Sans Gurmukhi, serif",
+      "fontSize": 45,
+      "color": "#0c0063",
+      "align": "center",
+      "x": 540,
+      "y": 1320
+    },
+    {
+      "id": "day_name",
+      "label": "ਦਿਨ ਦਾ ਨਾਮ",
+      "type": "select",
+      "defaultText": "ਵੀਰਵਾਰ",
+      "fontFamily": "Noto Sans Gurmukhi, serif",
+      "fontSize": 36,
+      "color": "#0c0063",
+      "align": "center",
+      "x": 540,
+      "y": 1380,
+      "options": [
+        "ਸੋਮਵਾਰ",
+        "ਮੰਗਲਵਾਰ",
+        "ਬੁੱਧਵਾਰ",
+        "ਵੀਰਵਾਰ",
+        "ਸ਼ੁੱਕਰਵਾਰ",
+        "ਸ਼ਨੀਵਾਰ",
+        "ਐਤਵਾਰ"
+      ]
+    },
+    {
+      "id": "time",
+      "label": "ਸਮਾਂ",
+      "type": "text",
+      "defaultText": "ਸ਼ਾਮ 07:00 ਵਜੇ",
+      "fontFamily": "Noto Sans Gurmukhi, serif",
+      "fontSize": 40,
+      "color": "#0f172a",
+      "align": "center",
+      "x": 540,
+      "y": 1450
     },
     {
       "id": "venue",
-      "label": "स्थान / पता (Venue)",
-      "defaultText": "होटल ग्रैंड, नई दिल्ली",
-      "x": 538,
-      "y": 1712,
-      "fontSize": 38,
-      "fontFamily": "Tiro Devanagari Hindi, sans-serif",
-      "color": "#555555",
-      "align": "center"
+      "label": "ਸਥਾਨ / ਪਤਾ",
+      "type": "textarea",
+      "defaultText": "ਹੋਟਲ ਗ੍ਰੈਂਡ,\nਅੰਮ੍ਰਿਤਸਰ",
+      "fontFamily": "Noto Sans Gurmukhi, serif",
+      "fontSize": 42,
+      "color": "#0c0063",
+      "align": "center",
+      "x": 540,
+      "y": 1540,
+      "lineHeight": 1.2
+    },
+    {
+      "id": "closing",
+      "label": "ਅੰਤਿਮ ਸੰਦੇਸ਼",
+      "type": "textarea",
+      "defaultText": "ਤੁਹਾਡੀ ਹਾਜ਼ਰੀ ਸਾਡੇ ਖਾਸ ਦਿਨ ਨੂੰ ਹੋਰ ਵੀ ਯਾਦਗਾਰ ਬਣਾਏਗੀ।\nਸੱਦਾ ਕਬੂਲ ਕਰਨਾ ਜੀ 🙏",
+      "fontFamily": "Noto Sans Gurmukhi, serif",
+      "fontSize": 30,
+      "color": "#19191a",
+      "align": "center",
+      "x": 540,
+      "y": 1690,
+      "lineHeight": 1.3
     }
-  ]
+  ],
+  "qrBox": {
+    "enabled": true,
+    "id": "venue_map_qr",
+    "label": "📍 Google Maps Location / Link",
+    "x": 906,
+    "y": 1739,
+    "size": 156,
+    "qrLabelFontSize": 25,
+    "qrLineHeight": 0.7,
+    "qrLabelBgColor": "#7e4bb5",
+    "qrLabelColor": "#ffffff",
+    "qrLabelText": "Scan for\nLocation"
+  }
 }
