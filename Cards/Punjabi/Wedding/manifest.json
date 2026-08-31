@@ -13,7 +13,14 @@
       "Traditional"
     ]
   },
-  "pb_wedding_card3.json",
+  {
+    "file": "pb_wedding_card3.json",
+    "tags": [
+      "Short",
+      "Traditional",
+      "Punjabi Wedding"
+    ]
+  },
   {
     "file": "pb_wedding_card4.json",
     "tags": [
