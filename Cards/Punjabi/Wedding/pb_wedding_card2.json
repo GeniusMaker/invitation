@@ -7,6 +7,13 @@
      "Short",
     "Traditional"
   ],
+   "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Punjabi/Wedding/pb_wedding_card2.webp",
+  "photoBox": {
+    "x": 130,
+    "y": 148,
+    "width": 800,
+    "height": 600
+  },
  
   "textFields": [
     {
