@@ -1,3 +1,9 @@
 [
-  "pb_roka_card1.json"
+  {
+    "file": "pb_roka_card1.json",
+    "tags": [
+      "Short",
+      "English"
+    ]
+  }
 ]
