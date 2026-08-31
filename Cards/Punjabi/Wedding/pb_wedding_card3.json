@@ -23,7 +23,7 @@
       "color": "#391605",
       "align": "center",
       "x": 534.5,
-      "y": 344,
+      "y": 374,
       "hidden": true
     },
     {
@@ -31,12 +31,12 @@
       "label": "Blessing",
       "type": "text",
       "defaultText": "With the blessings of Waheguru Ji and our elders",
-      "fontFamily": "Abril Fatface",
-      "fontSize": 27,
+      "fontFamily": "Tangerine",
+      "fontSize": 42,
       "color": "#19191a",
       "align": "center",
       "x": 534.5,
-      "y": 547,
+      "y": 577,
       "hidden": true
     },
     {
@@ -49,19 +49,19 @@
       "color": "#19191a",
       "align": "center",
       "x": 534.5,
-      "y": 615
+      "y": 645
     },
     {
       "id": "invite_line",
       "label": "Invitation Line",
       "type": "text",
       "defaultText": "invite you to celebrate the wedding of",
-      "fontFamily": "Abril Fatface",
-      "fontSize": 28,
+      "fontFamily": "Tangerine",
+      "fontSize": 45,
       "color": "#0f172a",
       "align": "center",
       "x": 534.5,
-      "y": 677,
+      "y": 720,
       "hidden": true
     },
     {
@@ -69,12 +69,12 @@
       "label": "Groom's Name",
       "type": "text",
       "defaultText": "[Groom's Name]",
-      "fontFamily": "Lobster",
+      "fontFamily": "Dancing Script",
       "fontSize": 70,
       "color": "#8f003e",
       "align": "center",
       "x": 534.5,
-      "y": 808
+      "y": 838
     },
     {
       "id": "couple_connector",
@@ -86,7 +86,7 @@
       "color": "#8f003e",
       "align": "center",
       "x": 534.5,
-      "y": 903,
+      "y": 933,
       "hidden": true
     },
     {
@@ -94,12 +94,12 @@
       "label": "Bride's Name",
       "type": "text",
       "defaultText": "[Bride's Name]",
-      "fontFamily": "Lobster",
+      "fontFamily": "Dancing Script",
       "fontSize": 70,
       "color": "#8f003e",
       "align": "center",
       "x": 534.5,
-      "y": 1003
+      "y": 1033
     },
     {
       "id": "event_date",
@@ -111,7 +111,7 @@
       "color": "#0c0063",
       "align": "center",
       "x": 534.5,
-      "y": 1117
+      "y": 1147
     },
     {
       "id": "day_name",
@@ -123,7 +123,7 @@
       "color": "#19191a",
       "align": "center",
       "x": 534.5,
-      "y": 1220,
+      "y": 1250,
       "options": [
         "Monday",
         "Tuesday",
@@ -140,12 +140,12 @@
       "label": "Time",
       "type": "text",
       "defaultText": "7:00 PM onwards",
-      "fontFamily": "Playfair Display, serif",
+      "fontFamily": "Special Elite",
       "fontSize": 32,
       "color": "#0f172a",
       "align": "center",
       "x": 534.5,
-      "y": 1166
+      "y": 1196
     },
     {
       "id": "venue",
@@ -157,7 +157,7 @@
       "color": "#0c0063",
       "align": "center",
       "x": 534.5,
-      "y": 1359,
+      "y": 1389,
       "hidden": false
     },
     {
@@ -170,7 +170,7 @@
       "color": "#19191a",
       "align": "center",
       "x": 534.5,
-      "y": 1306,
+      "y": 1334,
       "hidden": true,
       "locked": false
     },
@@ -187,20 +187,6 @@
       "y": 1471
     },
     {
-      "id": "greeting_copy_1788188526166",
-      "label": "ੴ / Greeting",
-      "type": "text",
-      "defaultText": "Wedding Invitation ",
-      "fontFamily": "Righteous",
-      "fontSize": 42,
-      "color": "#8f003e",
-      "align": "center",
-      "x": 530.5,
-      "y": 453,
-      "locked": false,
-      "hidden": true
-    },
-    {
       "id": "venue_address_copy_1788188725327",
       "label": "at",
       "type": "text",
@@ -210,7 +196,7 @@
       "color": "#19191a",
       "align": "center",
       "x": 534.5,
-      "y": 1059,
+      "y": 1089,
       "hidden": true,
       "locked": false
     }
