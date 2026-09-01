@@ -1,0 +1,468 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "tags": [
+    "wedding",
+    "wedding-invitation",
+    "hindi",
+    "english",
+    "modern",
+    "premium",
+    "traditional",
+    "couple",
+    "full-detail"
+  ],
+  "imageAsset": "YOUR_WEDDING_BACKGROUND_URL",
+
+  "textFields": [
+    {
+      "id": "top_ornament",
+      "label": "Top Symbol",
+      "type": "text",
+      "defaultText": "ॐ",
+      "fontFamily": "Rozha One",
+      "fontSize": 42,
+      "color": "#B8860B",
+      "align": "center",
+      "x": 540,
+      "y": 145
+    },
+
+    {
+      "id": "invitation_heading",
+      "label": "Invitation Heading",
+      "type": "text",
+      "defaultText": "विवाह निमंत्रण",
+      "fontFamily": "Rozha One",
+      "fontSize": 70,
+      "color": "#7A1735",
+      "align": "center",
+      "x": 540,
+      "y": 260
+    },
+
+    {
+      "id": "invitation_subtitle",
+      "label": "Invitation Subtitle",
+      "type": "textarea",
+      "defaultText": "दो दिलों के मिलन के इस शुभ अवसर पर\nआप सपरिवार सादर आमंत्रित हैं",
+      "fontFamily": "Tiro Devanagari Hindi",
+      "fontSize": 30,
+      "color": "#444444",
+      "align": "center",
+      "x": 540,
+      "y": 365
+    },
+
+    {
+      "id": "groom_prefix",
+      "label": "Groom Prefix",
+      "type": "text",
+      "defaultText": "चि.",
+      "fontFamily": "Noto Serif Devanagari",
+      "fontSize": 28,
+      "color": "#B8860B",
+      "align": "center",
+      "x": 540,
+      "y": 505
+    },
+
+    {
+      "id": "groom_name",
+      "label": "Groom Name (दूल्हे का नाम)",
+      "type": "text",
+      "defaultText": "आदित्य शर्मा",
+      "fontFamily": "Rozha One",
+      "fontSize": 64,
+      "color": "#7A1735",
+      "align": "center",
+      "x": 540,
+      "y": 580
+    },
+
+    {
+      "id": "groom_parents",
+      "label": "Groom Parents",
+      "type": "textarea",
+      "defaultText": "सुपुत्र श्री राजेश शर्मा\nएवं श्रीमती सुनीता शर्मा",
+      "fontFamily": "Tiro Devanagari Hindi",
+      "fontSize": 25,
+      "color": "#555555",
+      "align": "center",
+      "x": 540,
+      "y": 650
+    },
+
+    {
+      "id": "couple_symbol",
+      "label": "Couple Symbol",
+      "type": "text",
+      "defaultText": "♥",
+      "fontFamily": "Noto Color Emoji",
+      "fontSize": 38,
+      "color": "#B8860B",
+      "align": "center",
+      "x": 540,
+      "y": 735
+    },
+
+    {
+      "id": "bride_prefix",
+      "label": "Bride Prefix",
+      "type": "text",
+      "defaultText": "सु.",
+      "fontFamily": "Noto Serif Devanagari",
+      "fontSize": 28,
+      "color": "#B8860B",
+      "align": "center",
+      "x": 540,
+      "y": 795
+    },
+
+    {
+      "id": "bride_name",
+      "label": "Bride Name (दुल्हन का नाम)",
+      "type": "text",
+      "defaultText": "काव्या वर्मा",
+      "fontFamily": "Rozha One",
+      "fontSize": 64,
+      "color": "#7A1735",
+      "align": "center",
+      "x": 540,
+      "y": 865
+    },
+
+    {
+      "id": "bride_parents",
+      "label": "Bride Parents",
+      "type": "textarea",
+      "defaultText": "सुपुत्री श्री विनोद वर्मा\nएवं श्रीमती रेखा वर्मा",
+      "fontFamily": "Tiro Devanagari Hindi",
+      "fontSize": 25,
+      "color": "#555555",
+      "align": "center",
+      "x": 540,
+      "y": 935
+    },
+
+    {
+      "id": "ceremony_heading",
+      "label": "Ceremony Heading",
+      "type": "text",
+      "defaultText": "शुभ विवाह समारोह",
+      "fontFamily": "Rozha One",
+      "fontSize": 42,
+      "color": "#B8860B",
+      "align": "center",
+      "x": 540,
+      "y": 1045
+    },
+
+    {
+      "id": "event_day",
+      "label": "Day (दिन)",
+      "type": "select",
+      "group": "event_date_group",
+      "defaultText": "रविवार",
+      "fontFamily": "Tiro Devanagari Hindi",
+      "fontSize": 30,
+      "color": "#7A1735",
+      "align": "center",
+      "x": 315,
+      "y": 1120,
+      "options": [
+        "रविवार",
+        "Sunday",
+        "सोमवार",
+        "Monday",
+        "मंगलवार",
+        "Tuesday",
+        "बुधवार",
+        "Wednesday",
+        "गुरुवार",
+        "Thursday",
+        "शुक्रवार",
+        "Friday",
+        "शनिवार",
+        "Saturday"
+      ]
+    },
+
+    {
+      "id": "event_date",
+      "label": "Date (तारीख)",
+      "type": "select",
+      "group": "event_date_group",
+      "defaultText": "15",
+      "fontFamily": "Tiro Devanagari Hindi",
+      "fontSize": 30,
+      "color": "#7A1735",
+      "align": "center",
+      "x": 420,
+      "y": 1120,
+      "options": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31"
+      ]
+    },
+
+    {
+      "id": "event_month",
+      "label": "Month (महीना)",
+      "type": "select",
+      "group": "event_date_group",
+      "defaultText": "अगस्त",
+      "fontFamily": "Tiro Devanagari Hindi",
+      "fontSize": 30,
+      "color": "#7A1735",
+      "align": "center",
+      "x": 570,
+      "y": 1120,
+      "options": [
+        "जनवरी",
+        "January",
+        "फ़रवरी",
+        "February",
+        "मार्च",
+        "March",
+        "अप्रैल",
+        "April",
+        "मई",
+        "May",
+        "जून",
+        "June",
+        "जुलाई",
+        "July",
+        "अगस्त",
+        "August",
+        "सितंबर",
+        "September",
+        "अक्टूबर",
+        "October",
+        "नवंबर",
+        "November",
+        "दिसंबर",
+        "December"
+      ]
+    },
+
+    {
+      "id": "event_year",
+      "label": "Year (वर्ष)",
+      "type": "select",
+      "group": "event_date_group",
+      "defaultText": "2026",
+      "fontFamily": "Tiro Devanagari Hindi",
+      "fontSize": 30,
+      "color": "#7A1735",
+      "align": "center",
+      "x": 735,
+      "y": 1120,
+      "options": [
+        "2026",
+        "2027",
+        "2028",
+        "2029",
+        "2030",
+        "2031",
+        "2032"
+      ]
+    },
+
+    {
+      "id": "time_heading",
+      "label": "Time Heading",
+      "type": "text",
+      "defaultText": "शुभ मुहूर्त",
+      "fontFamily": "Noto Serif Devanagari",
+      "fontSize": 28,
+      "color": "#B8860B",
+      "align": "center",
+      "x": 540,
+      "y": 1195
+    },
+
+    {
+      "id": "event_time",
+      "label": "Time (समय)",
+      "type": "text",
+      "defaultText": "शाम 7:00 बजे",
+      "fontFamily": "Tiro Devanagari Hindi",
+      "fontSize": 34,
+      "color": "#333333",
+      "align": "center",
+      "x": 540,
+      "y": 1245
+    },
+
+    {
+      "id": "ceremony_type",
+      "label": "Ceremony Type",
+      "type": "select",
+      "defaultText": "विवाह",
+      "fontFamily": "Tiro Devanagari Hindi",
+      "fontSize": 28,
+      "color": "#7A1735",
+      "align": "center",
+      "x": 540,
+      "y": 1305,
+      "options": [
+        "विवाह",
+        "Wedding",
+        "शुभ विवाह",
+        "शादी",
+        "Wedding Ceremony"
+      ]
+    },
+
+    {
+      "id": "venue_heading",
+      "label": "Venue Heading",
+      "type": "text",
+      "defaultText": "विवाह स्थल",
+      "fontFamily": "Noto Serif Devanagari",
+      "fontSize": 30,
+      "color": "#B8860B",
+      "align": "center",
+      "x": 540,
+      "y": 1375
+    },
+
+    {
+      "id": "venue_name",
+      "label": "Venue Name (स्थान)",
+      "type": "text",
+      "defaultText": "रॉयल पैलेस",
+      "fontFamily": "Playfair Display",
+      "fontSize": 38,
+      "color": "#7A1735",
+      "align": "center",
+      "x": 540,
+      "y": 1425
+    },
+
+    {
+      "id": "venue_address",
+      "label": "Venue Address (पूरा पता)",
+      "type": "textarea",
+      "defaultText": "जी.टी. रोड, नई दिल्ली",
+      "fontFamily": "Tiro Devanagari Hindi",
+      "fontSize": 27,
+      "color": "#555555",
+      "align": "center",
+      "x": 540,
+      "y": 1475
+    },
+
+    {
+      "id": "special_message",
+      "label": "Special Message",
+      "type": "textarea",
+      "defaultText": "आपकी गरिमामयी उपस्थिति\nहमारे नवदंपति को शुभाशीर्वाद प्रदान करेगी।",
+      "fontFamily": "Tiro Devanagari Hindi",
+      "fontSize": 27,
+      "color": "#444444",
+      "align": "center",
+      "x": 540,
+      "y": 1565
+    },
+
+    {
+      "id": "family_heading",
+      "label": "Family Heading",
+      "type": "text",
+      "defaultText": "सादर आमंत्रक",
+      "fontFamily": "Noto Serif Devanagari",
+      "fontSize": 27,
+      "color": "#B8860B",
+      "align": "center",
+      "x": 540,
+      "y": 1650
+    },
+
+    {
+      "id": "family_name",
+      "label": "Family Name (परिवार)",
+      "type": "text",
+      "defaultText": "शर्मा एवं वर्मा परिवार",
+      "fontFamily": "Yatra One",
+      "fontSize": 31,
+      "color": "#7A1735",
+      "align": "center",
+      "x": 540,
+      "y": 1700
+    },
+
+    {
+      "id": "contact_label",
+      "label": "Contact Label",
+      "type": "text",
+      "defaultText": "संपर्क",
+      "fontFamily": "Noto Serif Devanagari",
+      "fontSize": 24,
+      "color": "#B8860B",
+      "align": "center",
+      "x": 540,
+      "y": 1760
+    },
+
+    {
+      "id": "contact_number",
+      "label": "Contact Number",
+      "type": "text",
+      "defaultText": "9000000000",
+      "fontFamily": "Plus Jakarta Sans",
+      "fontSize": 27,
+      "color": "#333333",
+      "align": "center",
+      "x": 540,
+      "y": 1805
+    }
+  ],
+
+  "photoBoxes": [],
+
+  "qrBox": {
+    "enabled": true,
+    "id": "venue_map_qr",
+    "label": "📍 Google Maps Location / Link",
+    "x": 850,
+    "y": 1690,
+    "size": 140,
+    "qrLabelText": "Scan For Location",
+    "disabledCompletely": false
+  },
+
+  "shapes": []
+}
