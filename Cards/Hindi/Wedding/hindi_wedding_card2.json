@@ -1,0 +1,262 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+
+  "tags": [
+    "wedding",
+    "wedding-invitation",
+    "hindi",
+    "shubh-vivah",
+    "couple",
+    "traditional",
+    "invitation"
+  ],
+
+  "imageAsset": "ttps://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Hindi/Wedding/hindi_wedding_card2.webp",
+
+  "photoBoxes": [],
+
+  "textFields": [
+    {
+      "id": "ganesh_text",
+      "label": "श्री गणेशाय नमः",
+      "type": "text",
+      "defaultText": "॥ श्री गणेशाय नमः ॥",
+      "x": 540,
+      "y": 180,
+      "fontSize": 32,
+      "fontFamily": "Noto Serif Devanagari",
+      "color": "#8B1E3F",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "wedding_title",
+      "label": "विवाह शीर्षक",
+      "type": "text",
+      "defaultText": "शुभ विवाह",
+      "x": 540,
+      "y": 290,
+      "fontSize": 72,
+      "fontFamily": "Rozha One, Noto Serif Devanagari, serif",
+      "color": "#8B1E3F",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "blessing_intro",
+      "label": "प्रारंभिक संदेश",
+      "type": "text",
+      "defaultText": "ईश्वर की असीम कृपा एवं\nआपके स्नेहाशीर्वाद से",
+      "x": 540,
+      "y": 390,
+      "fontSize": 32,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, serif",
+      "color": "#444444",
+      "align": "center",
+      "fontWeight": 400
+    },
+
+    {
+      "id": "sub_title",
+      "label": "उपशीर्षक",
+      "type": "text",
+      "defaultText": "शुभ परिणय",
+      "x": 540,
+      "y": 500,
+      "fontSize": 46,
+      "fontFamily": "Rozha One, Noto Serif Devanagari, serif",
+      "color": "#B8860B",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "groom_name",
+      "label": "दूल्हे का नाम",
+      "type": "text",
+      "defaultText": "[दूल्हे का नाम]",
+      "x": 540,
+      "y": 625,
+      "fontSize": 58,
+      "fontFamily": "Rozha One, Noto Serif Devanagari, serif",
+      "color": "#8B1E3F",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "groom_parents",
+      "label": "दूल्हे के माता-पिता",
+      "type": "text",
+      "defaultText": "सुपुत्र श्री [पिता का नाम] एवं श्रीमती [माता का नाम]",
+      "x": 540,
+      "y": 690,
+      "fontSize": 27,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "color": "#555555",
+      "align": "center",
+      "fontWeight": 400
+    },
+
+    {
+      "id": "couple_connector",
+      "label": "युगल संयोजक",
+      "type": "text",
+      "defaultText": "संग",
+      "x": 540,
+      "y": 755,
+      "fontSize": 30,
+      "fontFamily": "Noto Serif Devanagari",
+      "color": "#B8860B",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "bride_name",
+      "label": "दुल्हन का नाम",
+      "type": "text",
+      "defaultText": "[दुल्हन का नाम]",
+      "x": 540,
+      "y": 850,
+      "fontSize": 58,
+      "fontFamily": "Rozha One, Noto Serif Devanagari, serif",
+      "color": "#8B1E3F",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "bride_parents",
+      "label": "दुल्हन के माता-पिता",
+      "type": "text",
+      "defaultText": "सुपुत्री श्री [पिता का नाम] एवं श्रीमती [माता का नाम]",
+      "x": 540,
+      "y": 915,
+      "fontSize": 27,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "color": "#555555",
+      "align": "center",
+      "fontWeight": 400
+    },
+
+    {
+      "id": "invitation_text",
+      "label": "आमंत्रण संदेश",
+      "type": "text",
+      "defaultText": "के शुभ विवाह के पावन अवसर पर\nआप सपरिवार सादर आमंत्रित हैं।",
+      "x": 540,
+      "y": 1025,
+      "fontSize": 31,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, serif",
+      "color": "#333333",
+      "align": "center",
+      "fontWeight": 500
+    },
+
+    {
+      "id": "event_title",
+      "label": "कार्यक्रम शीर्षक",
+      "type": "text",
+      "defaultText": "विवाह समारोह",
+      "x": 540,
+      "y": 1150,
+      "fontSize": 40,
+      "fontFamily": "Rozha One, Noto Serif Devanagari, serif",
+      "color": "#B8860B",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "event_date",
+      "label": "दिन एवं तिथि",
+      "type": "text",
+      "defaultText": "[दिन], [तारीख] [महीना] [वर्ष]",
+      "x": 540,
+      "y": 1225,
+      "fontSize": 34,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "color": "#8B1E3F",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "event_time",
+      "label": "समय",
+      "type": "text",
+      "defaultText": "[समय]",
+      "x": 540,
+      "y": 1290,
+      "fontSize": 32,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "color": "#444444",
+      "align": "center",
+      "fontWeight": 600
+    },
+
+    {
+      "id": "venue_title",
+      "label": "स्थान शीर्षक",
+      "type": "text",
+      "defaultText": "स्थान",
+      "x": 540,
+      "y": 1370,
+      "fontSize": 32,
+      "fontFamily": "Noto Serif Devanagari",
+      "color": "#B8860B",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "venue_name",
+      "label": "वेन्यू का नाम",
+      "type": "text",
+      "defaultText": "[वेन्यू का नाम]",
+      "x": 540,
+      "y": 1425,
+      "fontSize": 34,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "color": "#8B1E3F",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "venue_address",
+      "label": "पूरा पता",
+      "type": "text",
+      "defaultText": "[पूरा पता]",
+      "x": 540,
+      "y": 1480,
+      "fontSize": 28,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "color": "#555555",
+      "align": "center",
+      "fontWeight": 400
+    },
+
+    {
+      "id": "closing_text",
+      "label": "समापन संदेश",
+      "type": "text",
+      "defaultText": "आपकी गरिमामयी उपस्थिति\nएवं शुभाशीर्वाद हमारे लिए\nसदैव स्मरणीय रहेगा।",
+      "x": 540,
+      "y": 1600,
+      "fontSize": 29,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, serif",
+      "color": "#444444",
+      "align": "center",
+      "fontWeight": 400
+    }
+  ],
+
+  "shapes": []
+}
