@@ -16,16 +16,31 @@
   "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Hindi/Wedding/hindi_wedding_card3.webp",
   "textFields": [
     {
+      "id": "Verse",
+      "label": "Verse",
+      "type": "textarea",
+      "defaultText": "॥ श्री गणेशाय नमः ॥ वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ । निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥",
+      "fontFamily": "Rozha One",
+      "fontSize": 34,
+      "color": "#A65F16",
+      "align": "center",
+      "x": 556,
+      "y": 301,
+      "hidden": false,
+      "strokeColor": "#7A1F2B",
+      "lineHeight": 1.4
+    },
+    {
       "id": "Our Loved",
       "label": "Parents Name (माता-पिता का नाम)",
       "type": "text",
       "defaultText": "श्री राजेश कुमार शर्मा एवं श्रीमती सुनीता शर्मा",
       "fontFamily": "Yatra One",
-      "fontSize": 33,
-      "color": "#e09f4d",
+      "fontSize": 37,
+      "color": "#7A1F2B",
       "align": "center",
-      "x": 524,
-      "y": 435,
+      "x": 543,
+      "y": 503,
       "hidden": false
     },
     {
@@ -33,11 +48,11 @@
       "label": "Groom Name (दूल्हे का नाम)",
       "type": "text",
       "defaultText": "आदित्य शर्मा",
-      "x": 531,
-      "y": 635,
+      "x": 546,
+      "y": 685,
       "fontSize": 95,
       "fontFamily": "Rozha One",
-      "color": "#ec9d3c",
+      "color": "#7A1F2B",
       "align": "center",
       "fillType": "linear"
     },
@@ -48,10 +63,10 @@
       "defaultText": "काव्या वर्मा",
       "fontFamily": "Rozha One",
       "fontSize": 95,
-      "color": "#ec9d3c",
+      "color": "#7A1F2B",
       "align": "center",
-      "x": 533,
-      "y": 776
+      "x": 549,
+      "y": 826
     },
     {
       "id": "दिनांक",
@@ -60,10 +75,10 @@
       "defaultText": "दिनांक",
       "fontFamily": "Yatra One",
       "fontSize": 35,
-      "color": "#ec9d3c",
+      "color": "#A65F16",
       "align": "center",
       "x": 516.5349884033203,
-      "y": 1027,
+      "y": 1047,
       "hidden": true
     },
     {
@@ -73,10 +88,10 @@
       "defaultText": "01",
       "fontFamily": "Tiro Devanagari Hindi",
       "fontSize": 50,
-      "color": "#ffffff",
-      "align": "center",
-      "x": 294,
-      "y": 1103,
+      "color": "#5A2A1F",
+      "align": "left",
+      "x": 292,
+      "y": 1102,
       "options": [
         "01",
         "02",
@@ -143,11 +158,11 @@
         "दिसंबर",
         "December"
       ],
-      "x": 406,
-      "y": 1103,
+      "x": 415,
+      "y": 1102,
       "fontSize": 50,
       "fontFamily": "Tiro Devanagari Hindi",
-      "color": "#ffffff",
+      "color": "#5A2A1F",
       "align": "center"
     },
     {
@@ -165,11 +180,11 @@
         "2031",
         "2032"
       ],
-      "x": 547,
-      "y": 1103,
+      "x": 551,
+      "y": 1102,
       "fontSize": 50,
       "fontFamily": "Tiro Devanagari Hindi",
-      "color": "#ffffff",
+      "color": "#5A2A1F",
       "align": "center"
     },
     {
@@ -179,10 +194,10 @@
       "defaultText": "रविवार",
       "fontFamily": "Tiro Devanagari Hindi",
       "fontSize": 50,
-      "color": "#ffffff",
+      "color": "#5A2A1F",
       "align": "left",
-      "x": 609,
-      "y": 1103,
+      "x": 624,
+      "y": 1102,
       "options": [
         "रविवार",
         "Sunday",
@@ -207,10 +222,10 @@
       "defaultText": "हर्ष एवं उल्लास के साथ आपको\nसादर आमंत्रित करते हैं",
       "fontFamily": "Yatra One",
       "fontSize": 29,
-      "color": "#fafafa",
+      "color": "#4A3328",
       "align": "center",
-      "x": 527,
-      "y": 509,
+      "x": 556,
+      "y": 551,
       "hidden": true,
       "locked": false
     },
@@ -221,7 +236,7 @@
       "defaultText": "समय",
       "fontFamily": "Yatra One",
       "fontSize": 35,
-      "color": "#ec9d3c",
+      "color": "#A65F16",
       "align": "center",
       "x": 518.6825103759766,
       "y": 1210,
@@ -234,9 +249,9 @@
       "defaultText": "11:00",
       "fontFamily": "Tiro Devanagari Hindi",
       "fontSize": 50,
-      "color": "#ffffff",
+      "color": "#5A2A1F",
       "align": "right",
-      "x": 511,
+      "x": 526,
       "y": 1272
     },
     {
@@ -246,9 +261,9 @@
       "defaultText": "(रात)",
       "fontFamily": "Tiro Devanagari Hindi",
       "fontSize": 50,
-      "color": "#ffffff",
+      "color": "#5A2A1F",
       "align": "left",
-      "x": 531,
+      "x": 546,
       "y": 1272,
       "options": [
         "(रात)",
@@ -269,23 +284,9 @@
       "y": 1417,
       "fontSize": 37,
       "fontFamily": "Playfair Display",
-      "color": "#ffffff",
+      "color": "#4A3328",
       "align": "center",
       "type": "textarea"
-    },
-    {
-      "id": "Verse",
-      "label": "Verse",
-      "type": "text",
-      "defaultText": "॥ श्री गणेशाय नमः ॥",
-      "fontFamily": "Rozha One",
-      "fontSize": 32,
-      "color": "#ee9644",
-      "align": "center",
-      "x": 531,
-      "y": 359,
-      "hidden": true,
-      "strokeColor": "#da2e75"
     },
     {
       "id": "स्थान",
@@ -294,7 +295,7 @@
       "defaultText": "पता",
       "fontFamily": "Yatra One",
       "fontSize": 35,
-      "color": "#ec9d3c",
+      "color": "#A65F16",
       "align": "center",
       "x": 518,
       "y": 1372,
@@ -307,10 +308,10 @@
       "defaultText": "90000000",
       "fontFamily": "Yatra One",
       "fontSize": 49,
-      "color": "#ffffff",
+      "color": "#5A2A1F",
       "align": "center",
       "x": 532,
-      "y": 1562
+      "y": 1602
     },
     {
       "id": "संपर्क",
@@ -319,10 +320,10 @@
       "defaultText": "✦━ Contact ━✦",
       "fontFamily": "Yatra One",
       "fontSize": 40,
-      "color": "#ffffff",
+      "color": "#7A1F2B",
       "align": "center",
       "x": 544,
-      "y": 1491,
+      "y": 1531,
       "hidden": true
     },
     {
@@ -332,10 +333,10 @@
       "defaultText": "❖━━━━━━━❖",
       "fontFamily": "Braah One",
       "fontSize": 40,
-      "color": "#ec9d3c",
+      "color": "#A65F16",
       "align": "center",
       "x": 528,
-      "y": 958,
+      "y": 978,
       "hidden": true
     },
     {
@@ -345,10 +346,10 @@
       "defaultText": "With",
       "fontFamily": "Great Vibes",
       "fontSize": 30,
-      "color": "#ffffff",
+      "color": "#7A1F2B",
       "align": "center",
-      "x": 534,
-      "y": 706,
+      "x": 549,
+      "y": 756,
       "hidden": true
     },
     {
@@ -358,10 +359,10 @@
       "defaultText": "के शुभ विवाह के पावन अवसर पर।",
       "fontFamily": "Yatra One",
       "fontSize": 29,
-      "color": "#fafafa",
+      "color": "#4A3328",
       "align": "center",
-      "x": 532,
-      "y": 869,
+      "x": 547,
+      "y": 889,
       "hidden": true,
       "locked": false
     },
@@ -371,13 +372,13 @@
       "type": "text",
       "defaultText": "ॐ",
       "fontFamily": "Rozha One",
-      "fontSize": 32,
-      "color": "#ee9644",
+      "fontSize": 93,
+      "color": "#A65F16",
       "align": "center",
-      "x": 534,
-      "y": 245,
+      "x": 565,
+      "y": 217,
       "hidden": true,
-      "strokeColor": "#da2e75",
+      "strokeColor": "#7A1F2B",
       "locked": false
     }
   ],
@@ -386,11 +387,14 @@
     "enabled": true,
     "id": "venue_map_qr",
     "label": "📍 Google Maps Location / Link",
-    "x": 845,
-    "y": 1714,
+    "x": 890,
+    "y": 1731,
     "size": 161,
-    "qrLabelText": "Scan For Location",
-    "disabledCompletely": false
+    "qrLabelText": "Location Code",
+    "disabledCompletely": false,
+    "qrLabelFontSize": 22,
+    "qrLabelBgColor": "#f34e7a",
+    "qrLabelColor": "#ffffff"
   },
   "shapes": []
 }
