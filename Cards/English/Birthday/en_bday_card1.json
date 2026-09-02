@@ -4,113 +4,117 @@
     "height": 1920
   },
   "tags": [
-    "Birthday",
     "English Text",
+    "For Kids",
+    "Playful",
     "Short"
   ],
   "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Birthday/en_bday_card1.webp",
   "textFields": [
+    {
+      "id": "birthday_title",
+      "label": "Birthday Title",
+      "type": "text",
+      "defaultText": "Birthday celebration",
+      "fontFamily": "Dancing Script",
+      "fontSize": 67,
+      "color": "#172554",
+      "align": "center",
+      "x": 539,
+      "y": 143
+    },
     {
       "id": "birthday_person_name",
       "label": "Birthday Person Name",
       "type": "text",
       "defaultText": "Aarav Sharma",
       "fontFamily": "Rozha One",
-      "fontSize": 95,
-      "color": "#ec9d3c",
+      "fontSize": 93,
+      "color": "#7A1F3D",
       "align": "center",
-      "x": 526,
-      "y": 1218
+      "x": 530,
+      "y": 1194
+    },
+    {
+      "id": "birthday_age",
+      "label": "Age",
+      "type": "text",
+      "defaultText": "Turns 5",
+      "fontFamily": "Cinzel Decorative",
+      "fontSize": 59,
+      "color": "#ffffff",
+      "align": "center",
+      "x": 521,
+      "y": 1315
     },
     {
       "id": "invitation_text",
-      "label": "Invitation Text",
+      "label": "Invitation Message",
       "type": "textarea",
-      "defaultText": "You are warmly invited to celebrate my special day!",
+      "defaultText": "Join us for a fun-filled day\nof laughter, cake & celebration!",
       "fontFamily": "Playfair Display",
-      "fontSize": 35,
-      "color": "#ffffff",
+      "fontSize": 32,
+      "color": "#29201A",
       "align": "center",
-      "x": 540,
-      "y": 780
+      "x": 543,
+      "y": 1441
     },
     {
       "id": "event_date",
       "label": "Date",
       "type": "text",
-      "defaultText": "01 December 2026",
+      "defaultText": "Saturday, 12 December 2026",
       "fontFamily": "Playfair Display",
-      "fontSize": 50,
-      "color": "#ffffff",
+      "fontSize": 42,
+      "color": "#172554",
       "align": "center",
-      "x": 540,
-      "y": 1103
-    },
-    {
-      "id": "event_day",
-      "label": "Day",
-      "type": "select",
-      "defaultText": "Tuesday",
-      "fontFamily": "Playfair Display",
-      "fontSize": 40,
-      "color": "#ffffff",
-      "align": "center",
-      "x": 540,
-      "y": 1160,
-      "options": [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ]
+      "x": 530,
+      "y": 1512
     },
     {
       "id": "event_time",
       "label": "Time",
       "type": "text",
-      "defaultText": "7:00 PM",
+      "defaultText": "5:00 PM",
       "fontFamily": "Playfair Display",
-      "fontSize": 50,
-      "color": "#ffffff",
+      "fontSize": 44,
+      "color": "#172554",
       "align": "center",
-      "x": 540,
-      "y": 1272
+      "x": 529,
+      "y": 1549
     },
     {
       "id": "venue",
       "label": "Venue",
       "type": "textarea",
-      "defaultText": "Hotel Grand, GT Road, Delhi",
+      "defaultText": "The Celebration Hall\nGT Road, Delhi",
       "fontFamily": "Playfair Display",
-      "fontSize": 37,
-      "color": "#f2f2f2",
+      "fontSize": 34,
+      "color": "#29201A",
       "align": "center",
-      "x": 544,
-      "y": 1517
+      "x": 515,
+      "y": 1623
     },
     {
       "id": "contact",
-      "label": "Contact Number",
+      "label": "RSVP Contact Number",
       "type": "text",
-      "defaultText": "9000000000",
+      "defaultText": "RSVP: 9000000000",
       "fontFamily": "Playfair Display",
-      "fontSize": 45,
-      "color": "#0f172a",
+      "fontSize": 38,
+      "color": "#172554",
       "align": "center",
-      "x": 540,
-      "y": 1686
+      "x": 495,
+      "y": 1727
     }
   ],
   "photoBoxes": [
     {
-      "id": "photoBox_1788280589470",
+      "id": "photoBox_1788359049785",
       "label": "Photo Area 1",
-      "x": 198,
-      "y": 229,
-      "width": 700,
+      "x": 183,
+      "y": 218,
+      "width": 750,
       "height": 750
     }
   ],
@@ -120,17 +124,33 @@
     "label": "📍 Google Maps Location / Link",
     "x": 845,
     "y": 1714,
-    "size": 161,
+    "size": 130,
     "qrLabelText": "Scan For Location",
     "disabledCompletely": false
   },
-  "shapes": [],
+  "shapes": [
+    {
+      "id": "shape_1788360497568",
+      "symbol": "scalloped_cloud",
+      "fontFamily": "Noto Color Emoji",
+      "color": "#ef4444",
+      "opacity": 1,
+      "rotation": 0,
+      "width": 380,
+      "height": 102,
+      "x": 521,
+      "y": 1311,
+      "flipX": false,
+      "flipY": false,
+      "locked": true
+    }
+  ],
   "photoBox": {
-    "id": "photoBox_1788280589470",
+    "id": "photoBox_1788359049785",
     "label": "Photo Area 1",
-    "x": 198,
-    "y": 229,
-    "width": 700,
-    "height": 750
+    "x": 232,
+    "y": 218,
+    "width": 600,
+    "height": 600
   }
 }
