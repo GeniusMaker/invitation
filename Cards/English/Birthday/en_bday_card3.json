@@ -1,0 +1,133 @@
+{
+"canvas": {
+"width": 1080,
+"height": 1920
+},
+"tags": [
+"Birthday",
+"English Text",
+"For Kids",
+"Playful",
+"Light Yellow"
+],
+"imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Birthday/en_bday_card3.webp",
+"textFields": [
+{
+"id": "birthday_title",
+"label": "Birthday Title",
+"type": "text",
+"defaultText": "BIRTHDAY",
+"fontFamily": "Playfair Display",
+"fontSize": 58,
+"color": "#8B2635",
+"align": "center",
+"x": 540,
+"y": 470
+},
+{
+"id": "birthday_person_name",
+"label": "Birthday Person Name",
+"type": "text",
+"defaultText": "Aarav Sharma",
+"fontFamily": "Rozha One",
+"fontSize": 100,
+"color": "#14213D",
+"align": "center",
+"x": 540,
+"y": 635
+},
+{
+"id": "invitation_text",
+"label": "Invitation Text",
+"type": "textarea",
+"defaultText": "Join us for an unforgettable celebration\nfilled with laughter, love & cake!",
+"fontFamily": "Playfair Display",
+"fontSize": 34,
+"color": "#4A3B32",
+"align": "center",
+"x": 540,
+"y": 810
+},
+{
+"id": "event_date",
+"label": "Date",
+"type": "text",
+"defaultText": "01 December 2026",
+"fontFamily": "Playfair Display",
+"fontSize": 48,
+"color": "#8B2635",
+"align": "center",
+"x": 540,
+"y": 1060
+},
+{
+"id": "event_day",
+"label": "Day",
+"type": "select",
+"defaultText": "Tuesday",
+"fontFamily": "Playfair Display",
+"fontSize": 38,
+"color": "#14213D",
+"align": "center",
+"x": 540,
+"y": 1130,
+"options": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+]
+},
+{
+"id": "event_time",
+"label": "Time",
+"type": "text",
+"defaultText": "7:00 PM",
+"fontFamily": "Playfair Display",
+"fontSize": 48,
+"color": "#14213D",
+"align": "center",
+"x": 540,
+"y": 1240
+},
+{
+"id": "venue",
+"label": "Venue",
+"type": "textarea",
+"defaultText": "The Grand Celebration Hall\nGT Road, Delhi",
+"fontFamily": "Playfair Display",
+"fontSize": 36,
+"color": "#4A3B32",
+"align": "center",
+"x": 540,
+"y": 1440
+},
+{
+"id": "contact",
+"label": "Contact Number",
+"type": "text",
+"defaultText": "9000000000",
+"fontFamily": "Playfair Display",
+"fontSize": 43,
+"color": "#14213D",
+"align": "center",
+"x": 540,
+"y": 1670
+}
+],
+"photoBoxes": [],
+"qrBox": {
+"enabled": true,
+"id": "venue_map_qr",
+"label": "📍 Google Maps Location / Link",
+"x": 845,
+"y": 1714,
+"size": 161,
+"qrLabelText": "Scan For Location",
+"disabledCompletely": false
+},
+"shapes": []
+}
