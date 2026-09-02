@@ -108,7 +108,16 @@
       "y": 1523
     }
   ],
-  "photoBoxes": [],
+  "photoBoxes": [
+    {
+      "id": "photoBox_1788359049785",
+      "label": "Photo Area 1",
+      "x": 232,
+      "y": 218,
+      "width": 600,
+      "height": 600
+    }
+  ],
   "qrBox": {
     "enabled": true,
     "id": "venue_map_qr",
@@ -135,5 +144,13 @@
       "flipY": false,
       "locked": true
     }
-  ]
+  ],
+  "photoBox": {
+    "id": "photoBox_1788359049785",
+    "label": "Photo Area 1",
+    "x": 232,
+    "y": 218,
+    "width": 600,
+    "height": 600
+  }
 }
