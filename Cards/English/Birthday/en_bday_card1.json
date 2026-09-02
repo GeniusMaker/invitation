@@ -1,120 +1,136 @@
 {
-"canvas": {
-"width": 1080,
-"height": 1920
-},
-"tags": [
-"Birthday",
-"English Text",
-"Short",
-"Light Yellow"
-],
-"imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Birthday/en_bday_card1.webp",
-"textFields": [
-{
-"id": "birthday_person_name",
-"label": "Birthday Person Name",
-"type": "text",
-"defaultText": "Aarav Sharma",
-"fontFamily": "Rozha One",
-"fontSize": 95,
-"color": "#7A3E12",
-"align": "center",
-"x": 540,
-"y": 635
-},
-{
-"id": "invitation_text",
-"label": "Invitation Text",
-"type": "textarea",
-"defaultText": "You are warmly invited to celebrate my special day!",
-"fontFamily": "Playfair Display",
-"fontSize": 35,
-"color": "#5A3418",
-"align": "center",
-"x": 540,
-"y": 780
-},
-{
-"id": "event_date",
-"label": "Date",
-"type": "text",
-"defaultText": "01 December 2026",
-"fontFamily": "Playfair Display",
-"fontSize": 50,
-"color": "#6B3514",
-"align": "center",
-"x": 540,
-"y": 1103
-},
-{
-"id": "event_day",
-"label": "Day",
-"type": "select",
-"defaultText": "Tuesday",
-"fontFamily": "Playfair Display",
-"fontSize": 40,
-"color": "#6B3514",
-"align": "center",
-"x": 540,
-"y": 1160,
-"options": [
-"Sunday",
-"Monday",
-"Tuesday",
-"Wednesday",
-"Thursday",
-"Friday",
-"Saturday"
-]
-},
-{
-"id": "event_time",
-"label": "Time",
-"type": "text",
-"defaultText": "7:00 PM",
-"fontFamily": "Playfair Display",
-"fontSize": 50,
-"color": "#6B3514",
-"align": "center",
-"x": 540,
-"y": 1272
-},
-{
-"id": "venue",
-"label": "Venue",
-"type": "textarea",
-"defaultText": "Hotel Grand, GT Road, Delhi",
-"fontFamily": "Playfair Display",
-"fontSize": 37,
-"color": "#4A2A16",
-"align": "center",
-"x": 540,
-"y": 1466
-},
-{
-"id": "contact",
-"label": "Contact Number",
-"type": "text",
-"defaultText": "9000000000",
-"fontFamily": "Playfair Display",
-"fontSize": 45,
-"color": "#4A2A16",
-"align": "center",
-"x": 540,
-"y": 1686
-}
-],
-"photoBoxes": [],
-"qrBox": {
-"enabled": true,
-"id": "venue_map_qr",
-"label": "📍 Google Maps Location / Link",
-"x": 845,
-"y": 1714,
-"size": 161,
-"qrLabelText": "Scan For Location",
-"disabledCompletely": false
-},
-"shapes": []
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "tags": [
+    "Birthday",
+    "English Text",
+    "Short"
+  ],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Birthday/en_bday_card1.webp",
+  "textFields": [
+    {
+      "id": "birthday_person_name",
+      "label": "Birthday Person Name",
+      "type": "text",
+      "defaultText": "Aarav Sharma",
+      "fontFamily": "Rozha One",
+      "fontSize": 95,
+      "color": "#ec9d3c",
+      "align": "center",
+      "x": 526,
+      "y": 1218
+    },
+    {
+      "id": "invitation_text",
+      "label": "Invitation Text",
+      "type": "textarea",
+      "defaultText": "You are warmly invited to celebrate my special day!",
+      "fontFamily": "Playfair Display",
+      "fontSize": 35,
+      "color": "#ffffff",
+      "align": "center",
+      "x": 540,
+      "y": 780
+    },
+    {
+      "id": "event_date",
+      "label": "Date",
+      "type": "text",
+      "defaultText": "01 December 2026",
+      "fontFamily": "Playfair Display",
+      "fontSize": 50,
+      "color": "#ffffff",
+      "align": "center",
+      "x": 540,
+      "y": 1103
+    },
+    {
+      "id": "event_day",
+      "label": "Day",
+      "type": "select",
+      "defaultText": "Tuesday",
+      "fontFamily": "Playfair Display",
+      "fontSize": 40,
+      "color": "#ffffff",
+      "align": "center",
+      "x": 540,
+      "y": 1160,
+      "options": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "id": "event_time",
+      "label": "Time",
+      "type": "text",
+      "defaultText": "7:00 PM",
+      "fontFamily": "Playfair Display",
+      "fontSize": 50,
+      "color": "#ffffff",
+      "align": "center",
+      "x": 540,
+      "y": 1272
+    },
+    {
+      "id": "venue",
+      "label": "Venue",
+      "type": "textarea",
+      "defaultText": "Hotel Grand, GT Road, Delhi",
+      "fontFamily": "Playfair Display",
+      "fontSize": 37,
+      "color": "#f2f2f2",
+      "align": "center",
+      "x": 544,
+      "y": 1517
+    },
+    {
+      "id": "contact",
+      "label": "Contact Number",
+      "type": "text",
+      "defaultText": "9000000000",
+      "fontFamily": "Playfair Display",
+      "fontSize": 45,
+      "color": "#0f172a",
+      "align": "center",
+      "x": 540,
+      "y": 1686
+    }
+  ],
+  "photoBoxes": [
+    {
+      "id": "photoBox_1788280589470",
+      "label": "Photo Area 1",
+      "x": 198,
+      "y": 229,
+      "width": 700,
+      "height": 750
+    }
+  ],
+  "qrBox": {
+    "enabled": true,
+    "id": "venue_map_qr",
+    "label": "📍 Google Maps Location / Link",
+    "x": 845,
+    "y": 1714,
+    "size": 161,
+    "qrLabelText": "Scan For Location",
+    "disabledCompletely": false
+  },
+  "shapes": [],
+  "photoBox": {
+    "id": "photoBox_1788280589470",
+    "label": "Photo Area 1",
+    "x": 198,
+    "y": 229,
+    "width": 700,
+    "height": 750
+  }
 }
