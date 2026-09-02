@@ -1,4 +1,11 @@
 [
-  "en_bday_card1.json",
+  {
+    "file": "en_bday_card1.json",
+    "tags": [
+      "Birthday",
+      "English Text",
+      "Short"
+    ]
+  },
   "en_bday_card2.json"
 ]
