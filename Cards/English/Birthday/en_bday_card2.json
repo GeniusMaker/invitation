@@ -1,133 +1,156 @@
 {
-"canvas": {
-"width": 1080,
-"height": 1920
-},
-"tags": [
-"Birthday",
-"English Text",
-"For Kids",
-"Playful",
-"Light Yellow"
-],
-"imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Birthday/en_bday_card2.webp",
-"textFields": [
-{
-"id": "birthday_title",
-"label": "Birthday Title",
-"type": "text",
-"defaultText": "BIRTHDAY",
-"fontFamily": "Playfair Display",
-"fontSize": 58,
-"color": "#8B2635",
-"align": "center",
-"x": 540,
-"y": 470
-},
-{
-"id": "birthday_person_name",
-"label": "Birthday Person Name",
-"type": "text",
-"defaultText": "Aarav Sharma",
-"fontFamily": "Rozha One",
-"fontSize": 100,
-"color": "#14213D",
-"align": "center",
-"x": 540,
-"y": 635
-},
-{
-"id": "invitation_text",
-"label": "Invitation Text",
-"type": "textarea",
-"defaultText": "Join us for an unforgettable celebration\nfilled with laughter, love & cake!",
-"fontFamily": "Playfair Display",
-"fontSize": 34,
-"color": "#4A3B32",
-"align": "center",
-"x": 540,
-"y": 810
-},
-{
-"id": "event_date",
-"label": "Date",
-"type": "text",
-"defaultText": "01 December 2026",
-"fontFamily": "Playfair Display",
-"fontSize": 48,
-"color": "#8B2635",
-"align": "center",
-"x": 540,
-"y": 1060
-},
-{
-"id": "event_day",
-"label": "Day",
-"type": "select",
-"defaultText": "Tuesday",
-"fontFamily": "Playfair Display",
-"fontSize": 38,
-"color": "#14213D",
-"align": "center",
-"x": 540,
-"y": 1130,
-"options": [
-"Sunday",
-"Monday",
-"Tuesday",
-"Wednesday",
-"Thursday",
-"Friday",
-"Saturday"
-]
-},
-{
-"id": "event_time",
-"label": "Time",
-"type": "text",
-"defaultText": "7:00 PM",
-"fontFamily": "Playfair Display",
-"fontSize": 48,
-"color": "#14213D",
-"align": "center",
-"x": 540,
-"y": 1240
-},
-{
-"id": "venue",
-"label": "Venue",
-"type": "textarea",
-"defaultText": "The Grand Celebration Hall\nGT Road, Delhi",
-"fontFamily": "Playfair Display",
-"fontSize": 36,
-"color": "#4A3B32",
-"align": "center",
-"x": 540,
-"y": 1440
-},
-{
-"id": "contact",
-"label": "Contact Number",
-"type": "text",
-"defaultText": "9000000000",
-"fontFamily": "Playfair Display",
-"fontSize": 43,
-"color": "#14213D",
-"align": "center",
-"x": 540,
-"y": 1670
-}
-],
-"photoBoxes": [],
-"qrBox": {
-"enabled": true,
-"id": "venue_map_qr",
-"label": "📍 Google Maps Location / Link",
-"x": 845,
-"y": 1714,
-"size": 161,
-"qrLabelText": "Scan For Location",
-"disabledCompletely": false
-},
-"shapes": []
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "tags": [
+    "English Text",
+    "For Kids",
+    "Playful",
+    "Short"
+  ],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Birthday/en_bday_card2.webp",
+  "textFields": [
+    {
+      "id": "birthday_title",
+      "label": "Birthday Title",
+      "type": "text",
+      "defaultText": "Birthday celebration",
+      "fontFamily": "Dancing Script",
+      "fontSize": 67,
+      "color": "#172554",
+      "align": "center",
+      "x": 546,
+      "y": 830
+    },
+    {
+      "id": "birthday_person_name",
+      "label": "Birthday Person Name",
+      "type": "text",
+      "defaultText": "Aarav Sharma",
+      "fontFamily": "Rozha One",
+      "fontSize": 93,
+      "color": "#7A1F3D",
+      "align": "center",
+      "x": 540,
+      "y": 919
+    },
+    {
+      "id": "birthday_age",
+      "label": "Age",
+      "type": "text",
+      "defaultText": "Turns 5",
+      "fontFamily": "Cinzel Decorative",
+      "fontSize": 48,
+      "color": "#ffffff",
+      "align": "center",
+      "x": 529,
+      "y": 1019
+    },
+    {
+      "id": "invitation_text",
+      "label": "Invitation Message",
+      "type": "textarea",
+      "defaultText": "Join us for a fun-filled day\nof laughter, cake & celebration!",
+      "fontFamily": "Playfair Display",
+      "fontSize": 32,
+      "color": "#29201A",
+      "align": "center",
+      "x": 543,
+      "y": 1123
+    },
+    {
+      "id": "event_date",
+      "label": "Date",
+      "type": "text",
+      "defaultText": "Saturday, 12 December 2026",
+      "fontFamily": "Playfair Display",
+      "fontSize": 42,
+      "color": "#172554",
+      "align": "center",
+      "x": 540,
+      "y": 1236
+    },
+    {
+      "id": "event_time",
+      "label": "Time",
+      "type": "text",
+      "defaultText": "5:00 PM",
+      "fontFamily": "Playfair Display",
+      "fontSize": 44,
+      "color": "#172554",
+      "align": "center",
+      "x": 540,
+      "y": 1290
+    },
+    {
+      "id": "venue",
+      "label": "Venue",
+      "type": "textarea",
+      "defaultText": "The Celebration Hall\nGT Road, Delhi",
+      "fontFamily": "Playfair Display",
+      "fontSize": 34,
+      "color": "#29201A",
+      "align": "center",
+      "x": 529,
+      "y": 1371
+    },
+    {
+      "id": "contact",
+      "label": "RSVP Contact Number",
+      "type": "text",
+      "defaultText": "RSVP: 9000000000",
+      "fontFamily": "Playfair Display",
+      "fontSize": 38,
+      "color": "#172554",
+      "align": "center",
+      "x": 526,
+      "y": 1523
+    }
+  ],
+  "photoBoxes": [
+    {
+      "id": "photoBox_1788359049785",
+      "label": "Photo Area 1",
+      "x": 232,
+      "y": 218,
+      "width": 600,
+      "height": 600
+    }
+  ],
+  "qrBox": {
+    "enabled": true,
+    "id": "venue_map_qr",
+    "label": "📍 Google Maps Location / Link",
+    "x": 845,
+    "y": 1714,
+    "size": 130,
+    "qrLabelText": "Scan For Location",
+    "disabledCompletely": false
+  },
+  "shapes": [
+    {
+      "id": "shape_1788358720548",
+      "symbol": "scalloped_cloud",
+      "fontFamily": "Noto Color Emoji",
+      "color": "#ef4444",
+      "opacity": 1,
+      "rotation": 0,
+      "width": 306,
+      "height": 80,
+      "x": 529,
+      "y": 1013,
+      "flipX": false,
+      "flipY": false,
+      "locked": true
+    }
+  ],
+  "photoBox": {
+    "id": "photoBox_1788359049785",
+    "label": "Photo Area 1",
+    "x": 232,
+    "y": 218,
+    "width": 600,
+    "height": 600
+  }
 }
