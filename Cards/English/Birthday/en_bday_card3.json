@@ -32,7 +32,7 @@
       "fontSize": 105,
       "color": "#7A1F3D",
       "align": "center",
-      "x": 526,
+      "x": 531,
       "y": 1009
     },
     {
@@ -112,8 +112,8 @@
     {
       "id": "photoBox_1788359049785",
       "label": "Photo Area 1",
-      "x": 215,
-      "y": 239,
+      "x": 242,
+      "y": 215,
       "width": 600,
       "height": 600
     }
