@@ -32,8 +32,8 @@
       "fontSize": 93,
       "color": "#7A1F3D",
       "align": "center",
-      "x": 530,
-      "y": 1194
+      "x": 541,
+      "y": 1204
     },
     {
       "id": "birthday_age",
@@ -44,7 +44,7 @@
       "fontSize": 59,
       "color": "#ffffff",
       "align": "center",
-      "x": 521,
+      "x": 532,
       "y": 1315
     },
     {
@@ -56,8 +56,8 @@
       "fontSize": 32,
       "color": "#29201A",
       "align": "center",
-      "x": 543,
-      "y": 1441
+      "x": 515,
+      "y": 1407
     },
     {
       "id": "event_date",
@@ -81,7 +81,7 @@
       "color": "#172554",
       "align": "center",
       "x": 529,
-      "y": 1549
+      "y": 1559
     },
     {
       "id": "venue",
@@ -92,8 +92,8 @@
       "fontSize": 34,
       "color": "#29201A",
       "align": "center",
-      "x": 515,
-      "y": 1623
+      "x": 531,
+      "y": 1633
     },
     {
       "id": "contact",
@@ -104,8 +104,8 @@
       "fontSize": 38,
       "color": "#172554",
       "align": "center",
-      "x": 495,
-      "y": 1727
+      "x": 525,
+      "y": 1757
     }
   ],
   "photoBoxes": [
@@ -122,8 +122,8 @@
     "enabled": true,
     "id": "venue_map_qr",
     "label": "📍 Google Maps Location / Link",
-    "x": 845,
-    "y": 1714,
+    "x": 903,
+    "y": 1748,
     "size": 130,
     "qrLabelText": "Scan For Location",
     "disabledCompletely": false
@@ -138,8 +138,8 @@
       "rotation": 0,
       "width": 380,
       "height": 102,
-      "x": 521,
-      "y": 1311,
+      "x": 534,
+      "y": 1307,
       "flipX": false,
       "flipY": false,
       "locked": true
