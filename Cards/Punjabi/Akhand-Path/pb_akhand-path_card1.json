@@ -1,1 +1,248 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+
+  "tags": [
+    "akhand-path-sahib",
+    "sikh",
+    "punjabi",
+    "gurdwara",
+    "religious",
+    "invitation"
+  ],
+
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Punjabi/Akhand-Path/pb_akhand-path_card1.webp",
+
+  "photoBoxes": [],
+
+  "textFields": [
+    {
+      "id": "ik_onkar",
+      "label": "इक ओंकार",
+      "type": "text",
+      "defaultText": "ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ੴ",
+      "x": 540,
+      "y": 180,
+      "fontSize": 32,
+      "fontFamily": "Noto Serif Devanagari",
+      "color": "#8B1E3F",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "event_title",
+      "label": "कार्यक्रम शीर्षक",
+      "type": "text",
+      "defaultText": "अखंड पाठ साहिब",
+      "x": 540,
+      "y": 300,
+      "fontSize": 68,
+      "fontFamily": "Rozha One, Noto Serif Devanagari, serif",
+      "color": "#8B1E3F",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "intro_text",
+      "label": "प्रारंभिक संदेश",
+      "type": "text",
+      "defaultText": "वाहेगुरु जी की अपार कृपा सदका",
+      "x": 540,
+      "y": 410,
+      "fontSize": 32,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, serif",
+      "color": "#444444",
+      "align": "center",
+      "fontWeight": 400
+    },
+
+    {
+      "id": "invitation_text",
+      "label": "आमंत्रण संदेश",
+      "type": "text",
+      "defaultText": "हमारे परिवार द्वारा अखंड पाठ साहिब का आयोजन किया जा रहा है।\nआप सपरिवार इस पावन अवसर पर सादर आमंत्रित हैं।",
+      "x": 540,
+      "y": 540,
+      "fontSize": 30,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, serif",
+      "color": "#333333",
+      "align": "center",
+      "fontWeight": 500
+    },
+
+    {
+      "id": "family_name",
+      "label": "परिवार का नाम",
+      "type": "text",
+      "defaultText": "[परिवार का नाम]",
+      "x": 540,
+      "y": 720,
+      "fontSize": 48,
+      "fontFamily": "Rozha One, Noto Serif Devanagari, serif",
+      "color": "#8B1E3F",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "path_start_title",
+      "label": "पाठ आरंभ शीर्षक",
+      "type": "text",
+      "defaultText": "अखंड पाठ साहिब आरंभ",
+      "x": 540,
+      "y": 850,
+      "fontSize": 38,
+      "fontFamily": "Rozha One, Noto Serif Devanagari, serif",
+      "color": "#B8860B",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "path_start_date",
+      "label": "पाठ आरंभ दिन एवं तिथि",
+      "type": "text",
+      "defaultText": "[दिन], [तारीख] [महीना] [वर्ष]",
+      "x": 540,
+      "y": 915,
+      "fontSize": 32,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "color": "#8B1E3F",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "path_start_time",
+      "label": "पाठ आरंभ समय",
+      "type": "text",
+      "defaultText": "[समय]",
+      "x": 540,
+      "y": 970,
+      "fontSize": 30,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "color": "#444444",
+      "align": "center",
+      "fontWeight": 600
+    },
+
+    {
+      "id": "bhog_title",
+      "label": "भोग शीर्षक",
+      "type": "text",
+      "defaultText": "भोग श्री अखंड पाठ साहिब",
+      "x": 540,
+      "y": 1080,
+      "fontSize": 38,
+      "fontFamily": "Rozha One, Noto Serif Devanagari, serif",
+      "color": "#B8860B",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "bhog_date",
+      "label": "भोग दिन एवं तिथि",
+      "type": "text",
+      "defaultText": "[दिन], [तारीख] [महीना] [वर्ष]",
+      "x": 540,
+      "y": 1145,
+      "fontSize": 32,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "color": "#8B1E3F",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "bhog_time",
+      "label": "भोग समय",
+      "type": "text",
+      "defaultText": "[समय]",
+      "x": 540,
+      "y": 1200,
+      "fontSize": 30,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "color": "#444444",
+      "align": "center",
+      "fontWeight": 600
+    },
+
+    {
+      "id": "venue_title",
+      "label": "स्थान शीर्षक",
+      "type": "text",
+      "defaultText": "स्थान",
+      "x": 540,
+      "y": 1300,
+      "fontSize": 32,
+      "fontFamily": "Noto Serif Devanagari",
+      "color": "#B8860B",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "venue_name",
+      "label": "गुरुद्वारा / स्थान का नाम",
+      "type": "text",
+      "defaultText": "[गुरुद्वारा साहिब / स्थान का नाम]",
+      "x": 540,
+      "y": 1355,
+      "fontSize": 34,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "color": "#8B1E3F",
+      "align": "center",
+      "fontWeight": 700
+    },
+
+    {
+      "id": "venue_address",
+      "label": "पूरा पता",
+      "type": "text",
+      "defaultText": "[पूरा पता]",
+      "x": 540,
+      "y": 1410,
+      "fontSize": 28,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "color": "#555555",
+      "align": "center",
+      "fontWeight": 400
+    },
+
+    {
+      "id": "closing_text",
+      "label": "समापन संदेश",
+      "type": "text",
+      "defaultText": "आपकी गरिमामयी उपस्थिति एवं गुरु साहिब का आशीर्वाद\nहमारे लिए सौभाग्य की बात होगी।",
+      "x": 540,
+      "y": 1550,
+      "fontSize": 29,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, serif",
+      "color": "#444444",
+      "align": "center",
+      "fontWeight": 400
+    },
+
+    {
+      "id": "contact",
+      "label": "संपर्क",
+      "type": "text",
+      "defaultText": "संपर्क: [मोबाइल नंबर]",
+      "x": 540,
+      "y": 1660,
+      "fontSize": 27,
+      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "color": "#555555",
+      "align": "center",
+      "fontWeight": 400
+    }
+  ],
+
+  "shapes": []
+}
 
