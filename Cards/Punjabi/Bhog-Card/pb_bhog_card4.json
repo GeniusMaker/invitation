@@ -1,0 +1,214 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "tags": [
+    "Bhog",
+    "Antim Ardas",
+    "English",
+    "Sikh"
+  ],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Punjabi/Bhog-Card/pb_bhog_card4.webp",
+
+  "textFields": [
+    {
+      "id": "title",
+      "label": "Card Title",
+      "type": "text",
+      "defaultText": "ਅੰਤਿਮ ਅਰਦਾਸ ਅਤੇ ਭੋਗ",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 32,
+      "color": "#7A1F2B",
+      "align": "center",
+      "x": 549,
+      "y": 231
+    },
+    {
+      "id": "waheguru",
+      "label": "Waheguru Greeting",
+      "type": "textarea",
+      "defaultText": "ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖਾਲਸਾ\nਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਿਹ।",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 29,
+      "color": "#A65F16",
+      "align": "center",
+      "x": 553,
+      "y": 141,
+      "lineHeight": 1.4
+    },
+    {
+      "id": "person_name",
+      "label": "Deceased Person Name",
+      "type": "text",
+      "defaultText": "__________________",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 46,
+      "color": "#7A1F2B",
+      "align": "center",
+      "x": 524,
+      "y": 894
+    },
+    {
+      "id": "life_years",
+      "label": "Birth and Passing Years",
+      "type": "text",
+      "defaultText": "1964 – 2025",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 30,
+      "color": "#5A2A1F",
+      "align": "center",
+      "x": 524,
+      "y": 948
+    },
+    {
+      "id": "announcement",
+      "label": "Condolence Announcement",
+      "type": "textarea",
+      "defaultText": "ਬੜੇ ਹੀ ਦੁਖੀ ਹਿਰਦੇ ਨਾਲ ਸੂਚਿਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਕਿ ਸਾਡੇ ਸਤਿਕਾਰਯੋਗ __________________ ਜੀ ਮਿਤੀ __________________ ਨੂੰ ਅਕਾਲ ਪੁਰਖ ਦੇ ਚਰਨਾਂ ਵਿੱਚ ਜਾ ਬਿਰਾਜੇ ਹਨ।",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 30,
+      "color": "#4A3328",
+      "align": "center",
+      "x": 549,
+      "y": 1042,
+      "lineHeight": 1.5
+    },
+    {
+      "id": "bhog_message",
+      "label": "Bhog and Antim Ardas Message",
+      "type": "textarea",
+      "defaultText": "ਉਨ੍ਹਾਂ ਦੀ ਪਵਿੱਤਰ ਯਾਦ ਵਿੱਚ ਸ੍ਰੀ ਸਹਿਜ ਪਾਠ ਸਾਹਿਬ ਜੀ ਦੇ ਭੋਗ ਉਪਰੰਤ ਅੰਤਿਮ ਅਰਦਾਸ ਕੀਤੀ ਜਾਵੇਗੀ।",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 32,
+      "color": "#4A3328",
+      "align": "center",
+      "x": 517,
+      "y": 1130,
+      "lineHeight": 1.5
+    },
+    {
+      "id": "bhog_date",
+      "label": "Bhog Date",
+      "type": "text",
+      "defaultText": "ਮਿਤੀ: __________________",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 34,
+      "color": "#5A2A1F",
+      "align": "center",
+      "x": 382,
+      "y": 1230
+    },
+    {
+      "id": "bhog_day",
+      "label": "Bhog Day",
+      "type": "text",
+      "defaultText": "ਦਿਨ: __________________",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 34,
+      "color": "#5A2A1F",
+      "align": "center",
+      "x": 540,
+      "y": 1230
+    },
+    {
+      "id": "bhog_time",
+      "label": "Bhog Time",
+      "type": "text",
+      "defaultText": "ਸਮਾਂ: __________ ਵਜੇ",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 34,
+      "color": "#5A2A1F",
+      "align": "center",
+      "x": 700,
+      "y": 1230
+    },
+    {
+      "id": "venue",
+      "label": "Venue and Address",
+      "type": "textarea",
+      "defaultText": "ਸਥਾਨ:\nਗੁਰਦੁਆਰਾ ਸਾਹਿਬ ਦਾ ਨਾਮ\nਪੂਰਾ ਪਤਾ",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 31,
+      "color": "#4A3328",
+      "align": "center",
+      "x": 557,
+      "y": 1330,
+      "lineHeight": 1.5
+    },
+    {
+      "id": "family_message",
+      "label": "Family Message",
+      "type": "textarea",
+      "defaultText": "ਇਸ ਦੁੱਖ ਦੀ ਘੜੀ ਵਿੱਚ ਆਪ ਜੀ ਦੀ ਹਾਜ਼ਰੀ ਸੋਗੀ ਪਰਿਵਾਰ ਨੂੰ ਹੌਸਲਾ ਅਤੇ ਸਹਾਰਾ ਪ੍ਰਦਾਨ ਕਰੇਗੀ।",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 28,
+      "color": "#4A3328",
+      "align": "center",
+      "x": 529,
+      "y": 1460,
+      "lineHeight": 1.5
+    },
+    {
+      "id": "family_name",
+      "label": "Grieving Family Name",
+      "type": "textarea",
+      "defaultText": "ਸੋਗੀ ਪਰਿਵਾਰ:\n____________________________",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 32,
+      "color": "#7A1F2B",
+      "align": "center",
+      "x": 545,
+      "y": 1570,
+      "lineHeight": 1.5
+    },
+    {
+      "id": "contact",
+      "label": "Contact Information",
+      "type": "text",
+      "defaultText": "ਸੰਪਰਕ: __________________",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 30,
+      "color": "#5A2A1F",
+      "align": "center",
+      "x": 540,
+      "y": 1650
+    }
+  ],
+
+  "photoBoxes": [
+    {
+      "id": "photoBox_1788506220876",
+      "label": "Deceased Person Photo",
+      "x": 316,
+      "y": 207,
+      "width": 500,
+      "height": 500
+    }
+  ],
+
+  "qrBox": {
+    "enabled": true,
+    "id": "venue_map_qr",
+    "label": "Google Maps Location / Venue QR Code",
+    "x": 444,
+    "y": 1726,
+    "size": 161,
+    "qrLabelText": "ਸਥਾਨ",
+    "disabledCompletely": false,
+    "qrLabelFontSize": 22,
+    "qrLabelBgColor": "#7A1F2B",
+    "qrLabelColor": "#FFFFFF"
+  },
+
+  "shapes": [],
+
+  "photoBox": {
+    "id": "photoBox_1788506220876",
+    "label": "Deceased Person Photo",
+    "x": 316,
+    "y": 207,
+    "width": 500,
+    "height": 500
+  }
+}
