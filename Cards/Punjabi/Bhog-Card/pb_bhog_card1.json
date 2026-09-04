@@ -1,1 +1,232 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "tags": [
+    "Bhog",
+    "Antim Ardas",
+    "Punjabi",
+    "Sikh",
+    "Gurbani",
+    "Condolence"
+  ],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Punjabi/Bhog-Card/pb_bhog_card1.webp",
+  "textFields": [
+    {
+      "id": "title",
+      "label": "Title (ਸਿਰਲੇਖ)",
+      "type": "text",
+      "defaultText": "ਅੰਤਿਮ ਅਰਦਾਸ ਅਤੇ ਭੋਗ",
+      "fontFamily": "Yatra One",
+      "fontSize": 55,
+      "color": "#7A1F2B",
+      "align": "center",
+      "x": 540,
+      "y": 180
+    },
+    {
+      "id": "waheguru",
+      "label": "Waheguru Greeting (ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖਾਲਸਾ)",
+      "type": "textarea",
+      "defaultText": "ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖਾਲਸਾ\nਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਿਹ।",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 32,
+      "color": "#A65F16",
+      "align": "center",
+      "x": 540,
+      "y": 280,
+      "lineHeight": 1.4
+    },
+    {
+      "id": "announcement",
+      "label": "Announcement (ਸੂਚਨਾ)",
+      "type": "textarea",
+      "defaultText": "ਬੜੇ ਦੁੱਖੀ ਹਿਰਦੇ ਨਾਲ ਸੂਚਿਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਕਿ ਸਾਡੇ ਸਤਿਕਾਰਯੋਗ",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 30,
+      "color": "#4A3328",
+      "align": "center",
+      "x": 540,
+      "y": 420,
+      "lineHeight": 1.5
+    },
+    {
+      "id": "person_name",
+      "label": "Deceased Person Name (ਮ੍ਰਿਤਕ ਵਿਅਕਤੀ ਦਾ ਨਾਮ)",
+      "type": "text",
+      "defaultText": "ਸ੍ਰੀ/ਸ੍ਰੀਮਤੀ __________________ ਜੀ",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 48,
+      "color": "#7A1F2B",
+      "align": "center",
+      "x": 540,
+      "y": 520
+    },
+    {
+      "id": "date_of_death",
+      "label": "Date of Passing (ਮੌਤ ਦੀ ਮਿਤੀ)",
+      "type": "text",
+      "defaultText": "__________________",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 32,
+      "color": "#4A3328",
+      "align": "center",
+      "x": 540,
+      "y": 620
+    },
+    {
+      "id": "passing_message",
+      "label": "Passing Message",
+      "type": "textarea",
+      "defaultText": "ਨੂੰ ਗੁਰੂ ਚਰਨਾਂ ਵਿੱਚ ਜਾ ਬਿਰਾਜੇ ਹਨ।",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 30,
+      "color": "#4A3328",
+      "align": "center",
+      "x": 540,
+      "y": 680,
+      "lineHeight": 1.5
+    },
+    {
+      "id": "paath_type",
+      "label": "Paath Type (ਪਾਠ ਦੀ ਕਿਸਮ)",
+      "type": "select",
+      "defaultText": "ਸ੍ਰੀ ਸਹਿਜ ਪਾਠ ਸਾਹਿਬ",
+      "options": [
+        "ਸ੍ਰੀ ਸਹਿਜ ਪਾਠ ਸਾਹਿਬ",
+        "ਸ੍ਰੀ ਅਖੰਡ ਪਾਠ ਸਾਹਿਬ"
+      ],
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 34,
+      "color": "#7A1F2B",
+      "align": "center",
+      "x": 540,
+      "y": 790
+    },
+    {
+      "id": "bhog_message",
+      "label": "Bhog Message (ਭੋਗ ਸੰਬੰਧੀ ਸੁਨੇਹਾ)",
+      "type": "textarea",
+      "defaultText": "ਜੀ ਦੇ ਭੋਗ ਉਪਰੰਤ ਅੰਤਿਮ ਅਰਦਾਸ",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 32,
+      "color": "#4A3328",
+      "align": "center",
+      "x": 540,
+      "y": 870,
+      "lineHeight": 1.5
+    },
+    {
+      "id": "bhog_date",
+      "label": "Bhog Date (ਭੋਗ ਦੀ ਤਾਰੀਖ)",
+      "type": "text",
+      "defaultText": "ਮਿਤੀ: __________________",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 34,
+      "color": "#5A2A1F",
+      "align": "center",
+      "x": 540,
+      "y": 980
+    },
+    {
+      "id": "bhog_day",
+      "label": "Day (ਦਿਨ)",
+      "type": "select",
+      "defaultText": "ਐਤਵਾਰ",
+      "options": [
+        "ਐਤਵਾਰ",
+        "ਸੋਮਵਾਰ",
+        "ਮੰਗਲਵਾਰ",
+        "ਬੁੱਧਵਾਰ",
+        "ਵੀਰਵਾਰ",
+        "ਸ਼ੁੱਕਰਵਾਰ",
+        "ਸ਼ਨੀਵਾਰ"
+      ],
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 34,
+      "color": "#5A2A1F",
+      "align": "center",
+      "x": 540,
+      "y": 1050
+    },
+    {
+      "id": "bhog_time",
+      "label": "Time (ਸਮਾਂ)",
+      "type": "text",
+      "defaultText": "ਸਮਾਂ: 11:00 ਵਜੇ",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 34,
+      "color": "#5A2A1F",
+      "align": "center",
+      "x": 540,
+      "y": 1120
+    },
+    {
+      "id": "venue",
+      "label": "Venue / Address (ਸਥਾਨ / ਪਤਾ)",
+      "type": "textarea",
+      "defaultText": "ਗੁਰਦੁਆਰਾ ਸਾਹਿਬ ਦਾ ਨਾਮ\nਪੂਰਾ ਪਤਾ",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 34,
+      "color": "#4A3328",
+      "align": "center",
+      "x": 540,
+      "y": 1270,
+      "lineHeight": 1.5
+    },
+    {
+      "id": "family_message",
+      "label": "Family Message (ਪਰਿਵਾਰਕ ਸੁਨੇਹਾ)",
+      "type": "textarea",
+      "defaultText": "ਇਸ ਦੁੱਖ ਦੀ ਘੜੀ ਵਿੱਚ ਆਪ ਜੀ ਦੀ ਹਾਜ਼ਰੀ ਪਰਿਵਾਰ ਨੂੰ ਹੌਸਲਾ ਦੇਵੇਗੀ।",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 28,
+      "color": "#4A3328",
+      "align": "center",
+      "x": 540,
+      "y": 1430,
+      "lineHeight": 1.5
+    },
+    {
+      "id": "family_name",
+      "label": "Sogi Parivar (ਸੋਗੀ ਪਰਿਵਾਰ)",
+      "type": "textarea",
+      "defaultText": "ਸੋਗੀ ਪਰਿਵਾਰ:\n____________________________",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 32,
+      "color": "#7A1F2B",
+      "align": "center",
+      "x": 540,
+      "y": 1530,
+      "lineHeight": 1.5
+    },
+    {
+      "id": "contact",
+      "label": "Contact (ਸੰਪਰਕ)",
+      "type": "text",
+      "defaultText": "ਸੰਪਰਕ: __________________",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 30,
+      "color": "#5A2A1F",
+      "align": "center",
+      "x": 540,
+      "y": 1650
+    }
+  ],
+  "photoBoxes": [],
+  "qrBox": {
+    "enabled": true,
+    "id": "venue_map_qr",
+    "label": "📍 Google Maps Location / Link",
+    "x": 890,
+    "y": 1731,
+    "size": 161,
+    "qrLabelText": "ਸਥਾਨ",
+    "disabledCompletely": false,
+    "qrLabelFontSize": 22,
+    "qrLabelBgColor": "#7A1F2B",
+    "qrLabelColor": "#FFFFFF"
+  }
+}
 
