@@ -21,7 +21,15 @@
       "Condolence"
     ]
   },
-  "pb_bhog_card3.json",
+  {
+    "file": "pb_bhog_card3.json",
+    "tags": [
+      "Bhog",
+      "Antim Ardas",
+      "Punjabi Text",
+      "Sikh"
+    ]
+  },
   {
     "file": "pb_bhog_card4.json",
     "tags": [
