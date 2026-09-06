@@ -18,7 +18,7 @@
       "label": "Title (ਸਿਰਲੇਖ)",
       "type": "text",
       "defaultText": "ਅੰਤਿਮ ਅਰਦਾਸ ਅਤੇ ਭੋਗ",
-      "fontFamily": "Noto Sans Gurmukhi",
+      "fontFamily": "Braah One",
       "fontSize": 32,
       "color": "#7A1F2B",
       "align": "center",
@@ -26,23 +26,23 @@
       "y": 231
     },
     {
-      "id": "waheguru",
-      "label": "Waheguru Greeting (ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖਾਲਸਾ)",
+      "id": "gurbani_verse",
+      "label": "Gurbani Verse (ਗੁਰਬਾਣੀ)",
       "type": "textarea",
-      "defaultText": "ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖਾਲਸਾ\nਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਿਹ।",
+      "defaultText": "ਜੋ ਉਪਜਿਓ ਸੋ ਬਿਨਸਿ ਹੈ ਪਰੋ ਆਜੁ ਕੈ ਕਾਲਿ ॥\nਨਾਨਕ ਹਰਿ ਗੁਣ ਗਾਇ ਲੈ ਛਾਡਿ ਸਗਲ ਜੰਜਾਲ ॥੫੨॥",
       "fontFamily": "Noto Sans Gurmukhi",
       "fontSize": 29,
-      "color": "#A65F16",
+      "color": "#7A1F2B",
       "align": "center",
-      "x": 553,
-      "y": 141,
-      "lineHeight": 1.4
+      "x": 540,
+      "y": 115,
+      "lineHeight": 1.5
     },
     {
       "id": "announcement",
       "label": "Announcement (ਸੂਚਨਾ)",
       "type": "textarea",
-      "defaultText": "ਬੜੇ ਦੁੱਖੀ ਹਿਰਦੇ ਨਾਲ ਸੂਚਿਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਕਿ ਸਾਡੇ ਸਤਿਕਾਰਯੋਗ",
+      "defaultText": "ਬੜੇ ਦੁੱਖੀ ਹਿਰਦੇ ਨਾਲ ਸੂਚਿਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਕਿ",
       "fontFamily": "Noto Sans Gurmukhi",
       "fontSize": 33,
       "color": "#4A3328",
@@ -52,53 +52,69 @@
       "lineHeight": 1.2
     },
     {
-      "id": "person_name",
-      "label": "Deceased Person Name (ਮ੍ਰਿਤਕ ਵਿਅਕਤੀ ਦਾ ਨਾਮ)",
+      "id": "person_name_prefix",
+      "label": "Respectful Prefix (ਸਤਿਕਾਰ)",
       "type": "text",
-      "defaultText": "ਸ੍ਰੀ/ਸ੍ਰੀਮਤੀ __________________ ਜੀ",
+      "defaultText": "ਸਾਡੇ ਬਹੁਤ ਹੀ ਸਤਿਕਾਰਯੋਗ",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 31,
+      "color": "#4A3328",
+      "align": "center",
+      "x": 540,
+      "y": 858
+    },
+    {
+      "id": "person_name",
+      "label": "Deceased Person Name (ਨਾਮ)",
+      "type": "text",
+      "defaultText": "[ਨਾਮ] ਜੀ",
       "fontFamily": "Noto Sans Gurmukhi",
       "fontSize": 46,
       "color": "#7A1F2B",
       "align": "center",
-      "x": 524,
-      "y": 894
-    },
-    {
-      "id": "date_of_death",
-      "label": "Date of Passing (ਮੌਤ ਦੀ ਮਿਤੀ)",
-      "type": "text",
-      "defaultText": "ਮਿਤੀ: __________________",
-      "fontFamily": "Noto Sans Gurmukhi",
-      "fontSize": 34,
-      "color": "#4A3328",
-      "align": "center",
-      "x": 535,
-      "y": 960
+      "x": 540,
+      "y": 910
     },
     {
       "id": "passing_message",
-      "label": "Passing Message",
+      "label": "Passing Message (ਅਕਾਲ ਚਲਾਣਾ)",
       "type": "textarea",
-      "defaultText": "ਨੂੰ ਗੁਰੂ ਚਰਨਾਂ ਵਿੱਚ ਜਾ ਬਿਰਾਜੇ ਹਨ।",
+      "defaultText": "ਆਪਣੀ ਸੰਸਾਰਿਕ ਯਾਤਰਾ ਪੂਰੀ ਕਰਦੇ ਹੋਏ\nਅਕਾਲ ਪੁਰਖ ਦੇ ਚਰਨਾਂ ਵਿੱਚ ਜਾ ਬਿਰਾਜੇ ਹਨ।",
       "fontFamily": "Noto Sans Gurmukhi",
       "fontSize": 30,
       "color": "#4A3328",
       "align": "center",
-      "x": 523,
-      "y": 1042,
+      "x": 540,
+      "y": 1005,
       "lineHeight": 1.5
+    },
+    {
+      "id": "paath_type",
+      "label": "Paath Type (ਪਾਠ ਦੀ ਕਿਸਮ)",
+      "type": "select",
+      "defaultText": "ਸ੍ਰੀ ਅਖੰਡ ਪਾਠ ਸਾਹਿਬ",
+      "options": [
+        "ਸ੍ਰੀ ਸਹਿਜ ਪਾਠ ਸਾਹਿਬ",
+        "ਸ੍ਰੀ ਅਖੰਡ ਪਾਠ ਸਾਹਿਬ"
+      ],
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 34,
+      "color": "#7A1F2B",
+      "align": "center",
+      "x": 540,
+      "y": 1110
     },
     {
       "id": "bhog_message",
       "label": "Bhog Message (ਭੋਗ ਸੰਬੰਧੀ ਸੁਨੇਹਾ)",
       "type": "textarea",
-      "defaultText": "ਸ੍ਰੀ ਸਹਿਜ ਪਾਠ ਸਾਹਿਬ ਜੀ ਦੇ ਭੋਗ ਉਪਰੰਤ ਅੰਤਿਮ ਅਰਦਾਸ",
+      "defaultText": "ਜੀ ਦੇ ਭੋਗ ਉਪਰੰਤ\nਅੰਤਿਮ ਅਰਦਾਸ",
       "fontFamily": "Noto Sans Gurmukhi",
       "fontSize": 32,
       "color": "#4A3328",
       "align": "center",
-      "x": 517,
-      "y": 1092,
+      "x": 540,
+      "y": 1170,
       "lineHeight": 1.5
     },
     {
@@ -110,36 +126,8 @@
       "fontSize": 34,
       "color": "#5A2A1F",
       "align": "center",
-      "x": 382,
-      "y": 1187
-    },
-    {
-      "id": "bhog_time",
-      "label": "Time (ਸਮਾਂ)",
-      "type": "text",
-      "defaultText": "ਸਮਾਂ: __________ ਵਜੇ",
-      "fontFamily": "Noto Sans Gurmukhi",
-      "fontSize": 34,
-      "color": "#5A2A1F",
-      "align": "center",
-      "x": 631,
-      "y": 1184
-    },
-    {
-      "id": "paath_type",
-      "label": "Paath Type (ਪਾਠ ਦੀ ਕਿਸਮ)",
-      "type": "select",
-      "defaultText": "ਸ੍ਰੀ ਸਹਿਜ ਪਾਠ ਸਾਹਿਬ",
-      "options": [
-        "ਸ੍ਰੀ ਸਹਿਜ ਪਾਠ ਸਾਹਿਬ",
-        "ਸ੍ਰੀ ਅਖੰਡ ਪਾਠ ਸਾਹਿਬ"
-      ],
-      "fontFamily": "Noto Sans Gurmukhi",
-      "fontSize": 34,
-      "color": "#7A1F2B",
-      "align": "center",
-      "x": 274,
-      "y": 1309
+      "x": 390,
+      "y": 1260
     },
     {
       "id": "bhog_day",
@@ -159,8 +147,20 @@
       "fontSize": 34,
       "color": "#5A2A1F",
       "align": "center",
-      "x": 450,
-      "y": 1355
+      "x": 540,
+      "y": 1320
+    },
+    {
+      "id": "bhog_time",
+      "label": "Time (ਸਮਾਂ)",
+      "type": "text",
+      "defaultText": "ਸਮਾਂ: __________________",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 34,
+      "color": "#5A2A1F",
+      "align": "center",
+      "x": 690,
+      "y": 1260
     },
     {
       "id": "venue",
@@ -171,34 +171,46 @@
       "fontSize": 31,
       "color": "#4A3328",
       "align": "center",
-      "x": 557,
-      "y": 1388,
+      "x": 540,
+      "y": 1390,
       "lineHeight": 1.5
     },
     {
-      "id": "family_message",
-      "label": "Family Message (ਪਰਿਵਾਰਕ ਸੁਨੇਹਾ)",
+      "id": "invitation_request",
+      "label": "Invitation Request (ਬੇਨਤੀ)",
       "type": "textarea",
-      "defaultText": "ਇਸ ਦੁੱਖ ਦੀ ਘੜੀ ਵਿੱਚ ਆਪ ਜੀ ਦੀ ਹਾਜ਼ਰੀ ਪਰਿਵਾਰ ਨੂੰ ਹੌਸਲਾ ਦੇਵੇਗੀ।",
+      "defaultText": "ਆਪ ਜੀ ਨੂੰ ਅੰਤਿਮ ਅਰਦਾਸ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਣ ਦੀ\nਕਿਰਪਾਲਤਾ ਕਰਨੀ ਜੀ।",
       "fontFamily": "Noto Sans Gurmukhi",
       "fontSize": 28,
       "color": "#4A3328",
       "align": "center",
-      "x": 529,
-      "y": 1461,
+      "x": 540,
+      "y": 1480,
       "lineHeight": 1.5
+    },
+    {
+      "id": "bhane_vich",
+      "label": "Bhane Vich (ਭਾਣੇ ਵਿੱਚ)",
+      "type": "text",
+      "defaultText": "ਭਾਣੇ ਵਿੱਚ",
+      "fontFamily": "Noto Sans Gurmukhi",
+      "fontSize": 30,
+      "color": "#7A1F2B",
+      "align": "center",
+      "x": 540,
+      "y": 1560
     },
     {
       "id": "family_name",
       "label": "Sogi Parivar (ਸੋਗੀ ਪਰਿਵਾਰ)",
       "type": "textarea",
-      "defaultText": "ਸੋਗੀ ਪਰਿਵਾਰ:\n____________________________",
+      "defaultText": "[ਨਾਮ / ਪਰਿਵਾਰ]",
       "fontFamily": "Noto Sans Gurmukhi",
       "fontSize": 32,
       "color": "#7A1F2B",
       "align": "center",
-      "x": 545,
-      "y": 1570,
+      "x": 540,
+      "y": 1610,
       "lineHeight": 1.5
     },
     {
@@ -211,7 +223,7 @@
       "color": "#5A2A1F",
       "align": "center",
       "x": 540,
-      "y": 1650
+      "y": 1670
     }
   ],
   "photoBoxes": [
