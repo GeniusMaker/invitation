@@ -4,27 +4,12 @@
     "height": 1920
   },
   "tags": [
-    "Bhog",
     "Antim Ardas",
     "Punjabi",
-    "Sikh",
-    "Gurbani",
-    "Condolence"
-  ],
+    "Sikh"
+     ],
   "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Punjabi/Bhog-Card/pb_bhog_card2.webp",
   "textFields": [
-    {
-      "id": "title",
-      "label": "Title (ਸਿਰਲੇਖ)",
-      "type": "text",
-      "defaultText": "ਅੰਤਿਮ ਅਰਦਾਸ ਅਤੇ ਭੋਗ",
-      "fontFamily": "Braah One",
-      "fontSize": 32,
-      "color": "#7A1F2B",
-      "align": "center",
-      "x": 549,
-      "y": 231
-    },
     {
       "id": "gurbani_verse",
       "label": "Gurbani Verse (ਗੁਰਬਾਣੀ)",
@@ -34,9 +19,21 @@
       "fontSize": 29,
       "color": "#7A1F2B",
       "align": "center",
-      "x": 540,
-      "y": 115,
-      "lineHeight": 1.5
+      "x": 557.5,
+      "y": 95,
+      "lineHeight": 1
+    },
+    {
+      "id": "title",
+      "label": "Title (ਸਿਰਲੇਖ)",
+      "type": "text",
+      "defaultText": "ਅੰਤਿਮ ਅਰਦਾਸ ਅਤੇ ਭੋਗ",
+      "fontFamily": "Braah One",
+      "fontSize": 32,
+      "color": "#7A1F2B",
+      "align": "center",
+      "x": 557.5,
+      "y": 181
     },
     {
       "id": "announcement",
@@ -47,62 +44,36 @@
       "fontSize": 33,
       "color": "#4A3328",
       "align": "center",
-      "x": 549,
-      "y": 804,
-      "lineHeight": 1.2
-    },
-    {
-      "id": "person_name_prefix",
-      "label": "Respectful Prefix (ਸਤਿਕਾਰ)",
-      "type": "text",
-      "defaultText": "ਸਾਡੇ ਬਹੁਤ ਹੀ ਸਤਿਕਾਰਯੋਗ",
-      "fontFamily": "Noto Sans Gurmukhi",
-      "fontSize": 31,
-      "color": "#4A3328",
-      "align": "center",
-      "x": 540,
-      "y": 858
+      "x": 544.5,
+      "y": 771,
+      "lineHeight": 1.2,
+      "hidden": true
     },
     {
       "id": "person_name",
       "label": "Deceased Person Name (ਨਾਮ)",
       "type": "text",
       "defaultText": "[ਨਾਮ] ਜੀ",
-      "fontFamily": "Noto Sans Gurmukhi",
-      "fontSize": 46,
+      "fontFamily": "Braah One",
+      "fontSize": 54,
       "color": "#7A1F2B",
       "align": "center",
-      "x": 540,
-      "y": 910
+      "x": 534,
+      "y": 868
     },
     {
       "id": "passing_message",
       "label": "Passing Message (ਅਕਾਲ ਚਲਾਣਾ)",
-      "type": "textarea",
-      "defaultText": "ਆਪਣੀ ਸੰਸਾਰਿਕ ਯਾਤਰਾ ਪੂਰੀ ਕਰਦੇ ਹੋਏ\nਅਕਾਲ ਪੁਰਖ ਦੇ ਚਰਨਾਂ ਵਿੱਚ ਜਾ ਬਿਰਾਜੇ ਹਨ।",
-      "fontFamily": "Noto Sans Gurmukhi",
-      "fontSize": 30,
+      "type": "text",
+      "defaultText": "ਆਪਣੀ ਸੰਸਾਰਿਕ ਯਾਤਰਾ ਪੂਰੀ ਕਰਦੇ ਹੋਏ ਮਿਤੀ",
+      "fontFamily": "Anek Gurmukhi",
+      "fontSize": 35,
       "color": "#4A3328",
       "align": "center",
-      "x": 540,
-      "y": 1005,
-      "lineHeight": 1.5
-    },
-    {
-      "id": "paath_type",
-      "label": "Paath Type (ਪਾਠ ਦੀ ਕਿਸਮ)",
-      "type": "select",
-      "defaultText": "ਸ੍ਰੀ ਅਖੰਡ ਪਾਠ ਸਾਹਿਬ",
-      "options": [
-        "ਸ੍ਰੀ ਸਹਿਜ ਪਾਠ ਸਾਹਿਬ",
-        "ਸ੍ਰੀ ਅਖੰਡ ਪਾਠ ਸਾਹਿਬ"
-      ],
-      "fontFamily": "Noto Sans Gurmukhi",
-      "fontSize": 34,
-      "color": "#7A1F2B",
-      "align": "center",
-      "x": 540,
-      "y": 1110
+      "x": 529,
+      "y": 933,
+      "lineHeight": 1.2,
+      "hidden": true
     },
     {
       "id": "bhog_message",
@@ -113,42 +84,91 @@
       "fontSize": 32,
       "color": "#4A3328",
       "align": "center",
-      "x": 540,
-      "y": 1170,
+      "x": 515,
+      "y": 1186,
       "lineHeight": 1.5
+    },
+    {
+      "id": "passing_message_copy_1788702828012",
+      "label": "Passing Date",
+      "type": "text",
+      "defaultText": "12 Octiber 2026",
+      "fontFamily": "Dancing Script",
+      "fontSize": 35,
+      "color": "#4A3328",
+      "align": "center",
+      "x": 539,
+      "y": 970,
+      "lineHeight": 1.2,
+      "locked": false
+    },
+    {
+      "id": "Paath Type (ਪਾਠ ਦੀ ਕਿਸਮ)",
+      "label": "Paath Type (ਪਾਠ ਦੀ ਕਿਸਮ)",
+      "type": "select",
+      "defaultText": "ਸ੍ਰੀ ਸਹਿਜ ਪਾਠ ਸਾਹਿਬ",
+      "fontFamily": "Braah One",
+      "fontSize": 37,
+      "color": "#7a1f2b",
+      "align": "center",
+      "x": 537,
+      "y": 1126,
+      "options": [
+        "ਸ੍ਰੀ ਸਹਿਜ ਪਾਠ ਸਾਹਿਬ",
+        "ਸ੍ਰੀ ਅਖੰਡ ਪਾਠ ਸਾਹਿਬ",
+        {
+          "isCustomOption": true,
+          "label": "Other (Custom...)",
+          "inputType": "text"
+        }
+      ]
     },
     {
       "id": "bhog_date",
       "label": "Bhog Date (ਭੋਗ ਦੀ ਤਾਰੀਖ)",
       "type": "text",
       "defaultText": "ਮਿਤੀ: __________________",
+      "fontFamily": "Braah One",
+      "fontSize": 37,
+      "color": "#7a1f2b",
+      "align": "center",
+      "x": 534,
+      "y": 1256,
+      "hidden": true
+    },
+    {
+      "id": "bhog_time_copy_1788702468563",
+      "label": "Path Date",
+      "type": "text",
+      "defaultText": "26 October 2026",
       "fontFamily": "Noto Sans Gurmukhi",
       "fontSize": 34,
       "color": "#5A2A1F",
       "align": "center",
-      "x": 390,
-      "y": 1260
+      "x": 531,
+      "y": 1292,
+      "locked": false
     },
     {
       "id": "bhog_day",
       "label": "Day (ਦਿਨ)",
       "type": "select",
-      "defaultText": "ਐਤਵਾਰ",
+      "defaultText": "(ਐਤਵਾਰ)",
       "options": [
-        "ਐਤਵਾਰ",
-        "ਸੋਮਵਾਰ",
-        "ਮੰਗਲਵਾਰ",
-        "ਬੁੱਧਵਾਰ",
-        "ਵੀਰਵਾਰ",
-        "ਸ਼ੁੱਕਰਵਾਰ",
-        "ਸ਼ਨੀਵਾਰ"
+        "(ਐਤਵਾਰ)",
+        "(ਸੋਮਵਾਰ)",
+        "(ਮੰਗਲਵਾਰ)",
+        "(ਬੁੱਧਵਾਰ)",
+        "(ਵੀਰਵਾਰ)",
+        "(ਸ਼ੁੱਕਰਵਾਰ)",
+        "(ਸ਼ਨੀਵਾਰ)"
       ],
       "fontFamily": "Noto Sans Gurmukhi",
       "fontSize": 34,
       "color": "#5A2A1F",
       "align": "center",
-      "x": 540,
-      "y": 1320
+      "x": 530,
+      "y": 1340
     },
     {
       "id": "bhog_time",
@@ -159,8 +179,22 @@
       "fontSize": 34,
       "color": "#5A2A1F",
       "align": "center",
-      "x": 690,
-      "y": 1260
+      "x": 529,
+      "y": 1388
+    },
+    {
+      "id": "bhog_date_copy_1788702510803",
+      "label": "Address (ਪਤਾ)",
+      "type": "text",
+      "defaultText": "ਪਤਾ",
+      "fontFamily": "Braah One",
+      "fontSize": 37,
+      "color": "#7a1f2b",
+      "align": "center",
+      "x": 529,
+      "y": 1456,
+      "locked": false,
+      "hidden": true
     },
     {
       "id": "venue",
@@ -171,9 +205,9 @@
       "fontSize": 31,
       "color": "#4A3328",
       "align": "center",
-      "x": 540,
-      "y": 1390,
-      "lineHeight": 1.5
+      "x": 524,
+      "y": 1501,
+      "lineHeight": 1.2
     },
     {
       "id": "invitation_request",
@@ -184,8 +218,8 @@
       "fontSize": 28,
       "color": "#4A3328",
       "align": "center",
-      "x": 540,
-      "y": 1480,
+      "x": 523,
+      "y": 1595,
       "lineHeight": 1.5
     },
     {
@@ -193,45 +227,49 @@
       "label": "Bhane Vich (ਭਾਣੇ ਵਿੱਚ)",
       "type": "text",
       "defaultText": "ਭਾਣੇ ਵਿੱਚ",
-      "fontFamily": "Noto Sans Gurmukhi",
-      "fontSize": 30,
+      "fontFamily": "Braah One",
+      "fontSize": 37,
       "color": "#7A1F2B",
       "align": "center",
-      "x": 540,
-      "y": 1560
+      "x": 526,
+      "y": 1708,
+      "hidden": true
     },
     {
       "id": "family_name",
-      "label": "Sogi Parivar (ਸੋਗੀ ਪਰਿਵਾਰ)",
+      "label": "ਭਾਣੇ ਵਿੱਚ",
       "type": "textarea",
       "defaultText": "[ਨਾਮ / ਪਰਿਵਾਰ]",
       "fontFamily": "Noto Sans Gurmukhi",
       "fontSize": 32,
       "color": "#7A1F2B",
       "align": "center",
-      "x": 540,
-      "y": 1610,
+      "x": 531,
+      "y": 1762,
       "lineHeight": 1.5
     },
     {
-      "id": "contact",
-      "label": "Contact (ਸੰਪਰਕ)",
-      "type": "text",
-      "defaultText": "ਸੰਪਰਕ: __________________",
-      "fontFamily": "Noto Sans Gurmukhi",
-      "fontSize": 30,
-      "color": "#5A2A1F",
+      "id": "passing_message_copy_1788702696447",
+      "label": "Passing Message (ਅਕਾਲ ਚਲਾਣਾ)",
+      "type": "textarea",
+      "defaultText": "ਨੂੰ ਅਕਾਲ ਪੁਰਖ ਦੇ ਚਰਨਾਂ ਵਿੱਚ ਜਾ ਬਿਰਾਜੇ ਹਨ। ਉਨ੍ਹਾਂ ਦੀ ਆਤਮਿਕ ਸ਼ਾਂਤੀ ਲਈ ਰੱਖੇ ਗਏ",
+      "fontFamily": "Anek Gurmukhi",
+      "fontSize": 35,
+      "color": "#4A3328",
       "align": "center",
-      "x": 540,
-      "y": 1670
+      "x": 537,
+      "y": 1019,
+      "lineHeight": 1.2,
+      "locked": false,
+      "hidden": true
     }
   ],
   "photoBoxes": [
     {
       "id": "photoBox_1788506220876",
       "label": "Photo Area 1",
-      "x": 316,
-      "y": 207,
+      "x": 291,
+      "y": 180,
       "width": 500,
       "height": 500
     }
@@ -240,13 +278,13 @@
     "enabled": true,
     "id": "venue_map_qr",
     "label": "📍 Google Maps Location / Link",
-    "x": 444,
-    "y": 1726,
-    "size": 161,
-    "qrLabelText": "ਸਥਾਨ",
+    "x": 838,
+    "y": 1687,
+    "size": 146,
+    "qrLabelText": "Location",
     "disabledCompletely": false,
-    "qrLabelFontSize": 22,
-    "qrLabelBgColor": "#7A1F2B",
+    "qrLabelFontSize": 20,
+    "qrLabelBgColor": "#6b6b6b",
     "qrLabelColor": "#FFFFFF"
   },
   "shapes": [],
