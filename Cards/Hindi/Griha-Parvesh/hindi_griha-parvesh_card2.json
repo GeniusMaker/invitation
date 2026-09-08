@@ -1,0 +1,231 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "tags": [
+    "Griha Pravesh",
+    "Hindi",
+    "Hindu"
+  ],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Hindi/Griha-Pravesh/hindi_griha-parvesh_card2.webp",
+  "textFields": [
+    {
+      "id": "shubh_mantra_copy_1788801490028",
+      "label": "Shubh Mantra (शुभ मंत्र)",
+      "type": "textarea",
+      "defaultText": "॥ श्री गणेशाय नमः ॥",
+      "fontFamily": "Noto Sans Devanagari",
+      "fontSize": 30,
+      "color": "#0f0f0f",
+      "align": "center",
+      "x": 540,
+      "y": 392,
+      "lineHeight": 1.2,
+      "letterSpacing": 0,
+      "locked": false
+    },
+    {
+      "id": "invitation_message",
+      "label": "Invitation Message (निमंत्रण संदेश)",
+      "type": "textarea",
+      "defaultText": "ईश्वर की असीम कृपा एवं आप सभी के \nआशीर्वाद सेहम अपने नए घर में गृह प्रवेश\nकरने जा रहे हैं।इस शुभ अवसर पर आयोजित \nपूजा एवं गृह प्रवेश समारोह में आप सपरिवार \nपधारकर हमें अपना आशीर्वाद प्रदान करें।",
+      "fontFamily": "Noto Sans Devanagari",
+      "fontSize": 32,
+      "color": "#000000",
+      "align": "center",
+      "x": 544,
+      "y": 543,
+      "lineHeight": 1.35,
+      "locked": false
+    },
+    {
+      "id": "family_name",
+      "label": "Family Name (परिवार का नाम)",
+      "type": "text",
+      "defaultText": "शर्मा परिवार",
+      "fontFamily": "Rozha One",
+      "fontSize": 54,
+      "color": "#7A1F2B",
+      "align": "center",
+      "x": 530,
+      "y": 786
+    },
+    {
+      "id": "puja_type",
+      "label": "Puja Type (पूजा का प्रकार)",
+      "type": "select",
+      "defaultText": "गृह प्रवेश पूजा एवं हवन",
+      "fontFamily": "Rozha One",
+      "fontSize": 48,
+      "color": "#7A1F2B",
+      "align": "center",
+      "x": 523,
+      "y": 855,
+      "options": [
+        "गृह प्रवेश पूजा एवं हवन",
+        "गणेश पूजन एवं गृह प्रवेश",
+        "वास्तु पूजा एवं गृह प्रवेश",
+        "गृह प्रवेश एवं सत्यनारायण कथा",
+        {
+          "isCustomOption": true,
+          "label": "Other (Custom...)",
+          "inputType": "text"
+        }
+      ]
+    },
+    {
+      "id": "date",
+      "label": "Date (दिनांक)",
+      "type": "text",
+      "defaultText": "26 अक्टूबर 2026",
+      "fontFamily": "Noto Sans Devanagari",
+      "fontSize": 38,
+      "color": "#000000",
+      "align": "center",
+      "x": 526,
+      "y": 922
+    },
+    {
+      "id": "day",
+      "label": "Day (दिन)",
+      "type": "select",
+      "defaultText": "(सोमवार)",
+      "options": [
+        "(रविवार)",
+        "(सोमवार)",
+        "(मंगलवार)",
+        "(बुधवार)",
+        "(गुरुवार)",
+        "(शुक्रवार)",
+        "(शनिवार)"
+      ],
+      "fontFamily": "Noto Sans Devanagari",
+      "fontSize": 34,
+      "color": "#000000",
+      "align": "center",
+      "x": 526,
+      "y": 983
+    },
+    {
+      "id": "puja_time",
+      "label": "Puja Time (पूजा का समय)",
+      "type": "text",
+      "defaultText": "प्रातः 10:30 बजे",
+      "fontFamily": "Noto Sans Devanagari",
+      "fontSize": 38,
+      "color": "#000000",
+      "align": "center",
+      "x": 523,
+      "y": 1060
+    },
+    {
+      "id": "venue",
+      "label": "Venue / Address (स्थान / पता)",
+      "type": "textarea",
+      "defaultText": "हमारा नया निवास\nपूरा पता यहाँ लिखें",
+      "fontFamily": "Noto Sans Devanagari",
+      "fontSize": 34,
+      "color": "#000000",
+      "align": "center",
+      "x": 520,
+      "y": 1132,
+      "lineHeight": 1.35
+    },
+    {
+      "id": "invitation_request",
+      "label": "Invitation Request (निमंत्रण)",
+      "type": "textarea",
+      "defaultText": "आप सपरिवार पधारकर\nअपने प्रेम एवं आशीर्वाद से हमारे नए \nघर को धन्य करें।",
+      "fontFamily": "Noto Sans Devanagari",
+      "fontSize": 34,
+      "color": "#000000",
+      "align": "center",
+      "x": 523,
+      "y": 1280,
+      "lineHeight": 1.35
+    },
+    {
+      "id": "closing_message",
+      "label": "Closing Message (समापन संदेश)",
+      "type": "textarea",
+      "defaultText": "आपकी शुभ उपस्थिति हमारे लिए\nइस मंगलमय अवसर को और भी विशेष बनाएगी।",
+      "fontFamily": "Noto Sans Devanagari",
+      "fontSize": 30,
+      "color": "#000000",
+      "align": "center",
+      "x": 543,
+      "y": 1475,
+      "lineHeight": 1.35
+    },
+    {
+      "id": "host_name",
+      "label": "Host / Family Name (आमंत्रक परिवार)",
+      "type": "textarea",
+      "defaultText": "सप्रेम आमंत्रण\nशर्मा परिवार",
+      "fontFamily": "Rozha One",
+      "fontSize": 34,
+      "color": "#7A1F2B",
+      "align": "center",
+      "x": 519,
+      "y": 1575,
+      "lineHeight": 1.4
+    },
+    {
+      "id": "ganesh_mantra",
+      "label": "Ganesh Mantra (गणेश मंत्र)",
+      "type": "text",
+      "defaultText": "ॐ गं गणपतये नमः",
+      "fontFamily": "Noto Sans Devanagari",
+      "fontSize": 28,
+      "color": "#7A1F2B",
+      "align": "center",
+      "x": 540,
+      "y": 1800
+    },
+    {
+      "id": "title",
+      "label": "Title (शीर्षक)",
+      "type": "text",
+      "defaultText": "शुभ गृह प्रवेश",
+      "fontFamily": "Rozha One",
+      "fontSize": 52,
+      "color": "#7A1F2B",
+      "align": "center",
+      "x": 540,
+      "y": 464,
+      "hidden": false,
+      "locked": false
+    },
+    {
+      "id": "shubh_mantra",
+      "label": "ॐ",
+      "type": "textarea",
+      "defaultText": "ॐ",
+      "fontFamily": "Yatra One",
+      "fontSize": 86,
+      "color": "#754f1a",
+      "align": "center",
+      "x": 537,
+      "y": 292,
+      "lineHeight": 1.2,
+      "letterSpacing": 0,
+      "hidden": true
+    }
+  ],
+  "photoBoxes": [],
+  "qrBox": {
+    "enabled": true,
+    "id": "venue_map_qr",
+    "label": "📍 Google Maps Location / Link",
+    "x": 838,
+    "y": 1687,
+    "size": 146,
+    "qrLabelText": "स्थान",
+    "disabledCompletely": false,
+    "qrLabelFontSize": 20,
+    "qrLabelBgColor": "#6b6b6b",
+    "qrLabelColor": "#FFFFFF"
+  },
+  "shapes": []
+}
