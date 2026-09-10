@@ -39,11 +39,11 @@
         "jsonUrl": "hindi_rakhi_card1.json"
       },
       {
-        "id": "english_rakhi_card1",
-        "name": "Elegant Rakhi",
+     "id": "en_bday_card3",
+        "name": "Toon Birthday",
         "language": "English",
-        "tags": ["Rakhi", "Trending"],
-"jsonUrl": "hindi_rakhi_card1.json"      },
+        "tags": ["Birthday", "Trending"],
+"jsonUrl": "en_bday_card3.json"      },
 
           {
         "id": "en_bday_card2",
