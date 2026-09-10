@@ -18,11 +18,11 @@
       },
       
       {
-        "id": "hindi_janmashtami_card1",
-        "name": "Janm Ashtami",
+        "id": "hindi_wedding_card1",
+        "name": "Hindi Wedding",
         "language": "Hindi",
-        "tags": ["Janm Ashtami", "Trending"],
-        "jsonUrl": "hindi_janmashtami_card1.json"
+        "tags": ["Wedding", "Trending"],
+        "jsonUrl": "hindi_wedding_card1.json"
       },
       {
         "id": "hindi_wedding_card1",
