@@ -1,0 +1,134 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "tags": [
+    "English Text",
+    "For Kids",
+    "Birthday",
+    "Playful",
+    "Photo",
+    "Party"
+  ],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Birthday/en_bday_card5.webp",
+  "textFields": [
+    {
+      "id": "birthday_title",
+      "label": "Birthday Title",
+      "type": "text",
+      "defaultText": "Birthday Party",
+      "fontFamily": "Fredoka",
+      "fontSize": 70,
+      "color": "#1E3A8A",
+      "align": "center",
+      "x": 540,
+      "y": 145
+    },
+    {
+      "id": "birthday_person_name",
+      "label": "Birthday Person Name",
+      "type": "text",
+      "defaultText": "Aarav Sharma",
+      "fontFamily": "Baloo 2",
+      "fontSize": 88,
+      "color": "#E11D48",
+      "align": "center",
+      "x": 540,
+      "y": 1130
+    },
+    {
+      "id": "birthday_age",
+      "label": "Age",
+      "type": "text",
+      "defaultText": "Turns 5",
+      "fontFamily": "Fredoka",
+      "fontSize": 58,
+      "color": "#FFFFFF",
+      "align": "center",
+      "x": 540,
+      "y": 1240
+    },
+    {
+      "id": "invitation_text",
+      "label": "Invitation Message",
+      "type": "textarea",
+      "defaultText": "Come join us for cake,\nfun and lots of laughter!",
+      "fontFamily": "Nunito",
+      "fontSize": 32,
+      "color": "#29201A",
+      "align": "center",
+      "x": 540,
+      "y": 1370
+    },
+    {
+      "id": "event_date",
+      "label": "Date",
+      "type": "text",
+      "defaultText": "Saturday, 12 December 2026",
+      "fontFamily": "Nunito",
+      "fontSize": 42,
+      "color": "#1E3A8A",
+      "align": "center",
+      "x": 540,
+      "y": 1480
+    },
+    {
+      "id": "event_time",
+      "label": "Time",
+      "type": "text",
+      "defaultText": "5:00 PM",
+      "fontFamily": "Nunito",
+      "fontSize": 42,
+      "color": "#1E3A8A",
+      "align": "center",
+      "x": 540,
+      "y": 1535
+    },
+    {
+      "id": "venue",
+      "label": "Venue",
+      "type": "textarea",
+      "defaultText": "Funland Party Hall\nGT Road, Delhi",
+      "fontFamily": "Nunito",
+      "fontSize": 34,
+      "color": "#29201A",
+      "align": "center",
+      "x": 540,
+      "y": 1615
+    },
+    {
+      "id": "contact",
+      "label": "RSVP Contact Number",
+      "type": "text",
+      "defaultText": "RSVP: 9000000000",
+      "fontFamily": "Nunito",
+      "fontSize": 38,
+      "color": "#E11D48",
+      "align": "center",
+      "x": 540,
+      "y": 1745
+    }
+  ],
+  "photoBoxes": [
+    {
+      "id": "birthday_photo",
+      "label": "Birthday Person Photo",
+      "x": 240,
+      "y": 220,
+      "width": 600,
+      "height": 600
+    }
+  ],
+  "qrBox": {
+    "enabled": true,
+    "id": "venue_map_qr",
+    "label": "📍 Google Maps Location / Link",
+    "x": 900,
+    "y": 1745,
+    "size": 130,
+    "qrLabelText": "Scan For Location",
+    "disabledCompletely": false
+  },
+  "shapes": []
+}
