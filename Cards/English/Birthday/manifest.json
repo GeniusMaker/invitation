@@ -45,5 +45,12 @@
       "Photo",
       "Party"
     ]
+  },
+  {
+    "file": "en_bday_card6.json",
+    "tags": [
+      "English Text",
+      "Adult"
+    ]
   }
 ]
