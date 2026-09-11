@@ -1,0 +1,133 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "tags": [
+    "English Text",
+    "Adult"
+   ],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Birthday/en_bday_card6.webp",
+  "textFields": [
+    {
+      "id": "birthday_title",
+      "label": "Birthday Title",
+      "type": "text",
+      "defaultText": "Birthday Celebration",
+      "fontFamily": "Cormorant Garamond",
+      "fontSize": 66,
+      "color": "#B08D57",
+      "align": "center",
+      "x": 540,
+      "y": 190
+    },
+    {
+      "id": "birthday_person_name",
+      "label": "Birthday Person Name",
+      "type": "text",
+      "defaultText": "Aarav Sharma",
+      "fontFamily": "Playfair Display",
+      "fontSize": 82,
+      "color": "#FFFFFF",
+      "align": "center",
+      "x": 540,
+      "y": 900
+    },
+    {
+      "id": "birthday_age",
+      "label": "Milestone Age",
+      "type": "text",
+      "defaultText": "50",
+      "fontFamily": "Cinzel Decorative",
+      "fontSize": 120,
+      "color": "#B08D57",
+      "align": "center",
+      "x": 540,
+      "y": 1080
+    },
+    {
+      "id": "age_suffix",
+      "label": "Age Text",
+      "type": "text",
+      "defaultText": "Years",
+      "fontFamily": "Montserrat",
+      "fontSize": 34,
+      "color": "#FFFFFF",
+      "align": "center",
+      "x": 540,
+      "y": 1170
+    },
+    {
+      "id": "invitation_text",
+      "label": "Invitation Message",
+      "type": "textarea",
+      "defaultText": "Please join us as we celebrate\nthis special milestone.",
+      "fontFamily": "Cormorant Garamond",
+      "fontSize": 34,
+      "color": "#FFFFFF",
+      "align": "center",
+      "x": 540,
+      "y": 1300
+    },
+    {
+      "id": "event_date",
+      "label": "Date",
+      "type": "text",
+      "defaultText": "Saturday, 12 December 2026",
+      "fontFamily": "Montserrat",
+      "fontSize": 38,
+      "color": "#B08D57",
+      "align": "center",
+      "x": 540,
+      "y": 1470
+    },
+    {
+      "id": "event_time",
+      "label": "Time",
+      "type": "text",
+      "defaultText": "7:00 PM",
+      "fontFamily": "Montserrat",
+      "fontSize": 40,
+      "color": "#B08D57",
+      "align": "center",
+      "x": 540,
+      "y": 1530
+    },
+    {
+      "id": "venue",
+      "label": "Venue",
+      "type": "textarea",
+      "defaultText": "The Grand Ballroom\nNew Delhi",
+      "fontFamily": "Montserrat",
+      "fontSize": 32,
+      "color": "#FFFFFF",
+      "align": "center",
+      "x": 540,
+      "y": 1620
+    },
+    {
+      "id": "contact",
+      "label": "RSVP Contact Number",
+      "type": "text",
+      "defaultText": "RSVP: 9000000000",
+      "fontFamily": "Montserrat",
+      "fontSize": 34,
+      "color": "#B08D57",
+      "align": "center",
+      "x": 540,
+      "y": 1750
+    }
+  ],
+  "photoBoxes": [],
+  "qrBox": {
+    "enabled": true,
+    "id": "venue_map_qr",
+    "label": "📍 Google Maps Location / Link",
+    "x": 900,
+    "y": 1735,
+    "size": 130,
+    "qrLabelText": "Scan For Location",
+    "disabledCompletely": false
+  },
+  "shapes": []
+}
