@@ -1,0 +1,136 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "tags": [
+    "English Text",
+    "Wedding",
+    "Modern",
+    "Minimal",
+    "Simple"
+  ],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Wedding/en_wedding_card2.webp",
+  "textFields": [
+    {
+      "id": "wedding_title",
+      "label": "Wedding Title",
+      "type": "text",
+      "defaultText": "We're Getting Married",
+      "fontFamily": "Montserrat",
+      "fontSize": 52,
+      "color": "#111827",
+      "align": "center",
+      "x": 540,
+      "y": 250
+    },
+    {
+      "id": "bride_name",
+      "label": "Bride Name",
+      "type": "text",
+      "defaultText": "Priya",
+      "fontFamily": "Playfair Display",
+      "fontSize": 82,
+      "color": "#111827",
+      "align": "center",
+      "x": 540,
+      "y": 650
+    },
+    {
+      "id": "groom_name",
+      "label": "Groom Name",
+      "type": "text",
+      "defaultText": "Aarav",
+      "fontFamily": "Playfair Display",
+      "fontSize": 82,
+      "color": "#111827",
+      "align": "center",
+      "x": 540,
+      "y": 790
+    },
+    {
+      "id": "invitation_text",
+      "label": "Invitation Message",
+      "type": "textarea",
+      "defaultText": "Join us as we begin\nour journey together.",
+      "fontFamily": "Montserrat",
+      "fontSize": 30,
+      "color": "#4B5563",
+      "align": "center",
+      "x": 540,
+      "y": 960
+    },
+    {
+      "id": "event_date",
+      "label": "Date",
+      "type": "text",
+      "defaultText": "12 December 2026",
+      "fontFamily": "Montserrat",
+      "fontSize": 38,
+      "color": "#111827",
+      "align": "center",
+      "x": 540,
+      "y": 1150
+    },
+    {
+      "id": "event_time",
+      "label": "Time",
+      "type": "text",
+      "defaultText": "7:00 PM",
+      "fontFamily": "Montserrat",
+      "fontSize": 38,
+      "color": "#111827",
+      "align": "center",
+      "x": 540,
+      "y": 1210
+    },
+    {
+      "id": "venue",
+      "label": "Venue",
+      "type": "text",
+      "defaultText": "The Grand Palace",
+      "fontFamily": "Montserrat",
+      "fontSize": 34,
+      "color": "#111827",
+      "align": "center",
+      "x": 540,
+      "y": 1320
+    },
+    {
+      "id": "venue_address",
+      "label": "Venue Address",
+      "type": "textarea",
+      "defaultText": "New Delhi, India",
+      "fontFamily": "Montserrat",
+      "fontSize": 28,
+      "color": "#6B7280",
+      "align": "center",
+      "x": 540,
+      "y": 1370
+    },
+    {
+      "id": "contact",
+      "label": "RSVP Contact Number",
+      "type": "text",
+      "defaultText": "RSVP: 9000000000",
+      "fontFamily": "Montserrat",
+      "fontSize": 32,
+      "color": "#111827",
+      "align": "center",
+      "x": 540,
+      "y": 1500
+    }
+  ],
+  "photoBoxes": [],
+  "qrBox": {
+    "enabled": true,
+    "id": "venue_map_qr",
+    "label": "📍 Google Maps Location / Link",
+    "x": 900,
+    "y": 1480,
+    "size": 130,
+    "qrLabelText": "Scan For Location",
+    "disabledCompletely": false
+  },
+  "shapes": []
+}
