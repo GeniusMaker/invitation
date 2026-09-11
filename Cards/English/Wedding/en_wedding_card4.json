@@ -1,0 +1,161 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "tags": [
+    "English Text",
+    "Wedding",
+    "Indian",
+    "Traditional",
+    "Royal",
+    "Family"
+  ],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Wedding/en_wedding_card4.webp",
+  "textFields": [
+    {
+      "id": "wedding_title",
+      "label": "Wedding Title",
+      "type": "text",
+      "defaultText": "Wedding Invitation",
+      "fontFamily": "Cinzel Decorative",
+      "fontSize": 62,
+      "color": "#8B4513",
+      "align": "center",
+      "x": 540,
+      "y": 180
+    },
+    {
+      "id": "bride_name",
+      "label": "Bride Name",
+      "type": "text",
+      "defaultText": "Priya Sharma",
+      "fontFamily": "Cinzel",
+      "fontSize": 68,
+      "color": "#7A1F3D",
+      "align": "center",
+      "x": 540,
+      "y": 650
+    },
+    {
+      "id": "groom_name",
+      "label": "Groom Name",
+      "type": "text",
+      "defaultText": "Aarav Kapoor",
+      "fontFamily": "Cinzel",
+      "fontSize": 68,
+      "color": "#7A1F3D",
+      "align": "center",
+      "x": 540,
+      "y": 770
+    },
+    {
+      "id": "bride_parents",
+      "label": "Bride's Parents",
+      "type": "text",
+      "defaultText": "Daughter of Mr. & Mrs. Sharma",
+      "fontFamily": "Cormorant Garamond",
+      "fontSize": 30,
+      "color": "#5C3A2E",
+      "align": "center",
+      "x": 540,
+      "y": 880
+    },
+    {
+      "id": "groom_parents",
+      "label": "Groom's Parents",
+      "type": "text",
+      "defaultText": "Son of Mr. & Mrs. Kapoor",
+      "fontFamily": "Cormorant Garamond",
+      "fontSize": 30,
+      "color": "#5C3A2E",
+      "align": "center",
+      "x": 540,
+      "y": 930
+    },
+    {
+      "id": "invitation_text",
+      "label": "Invitation Message",
+      "type": "textarea",
+      "defaultText": "Together with their families,\nwe request the pleasure of your presence.",
+      "fontFamily": "Cormorant Garamond",
+      "fontSize": 32,
+      "color": "#4A3025",
+      "align": "center",
+      "x": 540,
+      "y": 1040
+    },
+    {
+      "id": "event_date",
+      "label": "Date",
+      "type": "text",
+      "defaultText": "Saturday, 12 December 2026",
+      "fontFamily": "Cinzel",
+      "fontSize": 38,
+      "color": "#8B4513",
+      "align": "center",
+      "x": 540,
+      "y": 1200
+    },
+    {
+      "id": "event_time",
+      "label": "Time",
+      "type": "text",
+      "defaultText": "7:00 PM",
+      "fontFamily": "Cinzel",
+      "fontSize": 38,
+      "color": "#8B4513",
+      "align": "center",
+      "x": 540,
+      "y": 1260
+    },
+    {
+      "id": "venue",
+      "label": "Venue",
+      "type": "text",
+      "defaultText": "The Royal Palace",
+      "fontFamily": "Cormorant Garamond",
+      "fontSize": 38,
+      "color": "#5C3A2E",
+      "align": "center",
+      "x": 540,
+      "y": 1360
+    },
+    {
+      "id": "venue_address",
+      "label": "Venue Address",
+      "type": "textarea",
+      "defaultText": "New Delhi, India",
+      "fontFamily": "Cormorant Garamond",
+      "fontSize": 30,
+      "color": "#6B4B3E",
+      "align": "center",
+      "x": 540,
+      "y": 1410
+    },
+    {
+      "id": "contact",
+      "label": "RSVP Contact Number",
+      "type": "text",
+      "defaultText": "RSVP: 9000000000",
+      "fontFamily": "Montserrat",
+      "fontSize": 34,
+      "color": "#8B4513",
+      "align": "center",
+      "x": 540,
+      "y": 1540
+    }
+  ],
+  "photoBoxes": [],
+  "qrBox": {
+    "enabled": true,
+    "id": "venue_map_qr",
+    "label": "📍 Google Maps Location / Link",
+    "x": 900,
+    "y": 1520,
+    "size": 130,
+    "qrLabelText": "Scan For Location",
+    "disabledCompletely": false
+  },
+  "shapes": []
+}
