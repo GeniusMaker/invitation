@@ -1,0 +1,132 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "tags": [
+    "English Text",
+    "For Kids",
+    "1st Birthday",
+     "Short"
+  ],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Birthday/en_bday_card4.webp",
+  "textFields": [
+    {
+      "id": "birthday_title",
+      "label": "Birthday Title",
+      "type": "text",
+      "defaultText": "My First Birthday",
+      "fontFamily": "Dancing Script",
+      "fontSize": 68,
+      "color": "#7A1F3D",
+      "align": "center",
+      "x": 540,
+      "y": 150
+    },
+    {
+      "id": "birthday_person_name",
+      "label": "Baby Name",
+      "type": "text",
+      "defaultText": "Aarav",
+      "fontFamily": "Rozha One",
+      "fontSize": 90,
+      "color": "#172554",
+      "align": "center",
+      "x": 540,
+      "y": 1180
+    },
+    {
+      "id": "birthday_age",
+      "label": "Age",
+      "type": "text",
+      "defaultText": "Turns One",
+      "fontFamily": "Cinzel Decorative",
+      "fontSize": 58,
+      "color": "#FFFFFF",
+      "align": "center",
+      "x": 540,
+      "y": 1290
+    },
+    {
+      "id": "invitation_text",
+      "label": "Invitation Message",
+      "type": "textarea",
+      "defaultText": "Come celebrate my very first birthday\nwith lots of fun, laughter & cake!",
+      "fontFamily": "Playfair Display",
+      "fontSize": 32,
+      "color": "#29201A",
+      "align": "center",
+      "x": 540,
+      "y": 1390
+    },
+    {
+      "id": "event_date",
+      "label": "Date",
+      "type": "text",
+      "defaultText": "Saturday, 12 December 2026",
+      "fontFamily": "Playfair Display",
+      "fontSize": 42,
+      "color": "#172554",
+      "align": "center",
+      "x": 540,
+      "y": 1495
+    },
+    {
+      "id": "event_time",
+      "label": "Time",
+      "type": "text",
+      "defaultText": "5:00 PM",
+      "fontFamily": "Playfair Display",
+      "fontSize": 44,
+      "color": "#172554",
+      "align": "center",
+      "x": 540,
+      "y": 1545
+    },
+    {
+      "id": "venue",
+      "label": "Venue",
+      "type": "textarea",
+      "defaultText": "The Celebration Hall\nGT Road, Delhi",
+      "fontFamily": "Playfair Display",
+      "fontSize": 34,
+      "color": "#29201A",
+      "align": "center",
+      "x": 540,
+      "y": 1620
+    },
+    {
+      "id": "contact",
+      "label": "RSVP Contact Number",
+      "type": "text",
+      "defaultText": "RSVP: 9000000000",
+      "fontFamily": "Playfair Display",
+      "fontSize": 38,
+      "color": "#172554",
+      "align": "center",
+      "x": 540,
+      "y": 1745
+    }
+  ],
+  "photoBoxes": [
+    {
+      "id": "baby_photo",
+      "label": "Baby Photo",
+      "x": 240,
+      "y": 220,
+      "width": 600,
+      "height": 600
+    }
+  ],
+  "qrBox": {
+    "enabled": true,
+    "id": "venue_map_qr",
+    "label": "📍 Google Maps Location / Link",
+    "x": 903,
+    "y": 1748,
+    "size": 130,
+    "qrLabelText": "Scan For Location",
+    "disabledCompletely": false
+  },
+  "shapes": []
+}
