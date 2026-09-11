@@ -1,0 +1,137 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "tags": [
+    "English Text",
+    "Baby Shower",
+    "Cute",
+    "Modern",
+    "Pastel",
+    "Baby"
+  ],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/BabyShower/en_baby-shower_card2.webp",
+  "textFields": [
+    {
+      "id": "baby_shower_title",
+      "label": "Baby Shower Title",
+      "type": "text",
+      "defaultText": "A Little One Is On The Way!",
+      "fontFamily": "Baloo 2",
+      "fontSize": 62,
+      "color": "#2563EB",
+      "align": "center",
+      "x": 540,
+      "y": 190
+    },
+    {
+      "id": "mom_to_be_name",
+      "label": "Mom To Be Name",
+      "type": "text",
+      "defaultText": "Priya",
+      "fontFamily": "Dancing Script",
+      "fontSize": 88,
+      "color": "#DB2777",
+      "align": "center",
+      "x": 540,
+      "y": 850
+    },
+    {
+      "id": "baby_name",
+      "label": "Baby Name",
+      "type": "text",
+      "defaultText": "Baby Sharma",
+      "fontFamily": "Fredoka",
+      "fontSize": 52,
+      "color": "#2563EB",
+      "align": "center",
+      "x": 540,
+      "y": 960
+    },
+    {
+      "id": "invitation_text",
+      "label": "Invitation Message",
+      "type": "textarea",
+      "defaultText": "Tiny hands and tiny feet,\na little baby will soon make our family complete!",
+      "fontFamily": "Nunito",
+      "fontSize": 31,
+      "color": "#374151",
+      "align": "center",
+      "x": 540,
+      "y": 1090
+    },
+    {
+      "id": "event_date",
+      "label": "Date",
+      "type": "text",
+      "defaultText": "Sunday, 13 December 2026",
+      "fontFamily": "Nunito",
+      "fontSize": 40,
+      "color": "#2563EB",
+      "align": "center",
+      "x": 540,
+      "y": 1260
+    },
+    {
+      "id": "event_time",
+      "label": "Time",
+      "type": "text",
+      "defaultText": "4:00 PM",
+      "fontFamily": "Nunito",
+      "fontSize": 40,
+      "color": "#2563EB",
+      "align": "center",
+      "x": 540,
+      "y": 1320
+    },
+    {
+      "id": "venue",
+      "label": "Venue",
+      "type": "text",
+      "defaultText": "Little Stars Hall",
+      "fontFamily": "Baloo 2",
+      "fontSize": 38,
+      "color": "#DB2777",
+      "align": "center",
+      "x": 540,
+      "y": 1410
+    },
+    {
+      "id": "venue_address",
+      "label": "Venue Address",
+      "type": "textarea",
+      "defaultText": "GT Road, Delhi",
+      "fontFamily": "Nunito",
+      "fontSize": 30,
+      "color": "#4B5563",
+      "align": "center",
+      "x": 540,
+      "y": 1460
+    },
+    {
+      "id": "contact",
+      "label": "RSVP Contact Number",
+      "type": "text",
+      "defaultText": "RSVP: 9000000000",
+      "fontFamily": "Nunito",
+      "fontSize": 36,
+      "color": "#DB2777",
+      "align": "center",
+      "x": 540,
+      "y": 1570
+    }
+  ],
+  "photoBoxes": [],
+  "qrBox": {
+    "enabled": true,
+    "id": "venue_map_qr",
+    "label": "📍 Google Maps Location / Link",
+    "x": 900,
+    "y": 1545,
+    "size": 130,
+    "qrLabelText": "Scan For Location",
+    "disabledCompletely": false
+  },
+  "shapes": []
+}
