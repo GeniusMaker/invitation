@@ -1,0 +1,134 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "tags": [
+    "English Text",
+    "Baby",
+    "First Birthday",
+    "Cute",
+    "Kids",
+    "Photo"
+  ],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Birthday/en_bday_first2.webp",
+  "textFields": [
+    {
+      "id": "birthday_title",
+      "label": "Birthday Title",
+      "type": "text",
+      "defaultText": "My First Birthday",
+      "fontFamily": "Dancing Script",
+      "fontSize": 72,
+      "color": "#9F1239",
+      "align": "center",
+      "x": 540,
+      "y": 150
+    },
+    {
+      "id": "birthday_person_name",
+      "label": "Baby Name",
+      "type": "text",
+      "defaultText": "Aarav",
+      "fontFamily": "Baloo 2",
+      "fontSize": 88,
+      "color": "#172554",
+      "align": "center",
+      "x": 540,
+      "y": 1050
+    },
+    {
+      "id": "birthday_age",
+      "label": "Age",
+      "type": "text",
+      "defaultText": "Turns One",
+      "fontFamily": "Fredoka",
+      "fontSize": 58,
+      "color": "#9F1239",
+      "align": "center",
+      "x": 540,
+      "y": 1150
+    },
+    {
+      "id": "invitation_text",
+      "label": "Invitation Message",
+      "type": "textarea",
+      "defaultText": "Our little one is turning ONE!\nCome celebrate this special day with us.",
+      "fontFamily": "Nunito",
+      "fontSize": 31,
+      "color": "#29201A",
+      "align": "center",
+      "x": 540,
+      "y": 1280
+    },
+    {
+      "id": "event_date",
+      "label": "Date",
+      "type": "text",
+      "defaultText": "Saturday, 12 December 2026",
+      "fontFamily": "Nunito",
+      "fontSize": 40,
+      "color": "#172554",
+      "align": "center",
+      "x": 540,
+      "y": 1430
+    },
+    {
+      "id": "event_time",
+      "label": "Time",
+      "type": "text",
+      "defaultText": "5:00 PM",
+      "fontFamily": "Nunito",
+      "fontSize": 40,
+      "color": "#172554",
+      "align": "center",
+      "x": 540,
+      "y": 1490
+    },
+    {
+      "id": "venue",
+      "label": "Venue",
+      "type": "textarea",
+      "defaultText": "Little Stars Hall\nDelhi",
+      "fontFamily": "Nunito",
+      "fontSize": 32,
+      "color": "#29201A",
+      "align": "center",
+      "x": 540,
+      "y": 1580
+    },
+    {
+      "id": "contact",
+      "label": "RSVP Contact Number",
+      "type": "text",
+      "defaultText": "RSVP: 9000000000",
+      "fontFamily": "Nunito",
+      "fontSize": 36,
+      "color": "#9F1239",
+      "align": "center",
+      "x": 540,
+      "y": 1740
+    }
+  ],
+  "photoBoxes": [
+    {
+      "id": "baby_photo",
+      "label": "Baby Photo",
+      "x": 240,
+      "y": 220,
+      "width": 600,
+      "height": 600
+    }
+  ],
+  "qrBox": {
+    "enabled": true,
+    "id": "venue_map_qr",
+    "label": "📍 Google Maps Location / Link",
+    "x": 900,
+    "y": 1735,
+    "size": 130,
+    "qrLabelText": "Scan For Location",
+    "disabledCompletely": false
+  },
+  "shapes": []
+}
