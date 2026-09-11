@@ -1,0 +1,124 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "tags": [
+    "English Text",
+    "Wedding",
+    "Reception",
+    "Elegant",
+    "Party"
+  ],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Wedding/en_wedding_card6.webp",
+  "textFields": [
+    {
+      "id": "wedding_title",
+      "label": "Reception Title",
+      "type": "text",
+      "defaultText": "Wedding Reception",
+      "fontFamily": "Playfair Display",
+      "fontSize": 68,
+      "color": "#7A1F3D",
+      "align": "center",
+      "x": 540,
+      "y": 220
+    },
+    {
+      "id": "couple_names",
+      "label": "Couple Names",
+      "type": "text",
+      "defaultText": "Aarav & Priya",
+      "fontFamily": "Great Vibes",
+      "fontSize": 90,
+      "color": "#B08D57",
+      "align": "center",
+      "x": 540,
+      "y": 720
+    },
+    {
+      "id": "invitation_text",
+      "label": "Invitation Message",
+      "type": "textarea",
+      "defaultText": "Join us for an evening of\nlove, laughter and celebration.",
+      "fontFamily": "Cormorant Garamond",
+      "fontSize": 34,
+      "color": "#4B3040",
+      "align": "center",
+      "x": 540,
+      "y": 920
+    },
+    {
+      "id": "event_date",
+      "label": "Date",
+      "type": "text",
+      "defaultText": "Saturday, 12 December 2026",
+      "fontFamily": "Montserrat",
+      "fontSize": 40,
+      "color": "#7A1F3D",
+      "align": "center",
+      "x": 540,
+      "y": 1120
+    },
+    {
+      "id": "event_time",
+      "label": "Time",
+      "type": "text",
+      "defaultText": "8:00 PM",
+      "fontFamily": "Montserrat",
+      "fontSize": 40,
+      "color": "#7A1F3D",
+      "align": "center",
+      "x": 540,
+      "y": 1180
+    },
+    {
+      "id": "venue",
+      "label": "Venue",
+      "type": "text",
+      "defaultText": "The Grand Ballroom",
+      "fontFamily": "Playfair Display",
+      "fontSize": 38,
+      "color": "#4B3040",
+      "align": "center",
+      "x": 540,
+      "y": 1290
+    },
+    {
+      "id": "venue_address",
+      "label": "Venue Address",
+      "type": "textarea",
+      "defaultText": "New Delhi, India",
+      "fontFamily": "Montserrat",
+      "fontSize": 29,
+      "color": "#6B5360",
+      "align": "center",
+      "x": 540,
+      "y": 1340
+    },
+    {
+      "id": "contact",
+      "label": "RSVP Contact Number",
+      "type": "text",
+      "defaultText": "RSVP: 9000000000",
+      "fontFamily": "Montserrat",
+      "fontSize": 34,
+      "color": "#7A1F3D",
+      "align": "center",
+      "x": 540,
+      "y": 1490
+    }
+  ],
+  "photoBoxes": [],
+  "qrBox": {
+    "enabled": true,
+    "id": "venue_map_qr",
+    "label": "📍 Google Maps Location / Link",
+    "x": 900,
+    "y": 1470,
+    "size": 130,
+    "qrLabelText": "Scan For Location",
+    "disabledCompletely": false
+  },
+  "shapes": []
+}
