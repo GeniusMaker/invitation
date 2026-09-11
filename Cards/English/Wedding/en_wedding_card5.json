@@ -1,0 +1,112 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "tags": [
+    "English Text",
+    "Wedding",
+    "Save The Date",
+    "Short",
+    "Modern"
+  ],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Wedding/en_wedding_card5.webp",
+  "textFields": [
+    {
+      "id": "wedding_title",
+      "label": "Wedding Title",
+      "type": "text",
+      "defaultText": "Save The Date",
+      "fontFamily": "Montserrat",
+      "fontSize": 58,
+      "color": "#9F4562",
+      "align": "center",
+      "x": 540,
+      "y": 300
+    },
+    {
+      "id": "bride_name",
+      "label": "Bride Name",
+      "type": "text",
+      "defaultText": "Priya",
+      "fontFamily": "Great Vibes",
+      "fontSize": 82,
+      "color": "#111827",
+      "align": "center",
+      "x": 540,
+      "y": 700
+    },
+    {
+      "id": "groom_name",
+      "label": "Groom Name",
+      "type": "text",
+      "defaultText": "Aarav",
+      "fontFamily": "Great Vibes",
+      "fontSize": 82,
+      "color": "#111827",
+      "align": "center",
+      "x": 540,
+      "y": 830
+    },
+    {
+      "id": "event_date",
+      "label": "Wedding Date",
+      "type": "text",
+      "defaultText": "12 • 12 • 2026",
+      "fontFamily": "Montserrat",
+      "fontSize": 54,
+      "color": "#9F4562",
+      "align": "center",
+      "x": 540,
+      "y": 1080
+    },
+    {
+      "id": "event_time",
+      "label": "Time",
+      "type": "text",
+      "defaultText": "7:00 PM",
+      "fontFamily": "Montserrat",
+      "fontSize": 36,
+      "color": "#374151",
+      "align": "center",
+      "x": 540,
+      "y": 1170
+    },
+    {
+      "id": "venue",
+      "label": "Venue",
+      "type": "text",
+      "defaultText": "New Delhi",
+      "fontFamily": "Montserrat",
+      "fontSize": 34,
+      "color": "#374151",
+      "align": "center",
+      "x": 540,
+      "y": 1280
+    },
+    {
+      "id": "wedding_hashtag",
+      "label": "Wedding Hashtag",
+      "type": "text",
+      "defaultText": "#AaravWedsPriya",
+      "fontFamily": "Montserrat",
+      "fontSize": 32,
+      "color": "#9F4562",
+      "align": "center",
+      "x": 540,
+      "y": 1400
+    }
+  ],
+  "photoBoxes": [],
+  "qrBox": {
+    "enabled": false,
+    "id": "venue_map_qr",
+    "label": "📍 Google Maps Location / Link",
+    "x": 900,
+    "y": 1450,
+    "size": 130,
+    "qrLabelText": "Scan For Location",
+    "disabledCompletely": true
+  },
+  "shapes": []
+}
