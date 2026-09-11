@@ -1,4 +1,5 @@
 {
+   "title": "English Bday Card 04",
   "canvas": {
     "width": 1080,
     "height": 1920
@@ -7,7 +8,7 @@
     "English Text",
     "For Kids",
     "1st Birthday",
-     "Short"
+    "Short"
   ],
   "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Birthday/en_bday_card4.webp",
   "textFields": [
@@ -32,8 +33,8 @@
       "fontSize": 90,
       "color": "#172554",
       "align": "center",
-      "x": 540,
-      "y": 1180
+      "x": 522,
+      "y": 991
     },
     {
       "id": "birthday_age",
@@ -44,8 +45,8 @@
       "fontSize": 58,
       "color": "#FFFFFF",
       "align": "center",
-      "x": 540,
-      "y": 1290
+      "x": 519,
+      "y": 1114
     },
     {
       "id": "invitation_text",
@@ -56,20 +57,20 @@
       "fontSize": 32,
       "color": "#29201A",
       "align": "center",
-      "x": 540,
-      "y": 1390
+      "x": 536,
+      "y": 1212
     },
     {
       "id": "event_date",
       "label": "Date",
       "type": "text",
-      "defaultText": "Saturday, 12 December 2026",
+      "defaultText": "Saturday, 12 Dec 2026",
       "fontFamily": "Playfair Display",
       "fontSize": 42,
       "color": "#172554",
       "align": "center",
-      "x": 540,
-      "y": 1495
+      "x": 516,
+      "y": 1333
     },
     {
       "id": "event_time",
@@ -80,8 +81,8 @@
       "fontSize": 44,
       "color": "#172554",
       "align": "center",
-      "x": 540,
-      "y": 1545
+      "x": 519,
+      "y": 1395
     },
     {
       "id": "venue",
@@ -92,8 +93,8 @@
       "fontSize": 34,
       "color": "#29201A",
       "align": "center",
-      "x": 540,
-      "y": 1620
+      "x": 510,
+      "y": 1453
     },
     {
       "id": "contact",
@@ -104,16 +105,16 @@
       "fontSize": 38,
       "color": "#172554",
       "align": "center",
-      "x": 540,
-      "y": 1745
+      "x": 516,
+      "y": 1610
     }
   ],
   "photoBoxes": [
     {
       "id": "baby_photo",
       "label": "Baby Photo",
-      "x": 240,
-      "y": 220,
+      "x": 227,
+      "y": 296,
       "width": 600,
       "height": 600
     }
@@ -128,5 +129,21 @@
     "qrLabelText": "Scan For Location",
     "disabledCompletely": false
   },
-  "shapes": []
+  "shapes": [
+    {
+      "id": "shape_1789141500160",
+      "symbol": "scalloped_cloud",
+      "fontFamily": "Noto Emoji",
+      "color": "#ef4444",
+      "opacity": 1,
+      "rotation": 0,
+      "width": 416,
+      "height": 98,
+      "x": 523,
+      "y": 1105,
+      "flipX": false,
+      "flipY": false,
+      "locked": false
+    }
+  ]
 }
