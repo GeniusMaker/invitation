@@ -1,1 +1,134 @@
-
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "tags": [
+    "English Text",
+    "Baby Shower",
+    "Floral",
+    "Elegant",
+    "Mom To Be",
+    "Pastel"
+  ],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/BabyShower/en_baby-shower_card1.webp",
+  "textFields": [
+    {
+      "id": "baby_shower_title",
+      "label": "Baby Shower Title",
+      "type": "text",
+      "defaultText": "Baby Shower",
+      "fontFamily": "Great Vibes",
+      "fontSize": 72,
+      "color": "#9F4562",
+      "align": "center",
+      "x": 540,
+      "y": 190
+    },
+    {
+      "id": "mom_to_be_name",
+      "label": "Mom To Be Name",
+      "type": "text",
+      "defaultText": "Priya",
+      "fontFamily": "Playfair Display",
+      "fontSize": 82,
+      "color": "#6B2737",
+      "align": "center",
+      "x": 540,
+      "y": 720
+    },
+    {
+      "id": "invitation_text",
+      "label": "Invitation Message",
+      "type": "textarea",
+      "defaultText": "A little miracle is on the way!\nPlease join us to celebrate the mom-to-be.",
+      "fontFamily": "Cormorant Garamond",
+      "fontSize": 34,
+      "color": "#4B3040",
+      "align": "center",
+      "x": 540,
+      "y": 950
+    },
+    {
+      "id": "event_date",
+      "label": "Date",
+      "type": "text",
+      "defaultText": "Saturday, 12 December 2026",
+      "fontFamily": "Montserrat",
+      "fontSize": 38,
+      "color": "#9F4562",
+      "align": "center",
+      "x": 540,
+      "y": 1170
+    },
+    {
+      "id": "event_time",
+      "label": "Time",
+      "type": "text",
+      "defaultText": "4:00 PM",
+      "fontFamily": "Montserrat",
+      "fontSize": 40,
+      "color": "#9F4562",
+      "align": "center",
+      "x": 540,
+      "y": 1230
+    },
+    {
+      "id": "venue",
+      "label": "Venue",
+      "type": "text",
+      "defaultText": "The Garden Hall",
+      "fontFamily": "Playfair Display",
+      "fontSize": 36,
+      "color": "#4B3040",
+      "align": "center",
+      "x": 540,
+      "y": 1330
+    },
+    {
+      "id": "venue_address",
+      "label": "Venue Address",
+      "type": "textarea",
+      "defaultText": "New Delhi, India",
+      "fontFamily": "Montserrat",
+      "fontSize": 29,
+      "color": "#6B5360",
+      "align": "center",
+      "x": 540,
+      "y": 1380
+    },
+    {
+      "id": "contact",
+      "label": "RSVP Contact Number",
+      "type": "text",
+      "defaultText": "RSVP: 9000000000",
+      "fontFamily": "Montserrat",
+      "fontSize": 34,
+      "color": "#9F4562",
+      "align": "center",
+      "x": 540,
+      "y": 1510
+    }
+  ],
+  "photoBoxes": [
+    {
+      "id": "mom_to_be_photo",
+      "label": "Mom To Be Photo",
+      "x": 240,
+      "y": 260,
+      "width": 600,
+      "height": 600
+    }
+  ],
+  "qrBox": {
+    "enabled": true,
+    "id": "venue_map_qr",
+    "label": "📍 Google Maps Location / Link",
+    "x": 900,
+    "y": 1490,
+    "size": 130,
+    "qrLabelText": "Scan For Location",
+    "disabledCompletely": false
+  },
+  "shapes": []
+}
