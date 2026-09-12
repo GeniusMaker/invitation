@@ -22,8 +22,8 @@
       "fontSize": 46,
       "color": "#A65F16",
       "align": "center",
-      "x": 492,
-      "y": 323,
+      "x": 542,
+      "y": 283,
       "hidden": false,
       "lineHeight": 1.2
     },
@@ -36,8 +36,8 @@
       "fontSize": 35,
       "color": "#7A1F2B",
       "align": "center",
-      "x": 509,
-      "y": 474,
+      "x": 529,
+      "y": 434,
       "hidden": false
     },
     {
@@ -165,8 +165,8 @@
       "fontSize": 29,
       "color": "#121212",
       "align": "center",
-      "x": 505,
-      "y": 589,
+      "x": 545,
+      "y": 559,
       "hidden": false,
       "locked": false
     },
@@ -261,21 +261,5 @@
     "qrLabelText": "Scan For Location",
     "disabledCompletely": false
   },
-  "shapes": [
-    {
-      "id": "shape_1788277372290",
-      "symbol": "💘",
-      "fontFamily": "Noto Emoji",
-      "color": "#ef4444",
-      "opacity": 0.2,
-      "rotation": 0,
-      "width": 422,
-      "height": 482,
-      "x": 506,
-      "y": 805,
-      "flipX": false,
-      "flipY": false,
-      "locked": true
-    }
-  ]
+  "shapes": []
 }
