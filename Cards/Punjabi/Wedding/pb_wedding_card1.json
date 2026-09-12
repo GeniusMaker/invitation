@@ -1,4 +1,5 @@
 {
+  "title": "Punjabi Wedding Card 01",
   "canvas": {
     "width": 1080,
     "height": 1920
@@ -20,40 +21,40 @@
       "id": "Verse",
       "label": "Gurbani Verse (ਗੁਰਬਾਣੀ)",
       "type": "textarea",
-      "defaultText": "ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥\nਧਨੁ ਧਨੁ ਰਾਮਦਾਸ ਗੁਰੁ ਜਿਨਿ ਸਿਰਿਆ ਤਿਨੈ ਸਵਾਰਿਆ ॥",
+      "defaultText": "ੴ \nਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥",
       "fontFamily": "Tiro Gurmukhi",
-      "fontSize": 31,
+      "fontSize": 33,
       "color": "#A65F16",
       "align": "center",
       "x": 540,
-      "y": 264,
+      "y": 244,
       "hidden": false
     },
     {
       "id": "Our Loved",
       "label": "Parents Name (ਮਾਤਾ-ਪਿਤਾ ਦਾ ਨਾਮ)",
-      "type": "text",
-      "defaultText": "Mr. Gurmeet Singh & Mrs. Harjit Kaur",
+      "type": "textarea",
+      "defaultText": "Mr. Gurmeet Singh &\nMrs. Harjit Kaur",
       "fontFamily": "Playfair Display",
       "fontSize": 35,
       "color": "#7A1F2B",
       "align": "center",
-      "x": 528,
-      "y": 365,
+      "x": 541,
+      "y": 385,
       "hidden": false
     },
     {
       "id": "You All Are Invited",
       "label": "Invitation Message (ਸੱਦਾ)",
       "type": "textarea",
-      "defaultText": "With great joy and happiness,\nwe invite you to celebrate the Anand Karaj of our beloved son\n\nਖੁਸ਼ੀ ਅਤੇ ਉਤਸ਼ਾਹ ਦੇ ਇਸ ਪਾਵਨ ਮੌਕੇ 'ਤੇ\nਤੁਹਾਨੂੰ ਸਾਡੇ ਪੁੱਤਰ ਦੇ ਆਨੰਦ ਕਾਰਜ ਸਮਾਗਮ ਵਿੱਚ\nਸਾਦਰ ਸੱਦਾ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ।",
+      "defaultText": "With great joy and happiness,\nwe invite you to celebrate the \nAnand Karaj of our beloved son\n",
       "fontFamily": "Noto Sans Gurmukhi",
       "fontSize": 30,
       "color": "#4A3328",
       "align": "center",
-      "x": 548,
-      "y": 424,
-      "hidden": true,
+      "x": 542,
+      "y": 533,
+      "hidden": false,
       "locked": false
     },
     {
@@ -62,25 +63,12 @@
       "type": "text",
       "defaultText": "ਗੁਰਪ੍ਰੀਤ ਸਿੰਘ",
       "x": 540,
-      "y": 649,
+      "y": 699,
       "fontSize": 70,
       "fontFamily": "Braah One",
       "color": "#7A1F2B",
       "align": "center",
       "fillType": "linear"
-    },
-    {
-      "id": "With",
-      "label": "And",
-      "type": "text",
-      "defaultText": "With",
-      "fontFamily": "Great Vibes",
-      "fontSize": 50,
-      "color": "#A65F16",
-      "align": "center",
-      "x": 540,
-      "y": 740,
-      "hidden": true
     },
     {
       "id": "Bride Name",
@@ -92,34 +80,7 @@
       "color": "#7A1F2B",
       "align": "center",
       "x": 540,
-      "y": 827
-    },
-    {
-      "id": "Wingding",
-      "label": "Decorative Divider",
-      "type": "text",
-      "defaultText": "♡ ━━━━━ ♥ ━━━━━ ♡",
-      "fontFamily": "Noto Emoji",
-      "fontSize": 32,
-      "color": "#A65F16",
-      "align": "center",
-      "x": 539,
-      "y": 960,
-      "hidden": true
-    },
-    {
-      "id": "Wedding Message",
-      "label": "Wedding Message (ਵਿਆਹ ਸੰਦੇਸ਼)",
-      "type": "textarea",
-      "defaultText": "On the auspicious occasion of their Anand Karaj\n\nਇਨ੍ਹਾਂ ਦੇ ਪਾਵਨ ਆਨੰਦ ਕਾਰਜ ਦੇ ਸ਼ੁਭ ਅਵਸਰ 'ਤੇ\nਤੁਹਾਡੀ ਪਿਆਰੀ ਹਾਜ਼ਰੀ ਸਾਡੇ ਲਈ ਮਾਣ ਵਾਲੀ ਹੋਵੇਗੀ।",
-      "fontFamily": "Noto Sans Gurmukhi",
-      "fontSize": 24,
-      "color": "#4A3328",
-      "align": "center",
-      "x": 530,
-      "y": 1035,
-      "hidden": false,
-      "locked": false
+      "y": 877
     },
     {
       "id": "Date",
@@ -130,34 +91,8 @@
       "fontSize": 40,
       "color": "#5a2a1f",
       "align": "center",
-      "x": 536,
-      "y": 1190
-    },
-    {
-      "id": "Date Label",
-      "label": "Date Label (ਤਾਰੀਖ)",
-      "type": "text",
-      "defaultText": "DATE / ਤਾਰੀਖ",
-      "fontFamily": "Anek Gurmukhi",
-      "fontSize": 28,
-      "color": "#A65F16",
-      "align": "center",
-      "x": 540,
-      "y": 1146,
-      "hidden": true
-    },
-    {
-      "id": "Time Label",
-      "label": "Time (ਸਮਾਂ)",
-      "type": "text",
-      "defaultText": "TIME / ਸਮਾਂ",
-      "fontFamily": "Anek Gurmukhi",
-      "fontSize": 28,
-      "color": "#A65F16",
-      "align": "center",
-      "x": 540,
-      "y": 1295,
-      "hidden": true
+      "x": 545,
+      "y": 1139
     },
     {
       "id": "Time",
@@ -169,7 +104,7 @@
       "color": "#5A2A1F",
       "align": "right",
       "x": 543,
-      "y": 1330
+      "y": 1270
     },
     {
       "id": "AM-PM",
@@ -181,50 +116,23 @@
       "color": "#5A2A1F",
       "align": "left",
       "x": 562,
-      "y": 1335,
+      "y": 1275,
       "options": [
         "AM",
         "PM"
       ]
     },
     {
-      "id": "Venue Label",
-      "label": "Venue (ਸਥਾਨ)",
-      "type": "text",
-      "defaultText": "VENUE / ਸਥਾਨ",
-      "fontFamily": "Anek Gurmukhi",
-      "fontSize": 28,
-      "color": "#A65F16",
-      "align": "center",
-      "x": 540,
-      "y": 1430,
-      "hidden": true
-    },
-    {
       "id": "venue",
       "label": "Venue / Address (ਸਥਾਨ / ਪਤਾ)",
       "type": "textarea",
-      "defaultText": "Hotel Grand, GT Road, Delhi",
+      "defaultText": "Hotel Grand",
       "x": 540,
-      "y": 1470,
+      "y": 1410,
       "fontSize": 34,
       "fontFamily": "Playfair Display",
       "color": "#4A3328",
       "align": "center"
-    },
-    {
-      "id": "Contact Label",
-      "label": "Contact (ਸੰਪਰਕ)",
-      "type": "text",
-      "defaultText": "✦━ CONTACT / ਸੰਪਰਕ ━✦",
-      "fontFamily": "Anek Gurmukhi",
-      "fontSize": 29,
-      "color": "#7A1F2B",
-      "align": "center",
-      "x": 540,
-      "y": 1580,
-      "hidden": true,
-      "locked": true
     },
     {
       "id": "ਸੰਪਰਕ (Contact)",
@@ -235,8 +143,8 @@
       "fontSize": 35,
       "color": "#5A2A1F",
       "align": "center",
-      "x": 540,
-      "y": 1620
+      "x": 546,
+      "y": 1559
     },
     {
       "id": "English Footer",
@@ -248,8 +156,87 @@
       "color": "#A65F16",
       "align": "center",
       "x": 540,
-      "y": 1687,
+      "y": 1697,
       "hidden": false
+    },
+    {
+      "id": "With",
+      "label": "And",
+      "type": "text",
+      "defaultText": "With",
+      "fontFamily": "Great Vibes",
+      "fontSize": 52,
+      "color": "#A65F16",
+      "align": "center",
+      "x": 540,
+      "y": 790,
+      "hidden": true
+    },
+    {
+      "id": "Wingding",
+      "label": "Decorative Divider",
+      "type": "text",
+      "defaultText": "♡ ━━━━━ ♥ ━━━━━ ♡",
+      "fontFamily": "Noto Emoji",
+      "fontSize": 32,
+      "color": "#A65F16",
+      "align": "center",
+      "x": 539,
+      "y": 1000,
+      "hidden": true
+    },
+    {
+      "id": "Date Label",
+      "label": "Date Label (ਤਾਰੀਖ)",
+      "type": "text",
+      "defaultText": "on Date",
+      "fontFamily": "Anek Gurmukhi",
+      "fontSize": 28,
+      "color": "#A65F16",
+      "align": "center",
+      "x": 540,
+      "y": 1086,
+      "hidden": true
+    },
+    {
+      "id": "Time Label",
+      "label": "Time (ਸਮਾਂ)",
+      "type": "text",
+      "defaultText": "Time",
+      "fontFamily": "Anek Gurmukhi",
+      "fontSize": 28,
+      "color": "#A65F16",
+      "align": "center",
+      "x": 540,
+      "y": 1235,
+      "hidden": true
+    },
+    {
+      "id": "Venue Label",
+      "label": "Venue (ਸਥਾਨ)",
+      "type": "text",
+      "defaultText": "Venue",
+      "fontFamily": "Anek Gurmukhi",
+      "fontSize": 28,
+      "color": "#A65F16",
+      "align": "center",
+      "x": 540,
+      "y": 1370,
+      "hidden": true
+    },
+    {
+      "id": "Contact Label",
+      "label": "Contact (ਸੰਪਰਕ)",
+      "type": "text",
+      "defaultText": "✦━ Contact━✦",
+      "fontFamily": "Anek Gurmukhi",
+      "fontSize": 29,
+      "color": "#7A1F2B",
+      "align": "center",
+      "x": 540,
+      "y": 1517,
+      "hidden": true,
+      "locked": false
     }
   ],
   "photoBoxes": [],
@@ -263,21 +250,5 @@
     "qrLabelText": "Scan For Location",
     "disabledCompletely": false
   },
-  "shapes": [
-    {
-      "id": "shape_1788277372290",
-      "symbol": "💘",
-      "fontFamily": "Noto Emoji",
-      "color": "#ef4444",
-      "opacity": 0.2,
-      "rotation": 0,
-      "width": 422,
-      "height": 482,
-      "x": 513,
-      "y": 746,
-      "flipX": false,
-      "flipY": false,
-      "locked": true
-    }
-  ]
+  "shapes": []
 }
