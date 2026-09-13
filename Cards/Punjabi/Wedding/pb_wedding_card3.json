@@ -31,7 +31,7 @@
       "id": "Our Loved",
       "label": "Parents Name (ਮਾਤਾ-ਪਿਤਾ ਦਾ ਨਾਮ)",
       "type": "text",
-      "defaultText": "Mr. Gurmeet Singh & Mrs. Harjit Kaur",
+      "defaultText": "ਸ. ਰਘਬੀਰ ਸਿੰਘ & ਰਾਜਵਿੰਦਰ ਕੌਰ ",
       "fontFamily": "Playfair Display",
       "fontSize": 35,
       "color": "#7A1F2B",
@@ -44,7 +44,7 @@
       "id": "child_name",
       "label": "Groom Name (ਲਾੜੇ ਦਾ ਨਾਮ)",
       "type": "text",
-      "defaultText": "ਗੁਰਪ੍ਰੀਤ ਸਿੰਘ",
+      "defaultText": "ਹਰਪ੍ਰੀਤ ਸਿੰਘ ",
       "x": 514,
       "y": 697,
       "fontSize": 70,
@@ -69,7 +69,7 @@
       "id": "Wedding Message",
       "label": "Wedding Message (ਵਿਆਹ ਸੰਦੇਸ਼)",
       "type": "textarea",
-      "defaultText": "On the auspicious occasion of \ntheir Anand Karaj",
+      "defaultText": "We look forward to your gracious \npresence and blessings on this \njoyous occasion.",
       "fontFamily": "Braah One",
       "fontSize": 31,
       "color": "#121212",
@@ -88,8 +88,8 @@
       "fontSize": 40,
       "color": "#5a2a1f",
       "align": "center",
-      "x": 519,
-      "y": 1190
+      "x": 509,
+      "y": 1250
     },
     {
       "id": "Time",
@@ -101,7 +101,7 @@
       "color": "#5A2A1F",
       "align": "right",
       "x": 531,
-      "y": 1318
+      "y": 1338
     },
     {
       "id": "AM-PM",
@@ -113,7 +113,7 @@
       "color": "#5A2A1F",
       "align": "left",
       "x": 535,
-      "y": 1326,
+      "y": 1346,
       "options": [
         "AM",
         "PM"
@@ -125,7 +125,7 @@
       "type": "textarea",
       "defaultText": "Hotel Grand",
       "x": 520.5,
-      "y": 1450,
+      "y": 1470,
       "fontSize": 34,
       "fontFamily": "Playfair Display",
       "color": "#4A3328",
@@ -141,7 +141,7 @@
       "color": "#5A2A1F",
       "align": "center",
       "x": 519.5,
-      "y": 1590
+      "y": 1600
     },
     {
       "id": "English Footer",
@@ -153,20 +153,20 @@
       "color": "#A65F16",
       "align": "center",
       "x": 530,
-      "y": 1674,
+      "y": 1714,
       "hidden": false
     },
     {
       "id": "You All Are Invited",
       "label": "Invitation Message (ਸੱਦਾ)",
       "type": "textarea",
-      "defaultText": "With great joy and happiness,\nwe invite you to celebrate the Anand Karaj \nof our beloved son\n",
+      "defaultText": "With great joy and happiness,\nwe invite you to join us in celebrating\nthe Anand Karaj of our beloved son",
       "fontFamily": "Braah One",
       "fontSize": 29,
       "color": "#121212",
       "align": "center",
       "x": 545,
-      "y": 559,
+      "y": 509,
       "hidden": false,
       "locked": false
     },
@@ -180,7 +180,7 @@
       "color": "#7A1F2B",
       "align": "center",
       "x": 520,
-      "y": 1550,
+      "y": 1560,
       "hidden": true,
       "locked": false
     },
@@ -219,8 +219,8 @@
       "fontSize": 25,
       "color": "#A65F16",
       "align": "center",
-      "x": 526,
-      "y": 1139,
+      "x": 516,
+      "y": 1199,
       "hidden": true
     },
     {
@@ -233,7 +233,7 @@
       "color": "#A65F16",
       "align": "center",
       "x": 520.5,
-      "y": 1278,
+      "y": 1308,
       "hidden": true
     },
     {
@@ -246,7 +246,7 @@
       "color": "#A65F16",
       "align": "center",
       "x": 520.5,
-      "y": 1410,
+      "y": 1430,
       "hidden": true
     }
   ],
