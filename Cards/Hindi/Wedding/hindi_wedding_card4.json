@@ -1,4 +1,5 @@
 {
+  "title": "Hindi Wedding Card 04",
   "canvas": {
     "width": 1080,
     "height": 1920
@@ -14,7 +15,7 @@
     "couple",
     "full-detail"
   ],
-  "imageAsset": "YOUR_WEDDING_BACKGROUND_URL",
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Hindi/Wedding/hindi_wedding_card4.webp",
 
   "textFields": [
     {
