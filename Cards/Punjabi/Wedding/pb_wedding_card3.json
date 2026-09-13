@@ -41,6 +41,20 @@
       "hidden": false
     },
     {
+      "id": "You All Are Invited",
+      "label": "Invitation Message (ਸੱਦਾ)",
+      "type": "textarea",
+      "defaultText": "With great joy and happiness,\nwe invite you to join us in celebrating\nthe Anand Karaj of our beloved son",
+      "fontFamily": "Braah One",
+      "fontSize": 29,
+      "color": "#121212",
+      "align": "center",
+      "x": 545,
+      "y": 509,
+      "hidden": false,
+      "locked": false
+    },
+    {
       "id": "child_name",
       "label": "Groom Name (ਲਾੜੇ ਦਾ ਨਾਮ)",
       "type": "text",
@@ -155,20 +169,6 @@
       "x": 530,
       "y": 1714,
       "hidden": false
-    },
-    {
-      "id": "You All Are Invited",
-      "label": "Invitation Message (ਸੱਦਾ)",
-      "type": "textarea",
-      "defaultText": "With great joy and happiness,\nwe invite you to join us in celebrating\nthe Anand Karaj of our beloved son",
-      "fontFamily": "Braah One",
-      "fontSize": 29,
-      "color": "#121212",
-      "align": "center",
-      "x": 545,
-      "y": 509,
-      "hidden": false,
-      "locked": false
     },
     {
       "id": "Contact Label",
