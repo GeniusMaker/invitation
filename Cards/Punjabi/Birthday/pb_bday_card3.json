@@ -1,25 +1,52 @@
 {
-  "title": "Punjabi Wedding Card 03",
-  "canvas": { "width": 1080, "height": 1920 },
-  "videoAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Punjabi/Birthday/pb_bday_card3.mp4",
-  "textFields": [
-    { 
-      "id": "groom", 
-      "label": "Groom", 
-      "defaultText": "Rahul", 
-      "x": 540, 
-      "y": 800, 
-      "startTime": 0.0, 
-      "endTime": 5.0 
+  "title": "Punjabi Bday Card 03",
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "videoAsset": "https://raw.githubusercontent.com/GeniusMaker/invitation/main/Cards/Punjabi/Birthday/pb_bday_card3.mp4",
+  "slides": [
+    {
+      "id": "slide_1",
+      "start": 0.0,
+      "end": 5.0,
+      "label": "Groom Details"
     },
-    { 
-      "id": "date", 
-      "label": "Date", 
-      "defaultText": "24 Nov 2026", 
-      "x": 540, 
-      "y": 800, 
-      "startTime": 5.1, 
-      "endTime": 10.0 
+    {
+      "id": "slide_2",
+      "start": 5.1,
+      "end": 10.0,
+      "label": "Date & Venue"
+    }
+  ],
+  "textFields": [
+    {
+      "id": "groom",
+      "label": "Groom Name",
+      "type": "text",
+      "defaultText": "Rahul",
+      "fontFamily": "Baloo Paaji 2",
+      "fontSize": 56,
+      "color": "#ffffff",
+      "align": "center",
+      "x": 540,
+      "y": 800,
+      "startTime": 0.0,
+      "endTime": 5.0
+    },
+    {
+      "id": "date",
+      "label": "Event Date",
+      "type": "text",
+      "defaultText": "24 Nov 2026",
+      "fontFamily": "Plus Jakarta Sans",
+      "fontSize": 45,
+      "color": "#f1f5f9",
+      "align": "center",
+      "x": 540,
+      "y": 920,
+      "startTime": 5.1,
+      "endTime": 10.0
     }
   ]
 }
