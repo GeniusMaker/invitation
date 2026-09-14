@@ -1,6 +1,7 @@
 {
+  "title": "Punjabi Wedding Card 03",
   "canvas": { "width": 1080, "height": 1920 },
-  "videoAsset": "background_video.mp4",
+  "videoAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Punjabi/Wedding/pb_bday_card3.mp4",
   "textFields": [
     { 
       "id": "groom", 
