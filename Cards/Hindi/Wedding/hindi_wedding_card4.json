@@ -5,9 +5,9 @@
     "height": 1920
   },
   "tags": [
-     "hindi",
-     "traditional",
-     "full-detail"
+    "hindi",
+    "traditional",
+    "full-detail"
   ],
   "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Hindi/Wedding/hindi_wedding_card4.webp",
   "textFields": [
@@ -17,7 +17,7 @@
       "type": "text",
       "defaultText": "ॐ",
       "fontFamily": "Rozha One",
-      "fontSize": 42,
+      "fontSize": 62,
       "color": "#A66A00",
       "align": "center",
       "x": 540,
@@ -28,12 +28,12 @@
       "label": "Invitation Heading (निमंत्रण शीर्षक)",
       "type": "text",
       "defaultText": "विवाह निमंत्रण",
-      "fontFamily": "Yatra One",
-      "fontSize": 66,
+      "fontFamily": "Rozha One",
+      "fontSize": 58,
       "color": "#dd4600",
       "align": "center",
       "x": 540,
-      "y": 290
+      "y": 321
     },
     {
       "id": "invitation_subtitle",
@@ -64,8 +64,8 @@
       "label": "Groom Name (दूल्हे का नाम)",
       "type": "text",
       "defaultText": "आदित्य शर्मा",
-      "fontFamily": "Yatra One",
-      "fontSize": 58,
+      "fontFamily": "Rozha One",
+      "fontSize": 65,
       "color": "#681F32",
       "align": "center",
       "x": 540,
@@ -100,7 +100,7 @@
       "label": "Bride Name (दुल्हन का नाम)",
       "type": "text",
       "defaultText": "काव्या वर्मा",
-      "fontFamily": "Yatra One",
+      "fontFamily": "Rozha One",
       "fontSize": 65,
       "color": "#681F32",
       "align": "center",
@@ -130,7 +130,7 @@
       "color": "#681F32",
       "align": "center",
       "x": 423,
-      "y": 979,
+      "y": 948,
       "options": [
         "रविवार",
         "Sunday",
@@ -159,7 +159,7 @@
       "color": "#681F32",
       "align": "center",
       "x": 498,
-      "y": 979,
+      "y": 948,
       "options": [
         "01",
         "02",
@@ -205,7 +205,7 @@
       "color": "#681F32",
       "align": "center",
       "x": 570,
-      "y": 979,
+      "y": 948,
       "options": [
         "जनवरी",
         "January",
@@ -244,7 +244,7 @@
       "color": "#681F32",
       "align": "center",
       "x": 671,
-      "y": 979,
+      "y": 948,
       "options": [
         "2026",
         "2027",
@@ -265,7 +265,7 @@
       "color": "#A66A00",
       "align": "center",
       "x": 540,
-      "y": 1042
+      "y": 1041
     },
     {
       "id": "event_time",
@@ -337,7 +337,7 @@
       "color": "#A66A00",
       "align": "center",
       "x": 540,
-      "y": 1400
+      "y": 1390
     },
     {
       "id": "family_name",
@@ -349,7 +349,7 @@
       "color": "#681F32",
       "align": "center",
       "x": 540,
-      "y": 1445
+      "y": 1435
     },
     {
       "id": "contact_label",
@@ -368,12 +368,14 @@
       "label": "Contact Number (संपर्क नंबर)",
       "type": "text",
       "defaultText": "9000000000",
-      "fontFamily": "Plus Jakarta Sans",
+      "fontFamily": "Braah One",
       "fontSize": 25,
       "color": "#4E4035",
       "align": "center",
       "x": 540,
-      "y": 1550
+      "y": 1550,
+      "strokeColor": "#ffb957",
+      "strokeWidth": 0
     },
     {
       "id": "ceremony_heading",
@@ -385,7 +387,7 @@
       "color": "#A66A00",
       "align": "center",
       "x": 540,
-      "y": 915,
+      "y": 905,
       "hidden": false,
       "locked": false
     },
@@ -408,11 +410,14 @@
     "enabled": true,
     "id": "venue_map_qr",
     "label": "Google Maps Location / Link (गूगल मैप्स स्थान / लिंक)",
-    "x": 850,
-    "y": 1430,
+    "x": 932,
+    "y": 1765,
     "size": 120,
-    "qrLabelText": "Scan For Location (स्थान देखने के लिए स्कैन करें)",
-    "disabledCompletely": false
+    "qrLabelText": "Scan \nFor Location ",
+    "disabledCompletely": false,
+    "bgColor": "#ffffff",
+    "qrLabelBgColor": "#db8829",
+    "qrLabelColor": "#ffffff"
   },
   "shapes": []
 }
