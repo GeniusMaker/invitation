@@ -1,7 +1,7 @@
 {
   "templateType": "video",
   "title": "Royal Wedding Video Invitation",
-  "videoAsset": "https://raw.githubusercontent.com/GeniusMaker/invitation/main/Cards/Punjabi/Birthday/pb_bday_card3.mp4",
+  "videoAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Punjabi/Birthday/pb_bday_card3.mp4",
   "canvas": {
     "width": 600,
     "height": 840
