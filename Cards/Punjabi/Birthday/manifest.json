@@ -1,5 +1,12 @@
 [
-  "pb_bday_card1.json",
+  {
+    "file": "pb_bday_card1.json",
+    "tags": [
+      "For Kids",
+      "short",
+      "Punjabi"
+    ]
+  },
   "pb_bday_card2.json",
   "pb_bday_card3.json"
 ]
