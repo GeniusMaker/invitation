@@ -1,5 +1,15 @@
 [
-  "en_wedding_card1.json",
+  {
+    "file": "en_wedding_card1.json",
+    "tags": [
+      "English Text",
+      "Wedding",
+      "Elegant",
+      "Luxury",
+      "Royal Blue",
+      "Gold"
+    ]
+  },
   {
     "file": "en_wedding_card2.json",
     "tags": [
