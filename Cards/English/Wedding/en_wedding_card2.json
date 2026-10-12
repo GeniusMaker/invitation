@@ -6,8 +6,11 @@
   },
   "tags": [
     "English Text",
-     "Elegant",
-     "Floral",
+    "Wedding",
+    "Elegant",
+    "Luxury",
+    "Floral",
+    "Ivory",
     "Traditional"
   ],
   "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Assets/Common-BG/Wedding/wedding_card03.webp",
@@ -18,11 +21,11 @@
       "type": "select",
       "defaultText": "ॐ",
       "fontFamily": "Braah One",
-      "fontSize": 70,
+      "fontSize": 68,
       "color": "#9B1B30",
       "align": "center",
       "x": 540,
-      "y": 230,
+      "y": 290,
       "options": [
         "ॐ",
         "ੴ",
@@ -31,16 +34,16 @@
       ]
     },
     {
-      "id": "wedding_title",
-      "label": "Wedding Title",
-      "type": "text",
-      "defaultText": "WEDDING INVITATION",
+      "id": "religious_blessing",
+      "label": "Auspicious Header",
+      "type": "textarea",
+      "defaultText": "॥ SHREE GANESHAYA NAMAH ॥",
       "fontFamily": "Montserrat",
-      "fontSize": 32,
+      "fontSize": 22,
       "color": "#8C5828",
       "align": "center",
       "x": 540,
-      "y": 320
+      "y": 370
     },
     {
       "id": "host_parents",
@@ -48,15 +51,15 @@
       "type": "text",
       "defaultText": "Smt. Sunita & Shri Rajesh Sharma",
       "fontFamily": "Cormorant Garamond",
-      "fontSize": 40,
+      "fontSize": 44,
       "color": "#801828",
       "align": "center",
       "x": 540,
-      "y": 395
+      "y": 445
     },
     {
-      "id": "initial_blessing",
-      "label": "Opening Invitation Line",
+      "id": "invitation_line",
+      "label": "Invitation Line",
       "type": "textarea",
       "defaultText": "request the honour of your presence and blessings\nat the auspicious wedding ceremony of their beloved",
       "fontFamily": "Cormorant Garamond",
@@ -64,35 +67,35 @@
       "color": "#5C3A28",
       "align": "center",
       "x": 540,
-      "y": 455
+      "y": 515
     },
     {
       "id": "bride_name",
       "label": "1st Name (Host's Child)",
       "type": "text",
       "defaultText": "Priya",
-      "fontFamily": "Great Vibes",
-      "fontSize": 106,
+      "fontFamily": "Pinyon Script",
+      "fontSize": 150,
       "color": "#9B1B30",
       "align": "center",
       "x": 540,
-      "y": 605
+      "y": 695
     },
     {
       "id": "name_connector",
-      "label": "Connector (with / & / Weds)",
+      "label": "Connector (with / weds / &)",
       "type": "select",
       "defaultText": "with",
       "fontFamily": "Cormorant Garamond",
-      "fontSize": 48,
+      "fontSize": 46,
       "color": "#B36A2E",
       "align": "center",
       "x": 540,
-      "y": 700,
+      "y": 795,
       "options": [
         "with",
-        "&",
-        "weds"
+        "weds",
+        "&"
       ]
     },
     {
@@ -100,44 +103,32 @@
       "label": "2nd Name (Spouse)",
       "type": "text",
       "defaultText": "Aarav",
-      "fontFamily": "Great Vibes",
-      "fontSize": 106,
+      "fontFamily": "Pinyon Script",
+      "fontSize": 150,
       "color": "#9B1B30",
       "align": "center",
       "x": 540,
-      "y": 815
+      "y": 925
     },
     {
       "id": "spouse_parents",
       "label": "Spouse's Parents (Below 2nd Name)",
-      "type": "text",
-      "defaultText": "(Child of Smt. Meera & Shri Vikram Verma)",
-      "fontFamily": "Cormorant Garamond",
-      "fontSize": 32,
-      "color": "#5C3A28",
-      "align": "center",
-      "x": 540,
-      "y": 895
-    },
-    {
-      "id": "invitation_text",
-      "label": "Invitation Message",
       "type": "textarea",
-      "defaultText": "Please join us to celebrate their new beginning\nand shower the couple with your warm wishes.",
+      "defaultText": "(S/o Smt. Meera & Shri Vikram Verma)",
       "fontFamily": "Cormorant Garamond",
       "fontSize": 32,
       "color": "#5C3A28",
       "align": "center",
       "x": 540,
-      "y": 980
+      "y": 1010
     },
     {
       "id": "event_date",
-      "label": "Date",
-      "type": "text",
+      "label": "Wedding Date",
+      "type": "textarea",
       "defaultText": "SATURDAY | 12 DECEMBER 2026",
       "fontFamily": "Montserrat",
-      "fontSize": 34,
+      "fontSize": 36,
       "color": "#9B1B30",
       "align": "center",
       "x": 540,
@@ -145,9 +136,9 @@
     },
     {
       "id": "event_time",
-      "label": "Barat / Programme Timing",
-      "type": "text",
-      "defaultText": "Departure / Reception of Barat: 7:00 PM",
+      "label": "Ceremony / Barat Timing",
+      "type": "textarea",
+      "defaultText": "Reception / Departure of Barat: 7:00 PM",
       "fontFamily": "Montserrat",
       "fontSize": 28,
       "color": "#8C5828",
@@ -165,19 +156,19 @@
       "color": "#B36A2E",
       "align": "center",
       "x": 540,
-      "y": 1280
+      "y": 1305
     },
     {
       "id": "venue",
       "label": "Venue Name",
-      "type": "text",
+      "type": "textarea",
       "defaultText": "The Grand Palace",
       "fontFamily": "Cormorant Garamond",
-      "fontSize": 50,
+      "fontSize": 54,
       "color": "#801828",
       "align": "center",
       "x": 540,
-      "y": 1340
+      "y": 1370
     },
     {
       "id": "venue_address",
@@ -189,19 +180,19 @@
       "color": "#5C3A28",
       "align": "center",
       "x": 540,
-      "y": 1395
+      "y": 1430
     },
     {
       "id": "contact",
-      "label": "RSVP / Warm Regards",
+      "label": "RSVP / Compliments From",
       "type": "textarea",
-      "defaultText": "RSVP: Sharma Family\n+91 90000 00000",
+      "defaultText": "RSVP: Sharma Family & Friends\n+91 90000 00000",
       "fontFamily": "Montserrat",
-      "fontSize": 28,
+      "fontSize": 26,
       "color": "#8C5828",
       "align": "center",
       "x": 540,
-      "y": 1505
+      "y": 1550
     }
   ],
   "photoBoxes": [],
