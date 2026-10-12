@@ -10,7 +10,7 @@
     "Elegant",
     "Luxury"
   ],
-  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Assets/Common-BG/Wedding/wedding_card02.webp",
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Wedding/wedding_card01.webp",
   "textFields": [
     {
       "id": "wedding_title",
