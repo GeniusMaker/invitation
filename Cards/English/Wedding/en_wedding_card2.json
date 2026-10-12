@@ -1,124 +1,207 @@
 {
+  "title": "English Wedding Card 02",
   "canvas": {
     "width": 1080,
     "height": 1920
   },
   "tags": [
     "English Text",
-    "Wedding",
-    "Modern",
-    "Minimal",
-    "Simple"
+     "Elegant",
+     "Floral",
+    "Traditional"
   ],
   "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Assets/Common-BG/Wedding/wedding_card03.webp",
   "textFields": [
     {
+      "id": "religious_symbol",
+      "label": "Religious Symbol (ॐ / ☬ / ☪ / ✝)",
+      "type": "select",
+      "defaultText": "ॐ",
+      "fontFamily": "Braah One",
+      "fontSize": 70,
+      "color": "#9B1B30",
+      "align": "center",
+      "x": 540,
+      "y": 230,
+      "options": [
+        "ॐ",
+        "ੴ",
+        "☪",
+        "✝"
+      ]
+    },
+    {
       "id": "wedding_title",
       "label": "Wedding Title",
       "type": "text",
-      "defaultText": "We're Getting Married",
+      "defaultText": "WEDDING INVITATION",
       "fontFamily": "Montserrat",
-      "fontSize": 52,
-      "color": "#111827",
+      "fontSize": 32,
+      "color": "#8C5828",
       "align": "center",
       "x": 540,
-      "y": 250
+      "y": 320
+    },
+    {
+      "id": "host_parents",
+      "label": "Hosting Parents' Names",
+      "type": "text",
+      "defaultText": "Smt. Sunita & Shri Rajesh Sharma",
+      "fontFamily": "Cormorant Garamond",
+      "fontSize": 40,
+      "color": "#801828",
+      "align": "center",
+      "x": 540,
+      "y": 395
+    },
+    {
+      "id": "initial_blessing",
+      "label": "Opening Invitation Line",
+      "type": "textarea",
+      "defaultText": "request the honour of your presence and blessings\nat the auspicious wedding ceremony of their beloved",
+      "fontFamily": "Cormorant Garamond",
+      "fontSize": 32,
+      "color": "#5C3A28",
+      "align": "center",
+      "x": 540,
+      "y": 455
     },
     {
       "id": "bride_name",
-      "label": "Bride Name",
+      "label": "1st Name (Host's Child)",
       "type": "text",
       "defaultText": "Priya",
-      "fontFamily": "Playfair Display",
-      "fontSize": 82,
-      "color": "#111827",
+      "fontFamily": "Great Vibes",
+      "fontSize": 106,
+      "color": "#9B1B30",
       "align": "center",
       "x": 540,
-      "y": 650
+      "y": 605
+    },
+    {
+      "id": "name_connector",
+      "label": "Connector (with / & / Weds)",
+      "type": "select",
+      "defaultText": "with",
+      "fontFamily": "Cormorant Garamond",
+      "fontSize": 48,
+      "color": "#B36A2E",
+      "align": "center",
+      "x": 540,
+      "y": 700,
+      "options": [
+        "with",
+        "&",
+        "weds"
+      ]
     },
     {
       "id": "groom_name",
-      "label": "Groom Name",
+      "label": "2nd Name (Spouse)",
       "type": "text",
       "defaultText": "Aarav",
-      "fontFamily": "Playfair Display",
-      "fontSize": 82,
-      "color": "#111827",
+      "fontFamily": "Great Vibes",
+      "fontSize": 106,
+      "color": "#9B1B30",
       "align": "center",
       "x": 540,
-      "y": 790
+      "y": 815
+    },
+    {
+      "id": "spouse_parents",
+      "label": "Spouse's Parents (Below 2nd Name)",
+      "type": "text",
+      "defaultText": "(Child of Smt. Meera & Shri Vikram Verma)",
+      "fontFamily": "Cormorant Garamond",
+      "fontSize": 32,
+      "color": "#5C3A28",
+      "align": "center",
+      "x": 540,
+      "y": 895
     },
     {
       "id": "invitation_text",
       "label": "Invitation Message",
       "type": "textarea",
-      "defaultText": "Join us as we begin\nour journey together.",
-      "fontFamily": "Montserrat",
-      "fontSize": 30,
-      "color": "#4B5563",
+      "defaultText": "Please join us to celebrate their new beginning\nand shower the couple with your warm wishes.",
+      "fontFamily": "Cormorant Garamond",
+      "fontSize": 32,
+      "color": "#5C3A28",
       "align": "center",
       "x": 540,
-      "y": 960
+      "y": 980
     },
     {
       "id": "event_date",
       "label": "Date",
       "type": "text",
-      "defaultText": "12 December 2026",
+      "defaultText": "SATURDAY | 12 DECEMBER 2026",
       "fontFamily": "Montserrat",
-      "fontSize": 38,
-      "color": "#111827",
+      "fontSize": 34,
+      "color": "#9B1B30",
       "align": "center",
       "x": 540,
-      "y": 1150
+      "y": 1135
     },
     {
       "id": "event_time",
-      "label": "Time",
+      "label": "Barat / Programme Timing",
       "type": "text",
-      "defaultText": "7:00 PM",
+      "defaultText": "Departure / Reception of Barat: 7:00 PM",
       "fontFamily": "Montserrat",
-      "fontSize": 38,
-      "color": "#111827",
+      "fontSize": 28,
+      "color": "#8C5828",
       "align": "center",
       "x": 540,
-      "y": 1210
+      "y": 1195
+    },
+    {
+      "id": "venue_label",
+      "label": "Venue Header",
+      "type": "text",
+      "defaultText": "— VENUE —",
+      "fontFamily": "Montserrat",
+      "fontSize": 24,
+      "color": "#B36A2E",
+      "align": "center",
+      "x": 540,
+      "y": 1280
     },
     {
       "id": "venue",
-      "label": "Venue",
+      "label": "Venue Name",
       "type": "text",
       "defaultText": "The Grand Palace",
-      "fontFamily": "Montserrat",
-      "fontSize": 34,
-      "color": "#111827",
+      "fontFamily": "Cormorant Garamond",
+      "fontSize": 50,
+      "color": "#801828",
       "align": "center",
       "x": 540,
-      "y": 1320
+      "y": 1340
     },
     {
       "id": "venue_address",
       "label": "Venue Address",
       "type": "textarea",
-      "defaultText": "New Delhi, India",
+      "defaultText": "Diplomatic Enclave,\nChanakyapuri, New Delhi",
       "fontFamily": "Montserrat",
-      "fontSize": 28,
-      "color": "#6B7280",
+      "fontSize": 26,
+      "color": "#5C3A28",
       "align": "center",
       "x": 540,
-      "y": 1370
+      "y": 1395
     },
     {
       "id": "contact",
-      "label": "RSVP Contact Number",
-      "type": "text",
-      "defaultText": "RSVP: 9000000000",
+      "label": "RSVP / Warm Regards",
+      "type": "textarea",
+      "defaultText": "RSVP: Sharma Family\n+91 90000 00000",
       "fontFamily": "Montserrat",
-      "fontSize": 32,
-      "color": "#111827",
+      "fontSize": 28,
+      "color": "#8C5828",
       "align": "center",
       "x": 540,
-      "y": 1500
+      "y": 1505
     }
   ],
   "photoBoxes": [],
@@ -126,8 +209,8 @@
     "enabled": true,
     "id": "venue_map_qr",
     "label": "📍 Google Maps Location / Link",
-    "x": 900,
-    "y": 1480,
+    "x": 912,
+    "y": 1750,
     "size": 130,
     "qrLabelText": "Scan For Location",
     "disabledCompletely": false
