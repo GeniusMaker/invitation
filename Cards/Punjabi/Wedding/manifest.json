@@ -36,5 +36,15 @@
       "Long"
     ]
   },
-  "pb_wedding_card5.json"
+  "pb_wedding_card5.json",
+  {
+    "file": "pb_wedding_card6.json",
+    "tags": [
+      "Punjabi Wedding",
+      "Punjabi",
+      "Gurmukhi",
+      "English",
+      "Sikh Wedding"
+    ]
+  }
 ]
