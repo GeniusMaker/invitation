@@ -1,4 +1,5 @@
 {
+  "title": "English Wedding Card 01",
   "canvas": {
     "width": 1080,
     "height": 1920
@@ -6,119 +7,174 @@
   "tags": [
     "English Text",
     "Wedding",
-    "Classic",
     "Elegant",
-    "Luxury"
-  ],
+    "Luxury",
+    "Royal Blue",
+    "Gold",
+    ],
   "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Wedding/wedding_card01.webp",
   "textFields": [
+    {
+      "id": "religious_symbol",
+      "label": "Religious Symbol (ॐ / ☬ / ☪/ ✝)",
+      "type": "select",
+      "defaultText": "✝",
+      "fontFamily": "Braah One",
+      "fontSize": 73,
+      "color": "#E5C17B",
+      "align": "center",
+      "x": 529,
+      "y": 250,
+      "options": [
+        "ॐ",
+        "ੴ",
+        "☪",
+        "✝"
+      ]
+    },
     {
       "id": "wedding_title",
       "label": "Wedding Title",
       "type": "text",
-      "defaultText": "Wedding Invitation",
-      "fontFamily": "Cormorant Garamond",
-      "fontSize": 68,
-      "color": "#8B6F47",
+      "defaultText": "WEDDING INVITATION",
+      "fontFamily": "Montserrat",
+      "fontSize": 36,
+      "color": "#EAE0D0",
       "align": "center",
       "x": 540,
-      "y": 180
+      "y": 350
+    },
+    {
+      "id": "initial_blessing",
+      "label": "Opening Line",
+      "type": "textarea",
+      "defaultText": "With the divine blessings of the Almighty\nand our beloved parents",
+      "fontFamily": "Cormorant Garamond",
+      "fontSize": 34,
+      "color": "#EAE0D0",
+      "align": "center",
+      "x": 540,
+      "y": 450
     },
     {
       "id": "bride_name",
       "label": "Bride Name",
       "type": "text",
       "defaultText": "Priya",
-      "fontFamily": "Bodoni Moda",
-      "fontSize": 78,
-      "color": "#4A3728",
+      "fontFamily": "Great Vibes",
+      "fontSize": 111,
+      "color": "#F5D799",
       "align": "center",
       "x": 540,
-      "y": 700
+      "y": 630
+    },
+    {
+      "id": "name_connector",
+      "label": "Connector (& / Weds)",
+      "type": "text",
+      "defaultText": "&",
+      "fontFamily": "Cormorant Garamond",
+      "fontSize": 64,
+      "color": "#E5C17B",
+      "align": "center",
+      "x": 540,
+      "y": 738
     },
     {
       "id": "groom_name",
       "label": "Groom Name",
       "type": "text",
       "defaultText": "Aarav",
-      "fontFamily": "Bodoni Moda",
-      "fontSize": 78,
-      "color": "#4A3728",
+      "fontFamily": "Great Vibes",
+      "fontSize": 112,
+      "color": "#F5D799",
       "align": "center",
       "x": 540,
-      "y": 830
+      "y": 840
     },
     {
       "id": "invitation_text",
       "label": "Invitation Message",
       "type": "textarea",
-      "defaultText": "Together with their families,\nwe invite you to celebrate their wedding.",
+      "defaultText": "We cordially invite you to grace the \nauspicious occasion of their wedding\ncelebration with your presence and blessings.",
       "fontFamily": "Cormorant Garamond",
       "fontSize": 34,
-      "color": "#5C4A3A",
+      "color": "#EAE0D0",
       "align": "center",
-      "x": 540,
-      "y": 1010
+      "x": 534,
+      "y": 926
     },
     {
       "id": "event_date",
       "label": "Date",
       "type": "text",
-      "defaultText": "Saturday, 12 December 2026",
+      "defaultText": "SATURDAY | 12 DECEMBER 2026",
       "fontFamily": "Montserrat",
-      "fontSize": 38,
-      "color": "#8B6F47",
+      "fontSize": 36,
+      "color": "#F5D799",
       "align": "center",
-      "x": 540,
-      "y": 1190
+      "x": 531,
+      "y": 1115
     },
     {
       "id": "event_time",
       "label": "Time",
       "type": "text",
-      "defaultText": "7:00 PM",
+      "defaultText": "Reception of Barat: 7:00 PM Onwards",
       "fontFamily": "Montserrat",
-      "fontSize": 40,
-      "color": "#8B6F47",
+      "fontSize": 30,
+      "color": "#E5C17B",
+      "align": "center",
+      "x": 531,
+      "y": 1175
+    },
+    {
+      "id": "venue_label",
+      "label": "Venue Header",
+      "type": "text",
+      "defaultText": "— VENUE —",
+      "fontFamily": "Montserrat",
+      "fontSize": 24,
+      "color": "#E5C17B",
       "align": "center",
       "x": 540,
-      "y": 1250
+      "y": 1275
     },
     {
       "id": "venue",
-      "label": "Venue",
+      "label": "Venue Name",
       "type": "text",
       "defaultText": "The Grand Palace",
       "fontFamily": "Cormorant Garamond",
-      "fontSize": 36,
-      "color": "#4A3728",
+      "fontSize": 52,
+      "color": "#F5D799",
       "align": "center",
-      "x": 540,
-      "y": 1350
+      "x": 536,
+      "y": 1335
     },
     {
       "id": "venue_address",
       "label": "Venue Address",
       "type": "textarea",
-      "defaultText": "New Delhi, India",
+      "defaultText": "Diplomatic Enclave, \nChanakyapuri, New Delhi",
       "fontFamily": "Montserrat",
-      "fontSize": 30,
-      "color": "#5C4A3A",
+      "fontSize": 28,
+      "color": "#EAE0D0",
       "align": "center",
       "x": 540,
-      "y": 1400
+      "y": 1390
     },
     {
       "id": "contact",
-      "label": "RSVP Contact Number",
-      "type": "text",
-      "defaultText": "RSVP: 9000000000",
+      "label": "RSVP / Warm Regards",
+      "type": "textarea",
+      "defaultText": "RSVP: Sharma & Verma Family\n+91 90000 00000",
       "fontFamily": "Montserrat",
-      "fontSize": 34,
-      "color": "#8B6F47",
+      "fontSize": 28,
+      "color": "#E5C17B",
       "align": "center",
-      "x": 540,
-      "y": 1530
+      "x": 525,
+      "y": 1499
     }
   ],
   "photoBoxes": [],
@@ -126,8 +182,8 @@
     "enabled": true,
     "id": "venue_map_qr",
     "label": "📍 Google Maps Location / Link",
-    "x": 900,
-    "y": 1510,
+    "x": 912,
+    "y": 1750,
     "size": 130,
     "qrLabelText": "Scan For Location",
     "disabledCompletely": false
