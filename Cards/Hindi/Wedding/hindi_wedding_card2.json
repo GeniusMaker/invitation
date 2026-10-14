@@ -41,7 +41,7 @@
       "x": 540,
       "y": 290,
       "fontSize": 72,
-      "fontFamily": "Rozha One, Noto Serif Devanagari, serif",
+      "fontFamily": "Rozha One",
       "color": "#8B1E3F",
       "align": "center",
       "fontWeight": 700
@@ -55,7 +55,7 @@
       "x": 540,
       "y": 390,
       "fontSize": 32,
-      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, serif",
+      "fontFamily": "Tiro Devanagari Hindi",
       "color": "#444444",
       "align": "center",
       "fontWeight": 400
@@ -69,7 +69,7 @@
       "x": 540,
       "y": 500,
       "fontSize": 46,
-      "fontFamily": "Rozha One, Noto Serif Devanagari, serif",
+      "fontFamily": "Rozha One",
       "color": "#B8860B",
       "align": "center",
       "fontWeight": 700
@@ -83,7 +83,7 @@
       "x": 540,
       "y": 625,
       "fontSize": 58,
-      "fontFamily": "Rozha One, Noto Serif Devanagari, serif",
+      "fontFamily": "Rozha One",
       "color": "#8B1E3F",
       "align": "center",
       "fontWeight": 700
@@ -97,7 +97,7 @@
       "x": 540,
       "y": 690,
       "fontSize": 27,
-      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "fontFamily": "Tiro Devanagari Hindi",
       "color": "#555555",
       "align": "center",
       "fontWeight": 400
@@ -125,7 +125,7 @@
       "x": 540,
       "y": 850,
       "fontSize": 58,
-      "fontFamily": "Rozha One, Noto Serif Devanagari, serif",
+      "fontFamily": "Rozha One",
       "color": "#8B1E3F",
       "align": "center",
       "fontWeight": 700
@@ -139,7 +139,7 @@
       "x": 540,
       "y": 915,
       "fontSize": 27,
-      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "fontFamily": "Tiro Devanagari Hindi",
       "color": "#555555",
       "align": "center",
       "fontWeight": 400
@@ -153,7 +153,7 @@
       "x": 540,
       "y": 1025,
       "fontSize": 31,
-      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, serif",
+      "fontFamily": "Tiro Devanagari Hindi",
       "color": "#333333",
       "align": "center",
       "fontWeight": 500
@@ -167,7 +167,7 @@
       "x": 540,
       "y": 1150,
       "fontSize": 40,
-      "fontFamily": "Rozha One, Noto Serif Devanagari, serif",
+      "fontFamily": "Rozha One",
       "color": "#B8860B",
       "align": "center",
       "fontWeight": 700
@@ -181,7 +181,7 @@
       "x": 540,
       "y": 1225,
       "fontSize": 34,
-      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "fontFamily": "Tiro Devanagari Hindi",
       "color": "#8B1E3F",
       "align": "center",
       "fontWeight": 700
@@ -195,7 +195,7 @@
       "x": 540,
       "y": 1290,
       "fontSize": 32,
-      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "fontFamily": "Tiro Devanagari Hindi",
       "color": "#444444",
       "align": "center",
       "fontWeight": 600
@@ -223,7 +223,7 @@
       "x": 540,
       "y": 1425,
       "fontSize": 34,
-      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "fontFamily": "Tiro Devanagari Hindi",
       "color": "#8B1E3F",
       "align": "center",
       "fontWeight": 700
@@ -237,7 +237,7 @@
       "x": 540,
       "y": 1480,
       "fontSize": 28,
-      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, sans-serif",
+      "fontFamily": "Tiro Devanagari Hindi",
       "color": "#555555",
       "align": "center",
       "fontWeight": 400
@@ -251,7 +251,7 @@
       "x": 540,
       "y": 1600,
       "fontSize": 29,
-      "fontFamily": "Tiro Devanagari Hindi, Noto Serif Devanagari, serif",
+      "fontFamily": "Tiro Devanagari Hindi",
       "color": "#444444",
       "align": "center",
       "fontWeight": 400
