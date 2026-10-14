@@ -23,9 +23,22 @@
       "color": "#d29456",
       "align": "center",
       "x": 542,
-      "y": 245,
+      "y": 217,
       "hidden": false,
-      "lineHeight": 1.5
+      "lineHeight": 1.1
+    },
+    {
+      "id": "Grandparents' Blessings (ਦਾਦਾ-ਦਾਦੀ ਦਾ ਆਸ਼ੀਰਵਾਦ)",
+      "label": "Grandparents' Blessings (ਦਾਦਾ-ਦਾਦੀ ਦਾ ਆਸ਼ੀਰਵਾਦ)",
+      "type": "textarea",
+      "defaultText": "With the Blessings of Grandparents\nS. Harjinder Singh & Sdn Jaswinder Kaur",
+      "fontFamily": "Playfair Display",
+      "fontSize": 24,
+      "color": "#0f172a",
+      "align": "center",
+      "x": 534,
+      "y": 321,
+      "letterSpacing": 0
     },
     {
       "id": "Our Loved",
