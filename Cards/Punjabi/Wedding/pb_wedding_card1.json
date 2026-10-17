@@ -28,8 +28,8 @@
       "lineHeight": 1.1
     },
     {
-      "id": "Grandparents' Blessings (ਦਾਦਾ-ਦਾਦੀ ਦਾ ਆਸ਼ੀਰਵਾਦ)",
-      "label": "Grandparents' Blessings (ਦਾਦਾ-ਦਾਦੀ ਦਾ ਆਸ਼ੀਰਵਾਦ)",
+      "id": "Grandparents Blessings (ਦਾਦਾ-ਦਾਦੀ ਦਾ ਆਸ਼ੀਰਵਾਦ)",
+      "label": "Grandparents Blessings (ਦਾਦਾ-ਦਾਦੀ ਦਾ ਆਸ਼ੀਰਵਾਦ)",
       "type": "textarea",
       "defaultText": "With the Blessings of Grandparents\nS. Harjinder Singh & Sdn Jaswinder Kaur",
       "fontFamily": "Playfair Display",
