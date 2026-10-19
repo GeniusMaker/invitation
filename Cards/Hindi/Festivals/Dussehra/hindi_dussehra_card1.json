@@ -1,34 +1,81 @@
 {
-   "title": "Hindi Dussehra Greetings 01",
+  "title": "Hindi Dussehra Greetings 01",
   "canvas": {
     "width": 1080,
     "height": 1920
   },
-  "tags": ["Rakhi Card", "short"],
+  "tags": [
+    "Rakhi Card",
+    "short"
+  ],
   "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Assets/Common-BG/Festivals/Hindu/Dussehra/dussehra_card01.webp",
   "photoBoxes": [],
   "textFields": [
     {
       "id": "name",
-      "label": "Brother's Name ()",
-      "type": "text",
-      "defaultText": "अक्षय कुमार",
-      "x": 540,
-      "y": 964,
-      "fontSize": 62,
+      "label": "Festival Name",
+      "type": "textarea",
+      "defaultText": "दशहरे की हार्दिक \nशुभकामनाएँ",
+      "x": 535,
+      "y": 1000,
+      "fontSize": 69,
       "color": "#ab1030",
-      "fontFamily": "Rozha One"
+      "fontFamily": "Rozha One",
+      "lineHeight": 0.9,
+      "hidden": false
+    },
+    {
+      "id": "Gretting",
+      "label": "Greeting Message",
+      "type": "textarea",
+      "defaultText": "अधर्म पर धर्म की विजय हो,\n हर जीवन में सुख-समृद्धि हो। \nआपके जीवन से मिटें सभी विकार, \nदशहरे पर मिले खुशियाँ अपार।",
+      "fontFamily": "Yatra One",
+      "fontSize": 40,
+      "color": "#0f172a",
+      "align": "center",
+      "x": 540,
+      "y": 1205,
+      "lineHeight": 1.4
     },
     {
       "id": "date",
       "label": "Your Name ",
+      "type": "textarea",
+      "defaultText": "प्रियंका चोपड़ा,\nSCO 4, New Delhi",
+      "x": 537,
+      "y": 1508,
+      "fontSize": 39,
+      "color": "#ab1030",
+      "fontFamily": "Yatra One",
+      "lineHeight": 1,
+      "hidden": false
+    },
+    {
+      "id": "Line",
+      "label": "Line",
       "type": "text",
-      "defaultText": "प्रियंका चोपड़ा",
-      "x": 543,
-      "y": 1559,
-      "fontSize": 50,
-      "color": "#0f0f0f",
-      "fontFamily": "Rozha One"
+      "defaultText": "〰️〰️〰️ ❖ 〰️〰️〰️",
+      "fontFamily": "Plus Jakarta Sans",
+      "fontSize": 40,
+      "color": "#0f172a",
+      "align": "center",
+      "x": 540,
+      "y": 1126,
+      "hidden": true
+    },
+    {
+      "id": "Line_copy_1792399572088",
+      "label": "Line",
+      "type": "text",
+      "defaultText": "〰️〰️〰️ ❖ 〰️〰️〰️",
+      "fontFamily": "Plus Jakarta Sans",
+      "fontSize": 40,
+      "color": "#0f172a",
+      "align": "center",
+      "x": 540,
+      "y": 1448,
+      "locked": false,
+      "hidden": true
     }
   ],
   "shapes": []
