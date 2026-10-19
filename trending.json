@@ -32,11 +32,11 @@
         "jsonUrl": "hindi_wedding_card1.json"
       },
       {
-        "id": "hindi_rakhi_card1",
-        "name": "Raksha Bandhan",
+        "id": "hindi_dussehra_card1",
+        "name": "Dussehra Greetins",
         "language": "Hindi",
-        "tags": ["Rakhi"],
-        "jsonUrl": "hindi_rakhi_card1.json"
+        "tags": ["Dussehra"],
+        "jsonUrl": "hindi_dussehra_card1.json"
       },
       {
      "id": "en_bday_card3",
