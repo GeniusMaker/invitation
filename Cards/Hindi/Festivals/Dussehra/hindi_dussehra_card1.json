@@ -5,7 +5,7 @@
     "height": 1920
   },
   "tags": [
-    "Rakhi Card",
+    "Dussehra",
     "short"
   ],
   "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Assets/Common-BG/Festivals/Hindu/Dussehra/dussehra_card01.webp",
@@ -55,7 +55,7 @@
       "label": "Line",
       "type": "text",
       "defaultText": "〰️〰️〰️ ❖ 〰️〰️〰️",
-      "fontFamily": "Plus Jakarta Sans",
+      "fontFamily": "Noto Sans Symbols 2",
       "fontSize": 40,
       "color": "#0f172a",
       "align": "center",
@@ -68,7 +68,7 @@
       "label": "Line",
       "type": "text",
       "defaultText": "〰️〰️〰️ ❖ 〰️〰️〰️",
-      "fontFamily": "Plus Jakarta Sans",
+      "fontFamily": "Noto Sans Symbols 2",
       "fontSize": 40,
       "color": "#0f172a",
       "align": "center",
