@@ -1,4 +1,5 @@
 {
+    "title": "English Birthday Card 05",
   "canvas": {
     "width": 1080,
     "height": 1920
@@ -11,7 +12,7 @@
     "Photo",
     "Party"
   ],
-  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/English/Birthday/en_bday_card5.webp",
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Assets/Common-BG/Birthday/bday_card12.webp",
   "textFields": [
     {
       "id": "birthday_title",
