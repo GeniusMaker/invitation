@@ -6,20 +6,30 @@
   },
   "tags": [
     "Diwali",
+    "With Photo",
     "short"
   ],
-  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Assets/Common-BG/Festivals/Hindu/Diwali/diwali_card01.webp",
-  "photoBoxes": [],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Assets/Common-BG/Festivals/Hindu/Diwali/Diwali_card01.webp",
+  "photoBoxes": [
+    {
+      "id": "photoBox_1793612726855",
+      "label": "Photo Area 1",
+      "x": 389,
+      "y": 1039,
+      "width": 300,
+      "height": 300
+    }
+  ],
   "textFields": [
     {
       "id": "name",
       "label": "Festival Name",
       "type": "textarea",
       "defaultText": "दीपावली की हार्दिक\nशुभकामनाएँ",
-      "x": 542,
-      "y": 1000,
+      "x": 539,
+      "y": 721,
       "fontSize": 69,
-      "color": "#ab1030",
+      "color": "#f8f8f6",
       "fontFamily": "Rozha One",
       "lineHeight": 0.9,
       "hidden": false
@@ -28,24 +38,26 @@
       "id": "Gretting",
       "label": "Greeting Message",
       "type": "textarea",
-      "defaultText": "दीपों से रोशन हो आपका संसार,\nखुशियों से महके आपका परिवार।\nमाँ लक्ष्मी की कृपा बनी रहे,\nजीवन में सुख-समृद्धि सदा रहे।",
+      "defaultText": "दीपों से रोशन हो आपका संसार, खुशियों से महके \nआपका परिवार। माँ लक्ष्मी की कृपा बनी रहे,\nजीवन में सुख-समृद्धि सदा रहे।",
       "fontFamily": "Yatra One",
       "fontSize": 40,
-      "color": "#0f172a",
+      "color": "#ffffff",
       "align": "center",
-      "x": 540,
-      "y": 1205,
-      "lineHeight": 1.4
+      "x": 547,
+      "y": 908,
+      "lineHeight": 1.4,
+      "strokeColor": "#701946",
+      "strokeWidth": 0
     },
     {
       "id": "date",
       "label": "Your Name",
       "type": "textarea",
-      "defaultText": "सप्रेम शुभकामनाएँ,\nआपका नाम",
-      "x": 535,
-      "y": 1508,
+      "defaultText": "आपका नाम",
+      "x": 540,
+      "y": 1403,
       "fontSize": 39,
-      "color": "#ab1030",
+      "color": "#ffffff",
       "fontFamily": "Yatra One",
       "lineHeight": 1,
       "hidden": false
@@ -57,10 +69,10 @@
       "defaultText": "❖━━━━━━━❖",
       "fontFamily": "Braah One",
       "fontSize": 31,
-      "color": "#0f172a",
+      "color": "#1c1c1c",
       "align": "center",
-      "x": 547,
-      "y": 1133,
+      "x": 544,
+      "y": 844,
       "hidden": true
     },
     {
@@ -70,13 +82,21 @@
       "defaultText": "❖━━━━━━━❖",
       "fontFamily": "Braah One",
       "fontSize": 31,
-      "color": "#0f172a",
+      "color": "#ffc561",
       "align": "center",
-      "x": 541,
-      "y": 1440,
+      "x": 543,
+      "y": 1357,
       "hidden": true,
       "locked": false
     }
   ],
-  "shapes": []
+  "shapes": [],
+  "photoBox": {
+    "id": "photoBox_1793612726855",
+    "label": "Photo Area 1",
+    "x": 270,
+    "y": 480,
+    "width": 300,
+    "height": 300
+  }
 }
