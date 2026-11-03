@@ -1,4 +1,3 @@
-
 {
   "title": "English Diwali Greetings 01",
   "canvas": {
@@ -6,7 +5,6 @@
     "height": 1920
   },
   "tags": [
-    "Diwali",
     "With Photo",
     "short"
   ],
@@ -23,29 +21,16 @@
   ],
   "textFields": [
     {
-      "id": "name",
-      "label": "Festival Name",
-      "type": "textarea",
-      "defaultText": "Happy\nDiwali",
-      "x": 539,
-      "y": 721,
-      "fontSize": 69,
-      "color": "#f8f8f6",
-      "fontFamily": "Rozha One",
-      "lineHeight": 0.9,
-      "hidden": false
-    },
-    {
       "id": "Gretting",
       "label": "Greeting Message",
       "type": "textarea",
-      "defaultText": "May the lights of Diwali brighten your world,\nMay happiness and joy fill your family.\nMay Goddess Lakshmi bless you always\nWith peace, prosperity and success.",
+      "defaultText": "May the lights of Diwali brighten \nyour world, May happiness and joy \nfill your family. May Goddess Lakshmi \nbless you always With peace, \nprosperity and success.",
       "fontFamily": "Yatra One",
-      "fontSize": 40,
+      "fontSize": 43,
       "color": "#ffffff",
       "align": "center",
-      "x": 547,
-      "y": 908,
+      "x": 536,
+      "y": 714,
       "lineHeight": 1.4,
       "strokeColor": "#701946",
       "strokeWidth": 0
@@ -64,19 +49,6 @@
       "hidden": false
     },
     {
-      "id": "Line",
-      "label": "Line",
-      "type": "text",
-      "defaultText": "❖━━━━━━━❖",
-      "fontFamily": "Braah One",
-      "fontSize": 31,
-      "color": "#1c1c1c",
-      "align": "center",
-      "x": 544,
-      "y": 844,
-      "hidden": true
-    },
-    {
       "id": "Line_copy_1792402995554",
       "label": "Line",
       "type": "text",
@@ -86,7 +58,21 @@
       "color": "#ffc561",
       "align": "center",
       "x": 543,
-      "y": 1357,
+      "y": 1352,
+      "hidden": true,
+      "locked": false
+    },
+    {
+      "id": "Line_copy_1792402995554_copy_1793700351175",
+      "label": "Line",
+      "type": "text",
+      "defaultText": "❖━━━━━━━❖",
+      "fontFamily": "Braah One",
+      "fontSize": 31,
+      "color": "#ffc561",
+      "align": "center",
+      "x": 540,
+      "y": 1008,
       "hidden": true,
       "locked": false
     }
