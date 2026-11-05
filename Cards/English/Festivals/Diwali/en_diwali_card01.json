@@ -13,10 +13,10 @@
     {
       "id": "photoBox_1793612726855",
       "label": "Photo Area 1",
-      "x": 389,
-      "y": 1039,
-      "width": 300,
-      "height": 300
+      "x": 393,
+      "y": 1200,
+      "width": 310,
+      "height": 310
     }
   ],
   "textFields": [
@@ -29,9 +29,9 @@
       "fontSize": 43,
       "color": "#ffffff",
       "align": "center",
-      "x": 536,
-      "y": 714,
-      "lineHeight": 1.4,
+      "x": 542,
+      "y": 888,
+      "lineHeight": 1.2,
       "strokeColor": "#701946",
       "strokeWidth": 0
     },
@@ -40,8 +40,8 @@
       "label": "Your Name",
       "type": "textarea",
       "defaultText": "Your Name",
-      "x": 540,
-      "y": 1403,
+      "x": 537,
+      "y": 1567,
       "fontSize": 39,
       "color": "#ffffff",
       "fontFamily": "Yatra One",
@@ -49,30 +49,16 @@
       "hidden": false
     },
     {
-      "id": "Line_copy_1792402995554",
-      "label": "Line",
-      "type": "text",
-      "defaultText": "❖━━━━━━━❖",
-      "fontFamily": "Braah One",
-      "fontSize": 31,
-      "color": "#ffc561",
-      "align": "center",
-      "x": 543,
-      "y": 1352,
-      "hidden": true,
-      "locked": false
-    },
-    {
       "id": "Line_copy_1792402995554_copy_1793700351175",
       "label": "Line",
       "type": "text",
       "defaultText": "❖━━━━━━━❖",
       "fontFamily": "Braah One",
-      "fontSize": 31,
+      "fontSize": 25,
       "color": "#ffc561",
       "align": "center",
-      "x": 540,
-      "y": 1008,
+      "x": 537,
+      "y": 1149,
       "hidden": true,
       "locked": false
     }
