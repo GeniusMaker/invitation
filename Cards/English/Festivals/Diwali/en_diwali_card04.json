@@ -1,0 +1,89 @@
+{
+  "title": "English Diwali Greetings 04",
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "tags": [
+    "With Photo",
+    "short"
+  ],
+  "imageAsset": "https://cdn.jsdelivr.net/gh/GeniusMaker/invitation@main/Cards/Assets/Common-BG/Festivals/Hindu/Diwali/Diwali_card04.webp",
+  "photoBoxes": [
+    {
+      "id": "photoBox_1793612726855",
+      "label": "Photo Area 1",
+      "x": 389,
+      "y": 1039,
+      "width": 300,
+      "height": 300
+    }
+  ],
+  "textFields": [
+    {
+      "id": "Gretting",
+      "label": "Greeting Message",
+      "type": "textarea",
+      "defaultText": "May the lights of Diwali brighten \nyour world, May happiness and joy \nfill your family. May Goddess Lakshmi \nbless you always With peace, \nprosperity and success.",
+      "fontFamily": "Yatra One",
+      "fontSize": 43,
+      "color": "#ffffff",
+      "align": "center",
+      "x": 536,
+      "y": 714,
+      "lineHeight": 1.4,
+      "strokeColor": "#701946",
+      "strokeWidth": 0
+    },
+    {
+      "id": "date",
+      "label": "Your Name",
+      "type": "textarea",
+      "defaultText": "Your Name",
+      "x": 540,
+      "y": 1403,
+      "fontSize": 39,
+      "color": "#ffffff",
+      "fontFamily": "Yatra One",
+      "lineHeight": 1,
+      "hidden": false
+    },
+    {
+      "id": "Line_copy_1792402995554",
+      "label": "Line",
+      "type": "text",
+      "defaultText": "❖━━━━━━━❖",
+      "fontFamily": "Braah One",
+      "fontSize": 31,
+      "color": "#ffc561",
+      "align": "center",
+      "x": 543,
+      "y": 1352,
+      "hidden": true,
+      "locked": false
+    },
+    {
+      "id": "Line_copy_1792402995554_copy_1793700351175",
+      "label": "Line",
+      "type": "text",
+      "defaultText": "❖━━━━━━━❖",
+      "fontFamily": "Braah One",
+      "fontSize": 31,
+      "color": "#ffc561",
+      "align": "center",
+      "x": 540,
+      "y": 1008,
+      "hidden": true,
+      "locked": false
+    }
+  ],
+  "shapes": [],
+  "photoBox": {
+    "id": "photoBox_1793612726855",
+    "label": "Photo Area 1",
+    "x": 270,
+    "y": 480,
+    "width": 300,
+    "height": 300
+  }
+}
