@@ -14,10 +14,10 @@
     {
       "id": "photoBox_1793612726855",
       "label": "Photo Area 1",
-      "x": 389,
-      "y": 1039,
-      "width": 300,
-      "height": 300
+      "x": 425,
+      "y": 1084,
+      "width": 230,
+      "height": 230
     }
   ],
   "textFields": [
@@ -26,9 +26,9 @@
       "label": "Festival Name",
       "type": "textarea",
       "defaultText": "दीपावली की हार्दिक\nशुभकामनाएँ",
-      "x": 539,
-      "y": 721,
-      "fontSize": 69,
+      "x": 541,
+      "y": 772,
+      "fontSize": 52,
       "color": "#f8f8f6",
       "fontFamily": "Rozha One",
       "lineHeight": 0.9,
@@ -38,13 +38,13 @@
       "id": "Gretting",
       "label": "Greeting Message",
       "type": "textarea",
-      "defaultText": "दीपों से रोशन हो आपका संसार, खुशियों से महके \nआपका परिवार। माँ लक्ष्मी की कृपा बनी रहे,\nजीवन में सुख-समृद्धि सदा रहे।",
+      "defaultText": "दीपों से रोशन हो आपका संसार, खुशियों से \nमहके आपका परिवार। माँ लक्ष्मी की कृपा\nबनी रहे, जीवन में सुख-समृद्धि सदा रहे।",
       "fontFamily": "Yatra One",
       "fontSize": 40,
       "color": "#ffffff",
       "align": "center",
-      "x": 547,
-      "y": 908,
+      "x": 545,
+      "y": 919,
       "lineHeight": 1.4,
       "strokeColor": "#701946",
       "strokeWidth": 0
@@ -55,7 +55,7 @@
       "type": "textarea",
       "defaultText": "आपका नाम",
       "x": 540,
-      "y": 1403,
+      "y": 1362,
       "fontSize": 39,
       "color": "#ffffff",
       "fontFamily": "Yatra One",
@@ -69,25 +69,11 @@
       "defaultText": "❖━━━━━━━❖",
       "fontFamily": "Braah One",
       "fontSize": 31,
-      "color": "#1c1c1c",
-      "align": "center",
-      "x": 544,
-      "y": 844,
-      "hidden": true
-    },
-    {
-      "id": "Line_copy_1792402995554",
-      "label": "Line",
-      "type": "text",
-      "defaultText": "❖━━━━━━━❖",
-      "fontFamily": "Braah One",
-      "fontSize": 31,
-      "color": "#ffc561",
+      "color": "#e38e16",
       "align": "center",
       "x": 543,
-      "y": 1357,
-      "hidden": true,
-      "locked": false
+      "y": 863,
+      "hidden": true
     }
   ],
   "shapes": [],
