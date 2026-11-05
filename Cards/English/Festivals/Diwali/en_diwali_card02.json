@@ -30,7 +30,7 @@
       "color": "#ffffff",
       "align": "center",
       "x": 536,
-      "y": 714,
+      "y": 709,
       "lineHeight": 1.4,
       "strokeColor": "#701946",
       "strokeWidth": 0
@@ -41,7 +41,7 @@
       "type": "textarea",
       "defaultText": "Your Name",
       "x": 540,
-      "y": 1403,
+      "y": 1391,
       "fontSize": 39,
       "color": "#ffffff",
       "fontFamily": "Yatra One",
@@ -72,7 +72,7 @@
       "color": "#ffc561",
       "align": "center",
       "x": 540,
-      "y": 1008,
+      "y": 998,
       "hidden": true,
       "locked": false
     }
