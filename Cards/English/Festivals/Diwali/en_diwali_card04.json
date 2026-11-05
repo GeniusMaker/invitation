@@ -13,10 +13,10 @@
     {
       "id": "photoBox_1793612726855",
       "label": "Photo Area 1",
-      "x": 389,
-      "y": 1039,
-      "width": 300,
-      "height": 300
+      "x": 421,
+      "y": 1076,
+      "width": 250,
+      "height": 250
     }
   ],
   "textFields": [
@@ -26,11 +26,11 @@
       "type": "textarea",
       "defaultText": "May the lights of Diwali brighten \nyour world, May happiness and joy \nfill your family. May Goddess Lakshmi \nbless you always With peace, \nprosperity and success.",
       "fontFamily": "Yatra One",
-      "fontSize": 43,
+      "fontSize": 39,
       "color": "#ffffff",
       "align": "center",
-      "x": 536,
-      "y": 714,
+      "x": 546,
+      "y": 768,
       "lineHeight": 1.4,
       "strokeColor": "#701946",
       "strokeWidth": 0
@@ -40,27 +40,13 @@
       "label": "Your Name",
       "type": "textarea",
       "defaultText": "Your Name",
-      "x": 540,
-      "y": 1403,
-      "fontSize": 39,
+      "x": 543,
+      "y": 1354,
+      "fontSize": 30,
       "color": "#ffffff",
       "fontFamily": "Yatra One",
       "lineHeight": 1,
       "hidden": false
-    },
-    {
-      "id": "Line_copy_1792402995554",
-      "label": "Line",
-      "type": "text",
-      "defaultText": "❖━━━━━━━❖",
-      "fontFamily": "Braah One",
-      "fontSize": 31,
-      "color": "#ffc561",
-      "align": "center",
-      "x": 543,
-      "y": 1352,
-      "hidden": true,
-      "locked": false
     },
     {
       "id": "Line_copy_1792402995554_copy_1793700351175",
@@ -72,7 +58,7 @@
       "color": "#ffc561",
       "align": "center",
       "x": 540,
-      "y": 1008,
+      "y": 1048,
       "hidden": true,
       "locked": false
     }
